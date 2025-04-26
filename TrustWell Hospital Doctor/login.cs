@@ -7,20 +7,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using BCrypt.Net;
 
 namespace TrustWell_Hospital_Doctor
 {
-    public partial class DoctorLogin: Form
+    public partial class login: Form
     {
-        public DoctorLogin()
+        public login()
         {
             InitializeComponent();
-        }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }

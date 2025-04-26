@@ -7,7 +7,6 @@ C:\Users\User\Desktop\TrustWell\TrustWell Hospital Doctor\TrustWell Hospital Doc
 C:\Users\User\Desktop\TrustWell\TrustWell Hospital Doctor\TrustWell Hospital Doctor\obj\Debug\TrustWell Hospital Doctor.csproj.CoreCompileInputs.cache
 C:\Users\User\Desktop\TrustWell\TrustWell Hospital Doctor\TrustWell Hospital Doctor\obj\Debug\TrustWell Hospital Doctor.exe
 C:\Users\User\Desktop\TrustWell\TrustWell Hospital Doctor\TrustWell Hospital Doctor\obj\Debug\TrustWell Hospital Doctor.pdb
-C:\Users\User\Desktop\TrustWell\TrustWell Hospital Doctor\TrustWell Hospital Doctor\obj\Debug\TrustWell_Hospital_Doctor.DoctorLogin.resources
 C:\Users\User\Desktop\TrustWell\TrustWell Hospital Doctor\TrustWell Hospital Doctor\obj\Debug\TrustWell_Hospital_Doctor.Dashbord.resources
 C:\Users\User\Desktop\TrustWell\TrustWell Hospital Doctor\TrustWell Hospital Doctor\bin\Debug\BCrypt.Net-Next.dll
 C:\Users\User\Desktop\TrustWell\TrustWell Hospital Doctor\TrustWell Hospital Doctor\bin\Debug\BouncyCastle.Cryptography.dll
@@ -16,7 +15,6 @@ C:\Users\User\Desktop\TrustWell\TrustWell Hospital Doctor\TrustWell Hospital Doc
 C:\Users\User\Desktop\TrustWell\TrustWell Hospital Doctor\TrustWell Hospital Doctor\bin\Debug\K4os.Compression.LZ4.Streams.dll
 C:\Users\User\Desktop\TrustWell\TrustWell Hospital Doctor\TrustWell Hospital Doctor\bin\Debug\K4os.Hash.xxHash.dll
 C:\Users\User\Desktop\TrustWell\TrustWell Hospital Doctor\TrustWell Hospital Doctor\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
-C:\Users\User\Desktop\TrustWell\TrustWell Hospital Doctor\TrustWell Hospital Doctor\bin\Debug\MySql.Data.dll
 C:\Users\User\Desktop\TrustWell\TrustWell Hospital Doctor\TrustWell Hospital Doctor\bin\Debug\System.Buffers.dll
 C:\Users\User\Desktop\TrustWell\TrustWell Hospital Doctor\TrustWell Hospital Doctor\bin\Debug\System.Configuration.ConfigurationManager.dll
 C:\Users\User\Desktop\TrustWell\TrustWell Hospital Doctor\TrustWell Hospital Doctor\bin\Debug\System.Diagnostics.DiagnosticSource.dll
@@ -34,7 +32,6 @@ C:\Users\User\Desktop\TrustWell\TrustWell Hospital Doctor\TrustWell Hospital Doc
 C:\Users\User\Desktop\TrustWell\TrustWell Hospital Doctor\TrustWell Hospital Doctor\bin\Debug\K4os.Compression.LZ4.Streams.xml
 C:\Users\User\Desktop\TrustWell\TrustWell Hospital Doctor\TrustWell Hospital Doctor\bin\Debug\K4os.Hash.xxHash.xml
 C:\Users\User\Desktop\TrustWell\TrustWell Hospital Doctor\TrustWell Hospital Doctor\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
-C:\Users\User\Desktop\TrustWell\TrustWell Hospital Doctor\TrustWell Hospital Doctor\bin\Debug\MySql.Data.xml
 C:\Users\User\Desktop\TrustWell\TrustWell Hospital Doctor\TrustWell Hospital Doctor\bin\Debug\System.Buffers.xml
 C:\Users\User\Desktop\TrustWell\TrustWell Hospital Doctor\TrustWell Hospital Doctor\bin\Debug\System.Configuration.ConfigurationManager.xml
 C:\Users\User\Desktop\TrustWell\TrustWell Hospital Doctor\TrustWell Hospital Doctor\bin\Debug\System.Diagnostics.DiagnosticSource.xml
@@ -46,4 +43,4 @@ C:\Users\User\Desktop\TrustWell\TrustWell Hospital Doctor\TrustWell Hospital Doc
 C:\Users\User\Desktop\TrustWell\TrustWell Hospital Doctor\TrustWell Hospital Doctor\obj\Debug\TrustWel.0456F6C1.Up2Date
 C:\Users\User\Desktop\TrustWell\TrustWell Hospital Doctor\TrustWell Hospital Doctor\obj\Debug\TrustWell_Hospital_Doctor.Dashbord1.resources
 C:\Users\User\Desktop\TrustWell\TrustWell Hospital Doctor\TrustWell Hospital Doctor\obj\Debug\TrustWell_Hospital_Doctor.Doctorpage.resources
-C:\Users\User\Desktop\TrustWell\TrustWell Hospital Doctor\TrustWell Hospital Doctor\obj\Debug\TrustWell_Hospital_Doctor.Form2.resources
+C:\Users\User\Desktop\TrustWell\TrustWell Hospital Doctor\TrustWell Hospital Doctor\obj\Debug\TrustWell_Hospital_Doctor.login.resources
