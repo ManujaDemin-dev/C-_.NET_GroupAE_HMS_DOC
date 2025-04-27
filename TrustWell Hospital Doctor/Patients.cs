@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace TrustWell_Hospital_Doctor
 {
-    public partial class Doctorpage: Form
+    public partial class Patients: Form
     {
-        public Doctorpage()
+        public Patients()
         {
             InitializeComponent();
+        }
+
+        private void Patients_Load(object sender, EventArgs e)
+        {
+
         }
 
         private void panel1_Paint(object sender, PaintEventArgs e)

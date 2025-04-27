@@ -42,5 +42,5 @@ C:\Users\User\Desktop\TrustWell\TrustWell Hospital Doctor\TrustWell Hospital Doc
 C:\Users\User\Desktop\TrustWell\TrustWell Hospital Doctor\TrustWell Hospital Doctor\bin\Debug\System.Threading.Tasks.Extensions.xml
 C:\Users\User\Desktop\TrustWell\TrustWell Hospital Doctor\TrustWell Hospital Doctor\obj\Debug\TrustWel.0456F6C1.Up2Date
 C:\Users\User\Desktop\TrustWell\TrustWell Hospital Doctor\TrustWell Hospital Doctor\obj\Debug\TrustWell_Hospital_Doctor.Dashbord1.resources
-C:\Users\User\Desktop\TrustWell\TrustWell Hospital Doctor\TrustWell Hospital Doctor\obj\Debug\TrustWell_Hospital_Doctor.Doctorpage.resources
 C:\Users\User\Desktop\TrustWell\TrustWell Hospital Doctor\TrustWell Hospital Doctor\obj\Debug\TrustWell_Hospital_Doctor.login.resources
+C:\Users\User\Desktop\TrustWell\TrustWell Hospital Doctor\TrustWell Hospital Doctor\obj\Debug\TrustWell_Hospital_Doctor.Patients.resources
