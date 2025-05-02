@@ -1,86 +1,89 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\TrustWell\\TrustWell Hospital Doctor\\",
+  "WorkspaceRootPath": "D:\\doc\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{35A7DB93-0B5C-434C-A53F-118F19FB869B}|TrustWell Hospital Doctor\\TrustWell Hospital Doctor.csproj|c:\\users\\user\\desktop\\trustwell\\trustwell hospital doctor\\trustwell hospital doctor\\patients.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{35A7DB93-0B5C-434C-A53F-118F19FB869B}|TrustWell Hospital Doctor\\TrustWell Hospital Doctor.csproj|solutionrelative:trustwell hospital doctor\\patients.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35A7DB93-0B5C-434C-A53F-118F19FB869B}|TrustWell Hospital Doctor\\TrustWell Hospital Doctor.csproj|C:\\Users\\User\\Desktop\\TrustWell\\TrustWell Hospital Doctor\\trustwell hospital doctor\\patients.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35A7DB93-0B5C-434C-A53F-118F19FB869B}|TrustWell Hospital Doctor\\TrustWell Hospital Doctor.csproj|solutionrelative:trustwell hospital doctor\\patients.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35A7DB93-0B5C-434C-A53F-118F19FB869B}|TrustWell Hospital Doctor\\TrustWell Hospital Doctor.csproj|c:\\users\\user\\desktop\\trustwell\\trustwell hospital doctor\\trustwell hospital doctor\\patients.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35A7DB93-0B5C-434C-A53F-118F19FB869B}|TrustWell Hospital Doctor\\TrustWell Hospital Doctor.csproj|solutionrelative:trustwell hospital doctor\\patients.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35A7DB93-0B5C-434C-A53F-118F19FB869B}|TrustWell Hospital Doctor\\TrustWell Hospital Doctor.csproj|c:\\users\\user\\desktop\\trustwell\\trustwell hospital doctor\\trustwell hospital doctor\\test1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{35A7DB93-0B5C-434C-A53F-118F19FB869B}|TrustWell Hospital Doctor\\TrustWell Hospital Doctor.csproj|solutionrelative:trustwell hospital doctor\\test1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35A7DB93-0B5C-434C-A53F-118F19FB869B}|TrustWell Hospital Doctor\\TrustWell Hospital Doctor.csproj|c:\\users\\user\\desktop\\trustwell\\trustwell hospital doctor\\trustwell hospital doctor\\oldprescription1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{35A7DB93-0B5C-434C-A53F-118F19FB869B}|TrustWell Hospital Doctor\\TrustWell Hospital Doctor.csproj|solutionrelative:trustwell hospital doctor\\oldprescription1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35A7DB93-0B5C-434C-A53F-118F19FB869B}|TrustWell Hospital Doctor\\TrustWell Hospital Doctor.csproj|c:\\users\\user\\desktop\\trustwell\\trustwell hospital doctor\\trustwell hospital doctor\\medicalrecords1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{35A7DB93-0B5C-434C-A53F-118F19FB869B}|TrustWell Hospital Doctor\\TrustWell Hospital Doctor.csproj|solutionrelative:trustwell hospital doctor\\medicalrecords1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35A7DB93-0B5C-434C-A53F-118F19FB869B}|TrustWell Hospital Doctor\\TrustWell Hospital Doctor.csproj|c:\\users\\user\\desktop\\trustwell\\trustwell hospital doctor\\trustwell hospital doctor\\labreports1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{35A7DB93-0B5C-434C-A53F-118F19FB869B}|TrustWell Hospital Doctor\\TrustWell Hospital Doctor.csproj|D:\\doc\\trustwell hospital doctor\\labreports1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{35A7DB93-0B5C-434C-A53F-118F19FB869B}|TrustWell Hospital Doctor\\TrustWell Hospital Doctor.csproj|solutionrelative:trustwell hospital doctor\\labreports1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{35A7DB93-0B5C-434C-A53F-118F19FB869B}|TrustWell Hospital Doctor\\TrustWell Hospital Doctor.csproj|C:\\Users\\User\\Desktop\\TrustWell\\TrustWell Hospital Doctor\\trustwell hospital doctor\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{35A7DB93-0B5C-434C-A53F-118F19FB869B}|TrustWell Hospital Doctor\\TrustWell Hospital Doctor.csproj|D:\\doc\\trustwell hospital doctor\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{35A7DB93-0B5C-434C-A53F-118F19FB869B}|TrustWell Hospital Doctor\\TrustWell Hospital Doctor.csproj|solutionrelative:trustwell hospital doctor\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{35A7DB93-0B5C-434C-A53F-118F19FB869B}|TrustWell Hospital Doctor\\TrustWell Hospital Doctor.csproj|C:\\Users\\User\\Desktop\\TrustWell\\TrustWell Hospital Doctor\\trustwell hospital doctor\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{35A7DB93-0B5C-434C-A53F-118F19FB869B}|TrustWell Hospital Doctor\\TrustWell Hospital Doctor.csproj|solutionrelative:trustwell hospital doctor\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{35A7DB93-0B5C-434C-A53F-118F19FB869B}|TrustWell Hospital Doctor\\TrustWell Hospital Doctor.csproj|D:\\doc\\trustwell hospital doctor\\medicalrecords1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{35A7DB93-0B5C-434C-A53F-118F19FB869B}|TrustWell Hospital Doctor\\TrustWell Hospital Doctor.csproj|solutionrelative:trustwell hospital doctor\\medicalrecords1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{35A7DB93-0B5C-434C-A53F-118F19FB869B}|TrustWell Hospital Doctor\\TrustWell Hospital Doctor.csproj|C:\\Users\\User\\Desktop\\TrustWell\\TrustWell Hospital Doctor\\trustwell hospital doctor\\dashbord1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{35A7DB93-0B5C-434C-A53F-118F19FB869B}|TrustWell Hospital Doctor\\TrustWell Hospital Doctor.csproj|solutionrelative:trustwell hospital doctor\\dashbord1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{35A7DB93-0B5C-434C-A53F-118F19FB869B}|TrustWell Hospital Doctor\\TrustWell Hospital Doctor.csproj|D:\\doc\\trustwell hospital doctor\\oldprescription1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{35A7DB93-0B5C-434C-A53F-118F19FB869B}|TrustWell Hospital Doctor\\TrustWell Hospital Doctor.csproj|solutionrelative:trustwell hospital doctor\\oldprescription1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{35A7DB93-0B5C-434C-A53F-118F19FB869B}|TrustWell Hospital Doctor\\TrustWell Hospital Doctor.csproj|C:\\Users\\User\\Desktop\\TrustWell\\TrustWell Hospital Doctor\\trustwell hospital doctor\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{35A7DB93-0B5C-434C-A53F-118F19FB869B}|TrustWell Hospital Doctor\\TrustWell Hospital Doctor.csproj|D:\\doc\\trustwell hospital doctor\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{35A7DB93-0B5C-434C-A53F-118F19FB869B}|TrustWell Hospital Doctor\\TrustWell Hospital Doctor.csproj|solutionrelative:trustwell hospital doctor\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{35A7DB93-0B5C-434C-A53F-118F19FB869B}|TrustWell Hospital Doctor\\TrustWell Hospital Doctor.csproj|C:\\Users\\User\\Desktop\\TrustWell\\TrustWell Hospital Doctor\\trustwell hospital doctor\\dashbord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{35A7DB93-0B5C-434C-A53F-118F19FB869B}|TrustWell Hospital Doctor\\TrustWell Hospital Doctor.csproj|d:\\doc\\trustwell hospital doctor\\test1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{35A7DB93-0B5C-434C-A53F-118F19FB869B}|TrustWell Hospital Doctor\\TrustWell Hospital Doctor.csproj|solutionrelative:trustwell hospital doctor\\test1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35A7DB93-0B5C-434C-A53F-118F19FB869B}|TrustWell Hospital Doctor\\TrustWell Hospital Doctor.csproj|D:\\doc\\trustwell hospital doctor\\patients.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{35A7DB93-0B5C-434C-A53F-118F19FB869B}|TrustWell Hospital Doctor\\TrustWell Hospital Doctor.csproj|solutionrelative:trustwell hospital doctor\\patients.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35A7DB93-0B5C-434C-A53F-118F19FB869B}|TrustWell Hospital Doctor\\TrustWell Hospital Doctor.csproj|D:\\doc\\trustwell hospital doctor\\dashbord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{35A7DB93-0B5C-434C-A53F-118F19FB869B}|TrustWell Hospital Doctor\\TrustWell Hospital Doctor.csproj|solutionrelative:trustwell hospital doctor\\dashbord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{35A7DB93-0B5C-434C-A53F-118F19FB869B}|TrustWell Hospital Doctor\\TrustWell Hospital Doctor.csproj|C:\\Users\\User\\Desktop\\TrustWell\\TrustWell Hospital Doctor\\trustwell hospital doctor\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35A7DB93-0B5C-434C-A53F-118F19FB869B}|TrustWell Hospital Doctor\\TrustWell Hospital Doctor.csproj|solutionrelative:trustwell hospital doctor\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35A7DB93-0B5C-434C-A53F-118F19FB869B}|TrustWell Hospital Doctor\\TrustWell Hospital Doctor.csproj|C:\\Users\\User\\Desktop\\TrustWell\\TrustWell Hospital Doctor\\trustwell hospital doctor\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35A7DB93-0B5C-434C-A53F-118F19FB869B}|TrustWell Hospital Doctor\\TrustWell Hospital Doctor.csproj|solutionrelative:trustwell hospital doctor\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35A7DB93-0B5C-434C-A53F-118F19FB869B}|TrustWell Hospital Doctor\\TrustWell Hospital Doctor.csproj|C:\\Users\\User\\Desktop\\TrustWell\\TrustWell Hospital Doctor\\trustwell hospital doctor\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{35A7DB93-0B5C-434C-A53F-118F19FB869B}|TrustWell Hospital Doctor\\TrustWell Hospital Doctor.csproj|solutionrelative:trustwell hospital doctor\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35A7DB93-0B5C-434C-A53F-118F19FB869B}|TrustWell Hospital Doctor\\TrustWell Hospital Doctor.csproj|C:\\Users\\User\\Desktop\\TrustWell\\TrustWell Hospital Doctor\\trustwell hospital doctor\\dashbord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{35A7DB93-0B5C-434C-A53F-118F19FB869B}|TrustWell Hospital Doctor\\TrustWell Hospital Doctor.csproj|D:\\doc\\trustwell hospital doctor\\dashbord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{35A7DB93-0B5C-434C-A53F-118F19FB869B}|TrustWell Hospital Doctor\\TrustWell Hospital Doctor.csproj|solutionrelative:trustwell hospital doctor\\dashbord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{35A7DB93-0B5C-434C-A53F-118F19FB869B}|TrustWell Hospital Doctor\\TrustWell Hospital Doctor.csproj|C:\\Users\\User\\Desktop\\TrustWell\\TrustWell Hospital Doctor\\trustwell hospital doctor\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35A7DB93-0B5C-434C-A53F-118F19FB869B}|TrustWell Hospital Doctor\\TrustWell Hospital Doctor.csproj|solutionrelative:trustwell hospital doctor\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35A7DB93-0B5C-434C-A53F-118F19FB869B}|TrustWell Hospital Doctor\\TrustWell Hospital Doctor.csproj|C:\\Users\\User\\Desktop\\TrustWell\\TrustWell Hospital Doctor\\trustwell hospital doctor\\properties\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}",
-      "RelativeMoniker": "D:0:0:{35A7DB93-0B5C-434C-A53F-118F19FB869B}|TrustWell Hospital Doctor\\TrustWell Hospital Doctor.csproj|solutionrelative:trustwell hospital doctor\\properties\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35A7DB93-0B5C-434C-A53F-118F19FB869B}|TrustWell Hospital Doctor\\TrustWell Hospital Doctor.csproj|C:\\Users\\User\\Desktop\\TrustWell\\TrustWell Hospital Doctor\\trustwell hospital doctor\\dashbord1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{35A7DB93-0B5C-434C-A53F-118F19FB869B}|TrustWell Hospital Doctor\\TrustWell Hospital Doctor.csproj|D:\\doc\\trustwell hospital doctor\\dashbord1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{35A7DB93-0B5C-434C-A53F-118F19FB869B}|TrustWell Hospital Doctor\\TrustWell Hospital Doctor.csproj|solutionrelative:trustwell hospital doctor\\dashbord1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Desktop\\TrustWell\\TrustWell Hospital Doctor\\TrustWell Hospital Doctor\\Form1.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TrustWell Hospital Doctor\\Form1.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{35A7DB93-0B5C-434C-A53F-118F19FB869B}|TrustWell Hospital Doctor\\TrustWell Hospital Doctor.csproj|d:\\doc\\trustwell hospital doctor\\properties\\resources.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{35A7DB93-0B5C-434C-A53F-118F19FB869B}|TrustWell Hospital Doctor\\TrustWell Hospital Doctor.csproj|solutionrelative:trustwell hospital doctor\\properties\\resources.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35A7DB93-0B5C-434C-A53F-118F19FB869B}|TrustWell Hospital Doctor\\TrustWell Hospital Doctor.csproj|D:\\doc\\trustwell hospital doctor\\labreports1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35A7DB93-0B5C-434C-A53F-118F19FB869B}|TrustWell Hospital Doctor\\TrustWell Hospital Doctor.csproj|solutionrelative:trustwell hospital doctor\\labreports1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35A7DB93-0B5C-434C-A53F-118F19FB869B}|TrustWell Hospital Doctor\\TrustWell Hospital Doctor.csproj|D:\\doc\\trustwell hospital doctor\\patients.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35A7DB93-0B5C-434C-A53F-118F19FB869B}|TrustWell Hospital Doctor\\TrustWell Hospital Doctor.csproj|solutionrelative:trustwell hospital doctor\\patients.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35A7DB93-0B5C-434C-A53F-118F19FB869B}|TrustWell Hospital Doctor\\TrustWell Hospital Doctor.csproj|D:\\doc\\trustwell hospital doctor\\patients.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35A7DB93-0B5C-434C-A53F-118F19FB869B}|TrustWell Hospital Doctor\\TrustWell Hospital Doctor.csproj|solutionrelative:trustwell hospital doctor\\patients.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35A7DB93-0B5C-434C-A53F-118F19FB869B}|TrustWell Hospital Doctor\\TrustWell Hospital Doctor.csproj|D:\\doc\\trustwell hospital doctor\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{35A7DB93-0B5C-434C-A53F-118F19FB869B}|TrustWell Hospital Doctor\\TrustWell Hospital Doctor.csproj|solutionrelative:trustwell hospital doctor\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35A7DB93-0B5C-434C-A53F-118F19FB869B}|TrustWell Hospital Doctor\\TrustWell Hospital Doctor.csproj|D:\\doc\\trustwell hospital doctor\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35A7DB93-0B5C-434C-A53F-118F19FB869B}|TrustWell Hospital Doctor\\TrustWell Hospital Doctor.csproj|solutionrelative:trustwell hospital doctor\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35A7DB93-0B5C-434C-A53F-118F19FB869B}|TrustWell Hospital Doctor\\TrustWell Hospital Doctor.csproj|D:\\doc\\trustwell hospital doctor\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35A7DB93-0B5C-434C-A53F-118F19FB869B}|TrustWell Hospital Doctor\\TrustWell Hospital Doctor.csproj|solutionrelative:trustwell hospital doctor\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35A7DB93-0B5C-434C-A53F-118F19FB869B}|TrustWell Hospital Doctor\\TrustWell Hospital Doctor.csproj|D:\\doc\\trustwell hospital doctor\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{35A7DB93-0B5C-434C-A53F-118F19FB869B}|TrustWell Hospital Doctor\\TrustWell Hospital Doctor.csproj|solutionrelative:trustwell hospital doctor\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35A7DB93-0B5C-434C-A53F-118F19FB869B}|TrustWell Hospital Doctor\\TrustWell Hospital Doctor.csproj|D:\\doc\\trustwell hospital doctor\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35A7DB93-0B5C-434C-A53F-118F19FB869B}|TrustWell Hospital Doctor\\TrustWell Hospital Doctor.csproj|solutionrelative:trustwell hospital doctor\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35A7DB93-0B5C-434C-A53F-118F19FB869B}|TrustWell Hospital Doctor\\TrustWell Hospital Doctor.csproj|D:\\doc\\trustwell hospital doctor\\properties\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}",
+      "RelativeMoniker": "D:0:0:{35A7DB93-0B5C-434C-A53F-118F19FB869B}|TrustWell Hospital Doctor\\TrustWell Hospital Doctor.csproj|solutionrelative:trustwell hospital doctor\\properties\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Desktop\\TrustWell\\TrustWell Hospital Doctor\\TrustWell Hospital Doctor\\Form1.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -90,7 +93,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -98,245 +101,258 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "labreports1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\TrustWell\\TrustWell Hospital Doctor\\TrustWell Hospital Doctor\\labreports1.cs",
-              "RelativeDocumentMoniker": "TrustWell Hospital Doctor\\labreports1.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\TrustWell\\TrustWell Hospital Doctor\\TrustWell Hospital Doctor\\labreports1.cs [Design]",
-              "RelativeToolTip": "TrustWell Hospital Doctor\\labreports1.cs [Design]",
+              "DocumentIndex": 3,
+              "Title": "Oldprescription1.cs [Design]",
+              "DocumentMoniker": "D:\\doc\\TrustWell Hospital Doctor\\Oldprescription1.cs",
+              "RelativeDocumentMoniker": "TrustWell Hospital Doctor\\Oldprescription1.cs",
+              "ToolTip": "D:\\doc\\TrustWell Hospital Doctor\\Oldprescription1.cs [Design]",
+              "RelativeToolTip": "TrustWell Hospital Doctor\\Oldprescription1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-27T06:38:51.232Z",
+              "WhenOpened": "2025-05-01T06:37:36.116Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Patients.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\TrustWell\\TrustWell Hospital Doctor\\TrustWell Hospital Doctor\\Patients.cs",
-              "RelativeDocumentMoniker": "TrustWell Hospital Doctor\\Patients.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\TrustWell\\TrustWell Hospital Doctor\\TrustWell Hospital Doctor\\Patients.cs [Design]",
-              "RelativeToolTip": "TrustWell Hospital Doctor\\Patients.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-27T04:16:53.706Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "Medicalrecords1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\TrustWell\\TrustWell Hospital Doctor\\TrustWell Hospital Doctor\\Medicalrecords1.cs",
+              "DocumentMoniker": "D:\\doc\\TrustWell Hospital Doctor\\Medicalrecords1.cs",
               "RelativeDocumentMoniker": "TrustWell Hospital Doctor\\Medicalrecords1.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\TrustWell\\TrustWell Hospital Doctor\\TrustWell Hospital Doctor\\Medicalrecords1.cs [Design]",
+              "ToolTip": "D:\\doc\\TrustWell Hospital Doctor\\Medicalrecords1.cs [Design]",
               "RelativeToolTip": "TrustWell Hospital Doctor\\Medicalrecords1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-27T06:39:25.199Z",
+              "WhenOpened": "2025-05-01T06:37:36.109Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Patients.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\TrustWell\\TrustWell Hospital Doctor\\TrustWell Hospital Doctor\\Patients.cs",
-              "RelativeDocumentMoniker": "TrustWell Hospital Doctor\\Patients.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\TrustWell\\TrustWell Hospital Doctor\\TrustWell Hospital Doctor\\Patients.cs",
-              "RelativeToolTip": "TrustWell Hospital Doctor\\Patients.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAEAAAAAYAAAAAAAAAA==",
+              "Title": "login.cs [Design]",
+              "DocumentMoniker": "D:\\doc\\TrustWell Hospital Doctor\\login.cs",
+              "RelativeDocumentMoniker": "TrustWell Hospital Doctor\\login.cs",
+              "ToolTip": "D:\\doc\\TrustWell Hospital Doctor\\login.cs [Design]",
+              "RelativeToolTip": "TrustWell Hospital Doctor\\login.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-27T04:20:59.76Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-01T06:37:36.116Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Patients.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\TrustWell\\TrustWell Hospital Doctor\\TrustWell Hospital Doctor\\Patients.Designer.cs",
-              "RelativeDocumentMoniker": "TrustWell Hospital Doctor\\Patients.Designer.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\TrustWell\\TrustWell Hospital Doctor\\TrustWell Hospital Doctor\\Patients.Designer.cs",
-              "RelativeToolTip": "TrustWell Hospital Doctor\\Patients.Designer.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAYwCgAAAA7AAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "labreports1.cs [Design]",
+              "DocumentMoniker": "D:\\doc\\TrustWell Hospital Doctor\\labreports1.cs",
+              "RelativeDocumentMoniker": "TrustWell Hospital Doctor\\labreports1.cs",
+              "ToolTip": "D:\\doc\\TrustWell Hospital Doctor\\labreports1.cs [Design]",
+              "RelativeToolTip": "TrustWell Hospital Doctor\\labreports1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-27T06:46:07.42Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Test1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\TrustWell\\TrustWell Hospital Doctor\\TrustWell Hospital Doctor\\Test1.cs",
-              "RelativeDocumentMoniker": "TrustWell Hospital Doctor\\Test1.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\TrustWell\\TrustWell Hospital Doctor\\TrustWell Hospital Doctor\\Test1.cs [Design]",
-              "RelativeToolTip": "TrustWell Hospital Doctor\\Test1.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-27T06:40:22.027Z",
+              "WhenOpened": "2025-05-01T06:37:36.03Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Oldprescription1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\TrustWell\\TrustWell Hospital Doctor\\TrustWell Hospital Doctor\\Oldprescription1.cs",
-              "RelativeDocumentMoniker": "TrustWell Hospital Doctor\\Oldprescription1.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\TrustWell\\TrustWell Hospital Doctor\\TrustWell Hospital Doctor\\Oldprescription1.cs [Design]",
-              "RelativeToolTip": "TrustWell Hospital Doctor\\Oldprescription1.cs [Design]",
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\doc\\TrustWell Hospital Doctor\\Program.cs",
+              "RelativeDocumentMoniker": "TrustWell Hospital Doctor\\Program.cs",
+              "ToolTip": "D:\\doc\\TrustWell Hospital Doctor\\Program.cs",
+              "RelativeToolTip": "TrustWell Hospital Doctor\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-27T06:39:58.428Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Dashbord1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\TrustWell\\TrustWell Hospital Doctor\\TrustWell Hospital Doctor\\Dashbord1.cs",
-              "RelativeDocumentMoniker": "TrustWell Hospital Doctor\\Dashbord1.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\TrustWell\\TrustWell Hospital Doctor\\TrustWell Hospital Doctor\\Dashbord1.cs [Design]",
-              "RelativeToolTip": "TrustWell Hospital Doctor\\Dashbord1.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T05:35:36.543Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Dashbord.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\TrustWell\\TrustWell Hospital Doctor\\TrustWell Hospital Doctor\\Dashbord.cs",
-              "RelativeDocumentMoniker": "TrustWell Hospital Doctor\\Dashbord.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\TrustWell\\TrustWell Hospital Doctor\\TrustWell Hospital Doctor\\Dashbord.cs [Design]",
-              "RelativeToolTip": "TrustWell Hospital Doctor\\Dashbord.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-11T16:17:53.425Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "packages.config",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\TrustWell\\TrustWell Hospital Doctor\\TrustWell Hospital Doctor\\packages.config",
-              "RelativeDocumentMoniker": "TrustWell Hospital Doctor\\packages.config",
-              "ToolTip": "C:\\Users\\User\\Desktop\\TrustWell\\TrustWell Hospital Doctor\\TrustWell Hospital Doctor\\packages.config",
-              "RelativeToolTip": "TrustWell Hospital Doctor\\packages.config",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2025-04-19T05:48:43.811Z",
+              "WhenOpened": "2025-05-01T06:37:36.116Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "login.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\TrustWell\\TrustWell Hospital Doctor\\TrustWell Hospital Doctor\\login.cs",
-              "RelativeDocumentMoniker": "TrustWell Hospital Doctor\\login.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\TrustWell\\TrustWell Hospital Doctor\\TrustWell Hospital Doctor\\login.cs [Design]",
-              "RelativeToolTip": "TrustWell Hospital Doctor\\login.cs [Design]",
+              "DocumentIndex": 5,
+              "Title": "Test1.cs [Design]",
+              "DocumentMoniker": "D:\\doc\\TrustWell Hospital Doctor\\Test1.cs",
+              "RelativeDocumentMoniker": "TrustWell Hospital Doctor\\Test1.cs",
+              "ToolTip": "D:\\doc\\TrustWell Hospital Doctor\\Test1.cs [Design]",
+              "RelativeToolTip": "TrustWell Hospital Doctor\\Test1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-26T03:38:02.715Z",
+              "WhenOpened": "2025-05-01T06:37:36.116Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\TrustWell\\TrustWell Hospital Doctor\\TrustWell Hospital Doctor\\Program.cs",
-              "RelativeDocumentMoniker": "TrustWell Hospital Doctor\\Program.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\TrustWell\\TrustWell Hospital Doctor\\TrustWell Hospital Doctor\\Program.cs",
-              "RelativeToolTip": "TrustWell Hospital Doctor\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBIAAAAsAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "Patients.cs [Design]",
+              "DocumentMoniker": "D:\\doc\\TrustWell Hospital Doctor\\Patients.cs",
+              "RelativeDocumentMoniker": "TrustWell Hospital Doctor\\Patients.cs",
+              "ToolTip": "D:\\doc\\TrustWell Hospital Doctor\\Patients.cs [Design]",
+              "RelativeToolTip": "TrustWell Hospital Doctor\\Patients.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T05:50:05.234Z"
+              "WhenOpened": "2025-05-01T06:37:36.103Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Dashbord.cs [Design]",
+              "DocumentMoniker": "D:\\doc\\TrustWell Hospital Doctor\\Dashbord.cs",
+              "RelativeDocumentMoniker": "TrustWell Hospital Doctor\\Dashbord.cs",
+              "ToolTip": "D:\\doc\\TrustWell Hospital Doctor\\Dashbord.cs [Design]",
+              "RelativeToolTip": "TrustWell Hospital Doctor\\Dashbord.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T06:37:36.116Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Dashbord.cs",
+              "DocumentMoniker": "D:\\doc\\TrustWell Hospital Doctor\\Dashbord.cs",
+              "RelativeDocumentMoniker": "TrustWell Hospital Doctor\\Dashbord.cs",
+              "ToolTip": "D:\\doc\\TrustWell Hospital Doctor\\Dashbord.cs",
+              "RelativeToolTip": "TrustWell Hospital Doctor\\Dashbord.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAowDAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T06:37:36.119Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Dashbord1.cs",
+              "DocumentMoniker": "D:\\doc\\TrustWell Hospital Doctor\\Dashbord1.cs",
+              "RelativeDocumentMoniker": "TrustWell Hospital Doctor\\Dashbord1.cs",
+              "ToolTip": "D:\\doc\\TrustWell Hospital Doctor\\Dashbord1.cs",
+              "RelativeToolTip": "TrustWell Hospital Doctor\\Dashbord1.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T06:37:36.122Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Resources.resx",
+              "DocumentMoniker": "D:\\doc\\TrustWell Hospital Doctor\\Properties\\Resources.resx",
+              "RelativeDocumentMoniker": "TrustWell Hospital Doctor\\Properties\\Resources.resx",
+              "ToolTip": "D:\\doc\\TrustWell Hospital Doctor\\Properties\\Resources.resx",
+              "RelativeToolTip": "TrustWell Hospital Doctor\\Properties\\Resources.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2025-05-02T04:18:51.875Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "labreports1.cs",
+              "DocumentMoniker": "D:\\doc\\TrustWell Hospital Doctor\\labreports1.cs",
+              "RelativeDocumentMoniker": "TrustWell Hospital Doctor\\labreports1.cs",
+              "ToolTip": "D:\\doc\\TrustWell Hospital Doctor\\labreports1.cs",
+              "RelativeToolTip": "TrustWell Hospital Doctor\\labreports1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T10:46:27.379Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
-              "Title": "login.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\TrustWell\\TrustWell Hospital Doctor\\TrustWell Hospital Doctor\\login.cs",
-              "RelativeDocumentMoniker": "TrustWell Hospital Doctor\\login.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\TrustWell\\TrustWell Hospital Doctor\\TrustWell Hospital Doctor\\login.cs",
-              "RelativeToolTip": "TrustWell Hospital Doctor\\login.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAewBUAAAAAAAAAAAAAAA==",
+              "Title": "Patients.cs",
+              "DocumentMoniker": "D:\\doc\\TrustWell Hospital Doctor\\Patients.cs",
+              "RelativeDocumentMoniker": "TrustWell Hospital Doctor\\Patients.cs",
+              "ToolTip": "D:\\doc\\TrustWell Hospital Doctor\\Patients.cs",
+              "RelativeToolTip": "TrustWell Hospital Doctor\\Patients.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAuwEAAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-26T18:40:47.512Z",
+              "WhenOpened": "2025-05-01T06:37:36.109Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\TrustWell\\TrustWell Hospital Doctor\\TrustWell Hospital Doctor\\Class1.cs",
-              "RelativeDocumentMoniker": "TrustWell Hospital Doctor\\Class1.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\TrustWell\\TrustWell Hospital Doctor\\TrustWell Hospital Doctor\\Class1.cs",
-              "RelativeToolTip": "TrustWell Hospital Doctor\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAiAAAAAAAAAA==",
+              "Title": "Patients.Designer.cs",
+              "DocumentMoniker": "D:\\doc\\TrustWell Hospital Doctor\\Patients.Designer.cs",
+              "RelativeDocumentMoniker": "TrustWell Hospital Doctor\\Patients.Designer.cs",
+              "ToolTip": "D:\\doc\\TrustWell Hospital Doctor\\Patients.Designer.cs",
+              "RelativeToolTip": "TrustWell Hospital Doctor\\Patients.Designer.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAYwCgAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T06:32:00.319Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "App.config",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\TrustWell\\TrustWell Hospital Doctor\\TrustWell Hospital Doctor\\App.config",
-              "RelativeDocumentMoniker": "TrustWell Hospital Doctor\\App.config",
-              "ToolTip": "C:\\Users\\User\\Desktop\\TrustWell\\TrustWell Hospital Doctor\\TrustWell Hospital Doctor\\App.config",
-              "RelativeToolTip": "TrustWell Hospital Doctor\\App.config",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2025-04-11T16:21:47.955Z",
+              "WhenOpened": "2025-05-01T06:37:36.116Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "packages.config",
+              "DocumentMoniker": "D:\\doc\\TrustWell Hospital Doctor\\packages.config",
+              "RelativeDocumentMoniker": "TrustWell Hospital Doctor\\packages.config",
+              "ToolTip": "D:\\doc\\TrustWell Hospital Doctor\\packages.config",
+              "RelativeToolTip": "TrustWell Hospital Doctor\\packages.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-05-01T06:37:36.116Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 15,
-              "Title": "Dashbord.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\TrustWell\\TrustWell Hospital Doctor\\TrustWell Hospital Doctor\\Dashbord.cs",
-              "RelativeDocumentMoniker": "TrustWell Hospital Doctor\\Dashbord.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\TrustWell\\TrustWell Hospital Doctor\\TrustWell Hospital Doctor\\Dashbord.cs",
-              "RelativeToolTip": "TrustWell Hospital Doctor\\Dashbord.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Title": "login.cs",
+              "DocumentMoniker": "D:\\doc\\TrustWell Hospital Doctor\\login.cs",
+              "RelativeDocumentMoniker": "TrustWell Hospital Doctor\\login.cs",
+              "ToolTip": "D:\\doc\\TrustWell Hospital Doctor\\login.cs",
+              "RelativeToolTip": "TrustWell Hospital Doctor\\login.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAewBUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T05:43:35.524Z"
+              "WhenOpened": "2025-05-01T06:37:36.119Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 16,
-              "Title": "AssemblyInfo.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\TrustWell\\TrustWell Hospital Doctor\\TrustWell Hospital Doctor\\Properties\\AssemblyInfo.cs",
-              "RelativeDocumentMoniker": "TrustWell Hospital Doctor\\Properties\\AssemblyInfo.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\TrustWell\\TrustWell Hospital Doctor\\TrustWell Hospital Doctor\\Properties\\AssemblyInfo.cs",
-              "RelativeToolTip": "TrustWell Hospital Doctor\\Properties\\AssemblyInfo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "Class1.cs",
+              "DocumentMoniker": "D:\\doc\\TrustWell Hospital Doctor\\Class1.cs",
+              "RelativeDocumentMoniker": "TrustWell Hospital Doctor\\Class1.cs",
+              "ToolTip": "D:\\doc\\TrustWell Hospital Doctor\\Class1.cs",
+              "RelativeToolTip": "TrustWell Hospital Doctor\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-19T05:47:16.979Z"
+              "WhenOpened": "2025-05-01T06:37:36.119Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 17,
-              "Title": "Settings.settings",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\TrustWell\\TrustWell Hospital Doctor\\TrustWell Hospital Doctor\\Properties\\Settings.settings",
-              "RelativeDocumentMoniker": "TrustWell Hospital Doctor\\Properties\\Settings.settings",
-              "ToolTip": "C:\\Users\\User\\Desktop\\TrustWell\\TrustWell Hospital Doctor\\TrustWell Hospital Doctor\\Properties\\Settings.settings",
-              "RelativeToolTip": "TrustWell Hospital Doctor\\Properties\\Settings.settings",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002767|",
-              "WhenOpened": "2025-04-19T05:47:26.209Z",
+              "Title": "App.config",
+              "DocumentMoniker": "D:\\doc\\TrustWell Hospital Doctor\\App.config",
+              "RelativeDocumentMoniker": "TrustWell Hospital Doctor\\App.config",
+              "ToolTip": "D:\\doc\\TrustWell Hospital Doctor\\App.config",
+              "RelativeToolTip": "TrustWell Hospital Doctor\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-05-01T06:37:36.119Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 18,
-              "Title": "Dashbord1.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\TrustWell\\TrustWell Hospital Doctor\\TrustWell Hospital Doctor\\Dashbord1.cs",
-              "RelativeDocumentMoniker": "TrustWell Hospital Doctor\\Dashbord1.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\TrustWell\\TrustWell Hospital Doctor\\TrustWell Hospital Doctor\\Dashbord1.cs",
-              "RelativeToolTip": "TrustWell Hospital Doctor\\Dashbord1.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAD4vxcAAAAAAAAAAAAAAA==",
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "D:\\doc\\TrustWell Hospital Doctor\\Properties\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "TrustWell Hospital Doctor\\Properties\\AssemblyInfo.cs",
+              "ToolTip": "D:\\doc\\TrustWell Hospital Doctor\\Properties\\AssemblyInfo.cs",
+              "RelativeToolTip": "TrustWell Hospital Doctor\\Properties\\AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T05:56:25.714Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-01T06:37:36.121Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 19,
+              "Title": "Settings.settings",
+              "DocumentMoniker": "D:\\doc\\TrustWell Hospital Doctor\\Properties\\Settings.settings",
+              "RelativeDocumentMoniker": "TrustWell Hospital Doctor\\Properties\\Settings.settings",
+              "ToolTip": "D:\\doc\\TrustWell Hospital Doctor\\Properties\\Settings.settings",
+              "RelativeToolTip": "TrustWell Hospital Doctor\\Properties\\Settings.settings",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002767|",
+              "WhenOpened": "2025-05-01T06:37:36.121Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
               "Title": "Form1.Designer.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\TrustWell\\TrustWell Hospital Doctor\\TrustWell Hospital Doctor\\Form1.Designer.cs",
-              "RelativeDocumentMoniker": "TrustWell Hospital Doctor\\Form1.Designer.cs",
               "ToolTip": "C:\\Users\\User\\Desktop\\TrustWell\\TrustWell Hospital Doctor\\TrustWell Hospital Doctor\\Form1.Designer.cs",
-              "RelativeToolTip": "TrustWell Hospital Doctor\\Form1.Designer.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-11T15:50:35.652Z"
             }
