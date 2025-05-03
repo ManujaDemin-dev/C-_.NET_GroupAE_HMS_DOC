@@ -1,3 +1,6 @@
+<<<<<<< HEAD
+=======
+<<<<<<< Updated upstream
 C:\Users\User\Desktop\TrustWell\TrustWell Hospital Doctor\TrustWell Hospital Doctor\bin\Debug\TrustWell Hospital Doctor.exe.config
 C:\Users\User\Desktop\TrustWell\TrustWell Hospital Doctor\TrustWell Hospital Doctor\bin\Debug\TrustWell Hospital Doctor.exe
 C:\Users\User\Desktop\TrustWell\TrustWell Hospital Doctor\TrustWell Hospital Doctor\bin\Debug\TrustWell Hospital Doctor.pdb
@@ -44,3 +47,112 @@ C:\Users\User\Desktop\TrustWell\TrustWell Hospital Doctor\TrustWell Hospital Doc
 C:\Users\User\Desktop\TrustWell\TrustWell Hospital Doctor\TrustWell Hospital Doctor\obj\Debug\TrustWell_Hospital_Doctor.Dashbord1.resources
 C:\Users\User\Desktop\TrustWell\TrustWell Hospital Doctor\TrustWell Hospital Doctor\obj\Debug\TrustWell_Hospital_Doctor.login.resources
 C:\Users\User\Desktop\TrustWell\TrustWell Hospital Doctor\TrustWell Hospital Doctor\obj\Debug\TrustWell_Hospital_Doctor.Patients.resources
+=======
+>>>>>>> main
+D:\doc\TrustWell Hospital Doctor\bin\Debug\TrustWell Hospital Doctor.exe.config
+D:\doc\TrustWell Hospital Doctor\bin\Debug\TrustWell Hospital Doctor.exe
+D:\doc\TrustWell Hospital Doctor\bin\Debug\TrustWell Hospital Doctor.pdb
+D:\doc\TrustWell Hospital Doctor\bin\Debug\BCrypt.Net-Next.dll
+D:\doc\TrustWell Hospital Doctor\bin\Debug\BouncyCastle.Cryptography.dll
+D:\doc\TrustWell Hospital Doctor\bin\Debug\Google.Protobuf.dll
+D:\doc\TrustWell Hospital Doctor\bin\Debug\K4os.Compression.LZ4.dll
+D:\doc\TrustWell Hospital Doctor\bin\Debug\K4os.Compression.LZ4.Streams.dll
+D:\doc\TrustWell Hospital Doctor\bin\Debug\K4os.Hash.xxHash.dll
+D:\doc\TrustWell Hospital Doctor\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\doc\TrustWell Hospital Doctor\bin\Debug\System.Buffers.dll
+D:\doc\TrustWell Hospital Doctor\bin\Debug\System.Configuration.ConfigurationManager.dll
+D:\doc\TrustWell Hospital Doctor\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\doc\TrustWell Hospital Doctor\bin\Debug\System.IO.Pipelines.dll
+D:\doc\TrustWell Hospital Doctor\bin\Debug\System.Memory.dll
+D:\doc\TrustWell Hospital Doctor\bin\Debug\System.Numerics.Vectors.dll
+D:\doc\TrustWell Hospital Doctor\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\doc\TrustWell Hospital Doctor\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\doc\TrustWell Hospital Doctor\bin\Debug\ZstdSharp.dll
+D:\doc\TrustWell Hospital Doctor\bin\Debug\BCrypt.Net-Next.xml
+D:\doc\TrustWell Hospital Doctor\bin\Debug\BouncyCastle.Cryptography.xml
+D:\doc\TrustWell Hospital Doctor\bin\Debug\Google.Protobuf.pdb
+D:\doc\TrustWell Hospital Doctor\bin\Debug\Google.Protobuf.xml
+D:\doc\TrustWell Hospital Doctor\bin\Debug\K4os.Compression.LZ4.xml
+D:\doc\TrustWell Hospital Doctor\bin\Debug\K4os.Compression.LZ4.Streams.xml
+D:\doc\TrustWell Hospital Doctor\bin\Debug\K4os.Hash.xxHash.xml
+D:\doc\TrustWell Hospital Doctor\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\doc\TrustWell Hospital Doctor\bin\Debug\System.Buffers.xml
+D:\doc\TrustWell Hospital Doctor\bin\Debug\System.Configuration.ConfigurationManager.xml
+D:\doc\TrustWell Hospital Doctor\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\doc\TrustWell Hospital Doctor\bin\Debug\System.IO.Pipelines.xml
+D:\doc\TrustWell Hospital Doctor\bin\Debug\System.Memory.xml
+D:\doc\TrustWell Hospital Doctor\bin\Debug\System.Numerics.Vectors.xml
+D:\doc\TrustWell Hospital Doctor\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\doc\TrustWell Hospital Doctor\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\doc\TrustWell Hospital Doctor\obj\Debug\TrustWell Hospital Doctor.csproj.AssemblyReference.cache
+D:\doc\TrustWell Hospital Doctor\obj\Debug\TrustWell_Hospital_Doctor.Dashbord.resources
+D:\doc\TrustWell Hospital Doctor\obj\Debug\TrustWell_Hospital_Doctor.Dashbord1.resources
+D:\doc\TrustWell Hospital Doctor\obj\Debug\TrustWell_Hospital_Doctor.login.resources
+D:\doc\TrustWell Hospital Doctor\obj\Debug\TrustWell_Hospital_Doctor.Patients.resources
+D:\doc\TrustWell Hospital Doctor\obj\Debug\TrustWell_Hospital_Doctor.Properties.Resources.resources
+D:\doc\TrustWell Hospital Doctor\obj\Debug\TrustWell Hospital Doctor.csproj.GenerateResource.cache
+D:\doc\TrustWell Hospital Doctor\obj\Debug\TrustWell Hospital Doctor.csproj.CoreCompileInputs.cache
+D:\doc\TrustWell Hospital Doctor\obj\Debug\TrustWel.0456F6C1.Up2Date
+D:\doc\TrustWell Hospital Doctor\obj\Debug\TrustWell Hospital Doctor.exe
+D:\doc\TrustWell Hospital Doctor\obj\Debug\TrustWell Hospital Doctor.pdb
+D:\doc\TrustWell Hospital Doctor\bin\Debug\CuoreUI.dll
+C:\Group AE\Doctor\TrustWell Hospital Doctor\bin\Debug\TrustWell Hospital Doctor.exe.config
+C:\Group AE\Doctor\TrustWell Hospital Doctor\bin\Debug\TrustWell Hospital Doctor.exe
+C:\Group AE\Doctor\TrustWell Hospital Doctor\bin\Debug\TrustWell Hospital Doctor.pdb
+C:\Group AE\Doctor\TrustWell Hospital Doctor\bin\Debug\BCrypt.Net-Next.dll
+C:\Group AE\Doctor\TrustWell Hospital Doctor\bin\Debug\BouncyCastle.Cryptography.dll
+C:\Group AE\Doctor\TrustWell Hospital Doctor\bin\Debug\CuoreUI.dll
+C:\Group AE\Doctor\TrustWell Hospital Doctor\bin\Debug\Google.Protobuf.dll
+C:\Group AE\Doctor\TrustWell Hospital Doctor\bin\Debug\K4os.Compression.LZ4.dll
+C:\Group AE\Doctor\TrustWell Hospital Doctor\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Group AE\Doctor\TrustWell Hospital Doctor\bin\Debug\K4os.Hash.xxHash.dll
+C:\Group AE\Doctor\TrustWell Hospital Doctor\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Group AE\Doctor\TrustWell Hospital Doctor\bin\Debug\System.Buffers.dll
+C:\Group AE\Doctor\TrustWell Hospital Doctor\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Group AE\Doctor\TrustWell Hospital Doctor\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Group AE\Doctor\TrustWell Hospital Doctor\bin\Debug\System.IO.Pipelines.dll
+C:\Group AE\Doctor\TrustWell Hospital Doctor\bin\Debug\System.Memory.dll
+C:\Group AE\Doctor\TrustWell Hospital Doctor\bin\Debug\System.Numerics.Vectors.dll
+C:\Group AE\Doctor\TrustWell Hospital Doctor\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Group AE\Doctor\TrustWell Hospital Doctor\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Group AE\Doctor\TrustWell Hospital Doctor\bin\Debug\ZstdSharp.dll
+C:\Group AE\Doctor\TrustWell Hospital Doctor\bin\Debug\BCrypt.Net-Next.xml
+C:\Group AE\Doctor\TrustWell Hospital Doctor\bin\Debug\BouncyCastle.Cryptography.xml
+C:\Group AE\Doctor\TrustWell Hospital Doctor\bin\Debug\Google.Protobuf.pdb
+C:\Group AE\Doctor\TrustWell Hospital Doctor\bin\Debug\Google.Protobuf.xml
+C:\Group AE\Doctor\TrustWell Hospital Doctor\bin\Debug\K4os.Compression.LZ4.xml
+C:\Group AE\Doctor\TrustWell Hospital Doctor\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Group AE\Doctor\TrustWell Hospital Doctor\bin\Debug\K4os.Hash.xxHash.xml
+C:\Group AE\Doctor\TrustWell Hospital Doctor\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Group AE\Doctor\TrustWell Hospital Doctor\bin\Debug\System.Buffers.xml
+C:\Group AE\Doctor\TrustWell Hospital Doctor\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\Group AE\Doctor\TrustWell Hospital Doctor\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Group AE\Doctor\TrustWell Hospital Doctor\bin\Debug\System.IO.Pipelines.xml
+C:\Group AE\Doctor\TrustWell Hospital Doctor\bin\Debug\System.Memory.xml
+C:\Group AE\Doctor\TrustWell Hospital Doctor\bin\Debug\System.Numerics.Vectors.xml
+C:\Group AE\Doctor\TrustWell Hospital Doctor\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Group AE\Doctor\TrustWell Hospital Doctor\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Group AE\Doctor\TrustWell Hospital Doctor\obj\Debug\TrustWell Hospital Doctor.csproj.AssemblyReference.cache
+C:\Group AE\Doctor\TrustWell Hospital Doctor\obj\Debug\TrustWell_Hospital_Doctor.Dashbord.resources
+C:\Group AE\Doctor\TrustWell Hospital Doctor\obj\Debug\TrustWell_Hospital_Doctor.Dashbord1.resources
+C:\Group AE\Doctor\TrustWell Hospital Doctor\obj\Debug\TrustWell_Hospital_Doctor.login.resources
+C:\Group AE\Doctor\TrustWell Hospital Doctor\obj\Debug\TrustWell_Hospital_Doctor.Patients.resources
+C:\Group AE\Doctor\TrustWell Hospital Doctor\obj\Debug\TrustWell_Hospital_Doctor.Properties.Resources.resources
+C:\Group AE\Doctor\TrustWell Hospital Doctor\obj\Debug\TrustWell Hospital Doctor.csproj.GenerateResource.cache
+C:\Group AE\Doctor\TrustWell Hospital Doctor\obj\Debug\TrustWell Hospital Doctor.csproj.CoreCompileInputs.cache
+C:\Group AE\Doctor\TrustWell Hospital Doctor\obj\Debug\TrustWel.0456F6C1.Up2Date
+C:\Group AE\Doctor\TrustWell Hospital Doctor\obj\Debug\TrustWell Hospital Doctor.exe
+C:\Group AE\Doctor\TrustWell Hospital Doctor\obj\Debug\TrustWell Hospital Doctor.pdb
+<<<<<<< HEAD
+=======
+>>>>>>> Stashed changes
+C:\Group AE\Doctor\TrustWell Hospital Doctor\bin\Debug\runtimes\win-x86\native\WebView2Loader.dll
+C:\Group AE\Doctor\TrustWell Hospital Doctor\bin\Debug\runtimes\win-x64\native\WebView2Loader.dll
+C:\Group AE\Doctor\TrustWell Hospital Doctor\bin\Debug\runtimes\win-arm64\native\WebView2Loader.dll
+C:\Group AE\Doctor\TrustWell Hospital Doctor\bin\Debug\Microsoft.Web.WebView2.Core.dll
+C:\Group AE\Doctor\TrustWell Hospital Doctor\bin\Debug\Microsoft.Web.WebView2.WinForms.dll
+C:\Group AE\Doctor\TrustWell Hospital Doctor\bin\Debug\Microsoft.Web.WebView2.Wpf.dll
+C:\Group AE\Doctor\TrustWell Hospital Doctor\bin\Debug\Microsoft.Web.WebView2.Core.xml
+C:\Group AE\Doctor\TrustWell Hospital Doctor\bin\Debug\Microsoft.Web.WebView2.WinForms.xml
+C:\Group AE\Doctor\TrustWell Hospital Doctor\bin\Debug\Microsoft.Web.WebView2.Wpf.xml
+>>>>>>> main
