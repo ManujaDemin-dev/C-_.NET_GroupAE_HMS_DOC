@@ -28,208 +28,306 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Dashbord));
             this.panel1 = new System.Windows.Forms.Panel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.label3 = new System.Windows.Forms.Label();
+            this.cuiButton3 = new CuoreUI.Controls.cuiButton();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.button1 = new CuoreUI.Controls.cuiButton();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.cuiPanel3 = new CuoreUI.Controls.cuiPanel();
             this.label2 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.cuiButton1 = new CuoreUI.Controls.cuiButton();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel2.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
+            this.cuiPanel3.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.panel1.Controls.Add(this.pictureBox1);
-            this.panel1.Controls.Add(this.button3);
-            this.panel1.Controls.Add(this.button2);
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(224)))), ((int)(((byte)(235)))));
+            this.panel1.Controls.Add(this.cuiButton1);
+            this.panel1.Controls.Add(this.label3);
+            this.panel1.Controls.Add(this.cuiButton3);
+            this.panel1.Controls.Add(this.label5);
+            this.panel1.Controls.Add(this.label6);
             this.panel1.Controls.Add(this.button1);
+            this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel1.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(243, 1033);
+            this.panel1.Size = new System.Drawing.Size(273, 1024);
             this.panel1.TabIndex = 0;
+            // 
+            // label3
+            // 
+            this.label3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(74)))), ((int)(((byte)(96)))));
+            this.label3.Location = new System.Drawing.Point(12, 262);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(324, 28);
+            this.label3.TabIndex = 16;
+            this.label3.Text = "No.55, Pitipana, Homagama.";
+            // 
+            // cuiButton3
+            // 
+            this.cuiButton3.CheckButton = false;
+            this.cuiButton3.Checked = false;
+            this.cuiButton3.CheckedBackground = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(106)))), ((int)(((byte)(0)))));
+            this.cuiButton3.CheckedForeColor = System.Drawing.Color.White;
+            this.cuiButton3.CheckedImageTint = System.Drawing.Color.White;
+            this.cuiButton3.CheckedOutline = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(106)))), ((int)(((byte)(0)))));
+            this.cuiButton3.Content = "Log out";
+            this.cuiButton3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.cuiButton3.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.cuiButton3.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.cuiButton3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cuiButton3.ForeColor = System.Drawing.Color.White;
+            this.cuiButton3.HoverBackground = System.Drawing.Color.FromArgb(((int)(((byte)(88)))), ((int)(((byte)(149)))), ((int)(((byte)(167)))));
+            this.cuiButton3.HoveredImageTint = System.Drawing.Color.White;
+            this.cuiButton3.HoverForeColor = System.Drawing.Color.White;
+            this.cuiButton3.HoverOutline = System.Drawing.Color.FromArgb(((int)(((byte)(88)))), ((int)(((byte)(149)))), ((int)(((byte)(167)))));
+            this.cuiButton3.Image = null;
+            this.cuiButton3.ImageAutoCenter = true;
+            this.cuiButton3.ImageExpand = new System.Drawing.Point(0, 0);
+            this.cuiButton3.ImageOffset = new System.Drawing.Point(0, 0);
+            this.cuiButton3.Location = new System.Drawing.Point(0, 950);
+            this.cuiButton3.Name = "cuiButton3";
+            this.cuiButton3.NormalBackground = System.Drawing.Color.FromArgb(((int)(((byte)(76)))), ((int)(((byte)(148)))), ((int)(((byte)(96)))));
+            this.cuiButton3.NormalForeColor = System.Drawing.Color.White;
+            this.cuiButton3.NormalImageTint = System.Drawing.Color.White;
+            this.cuiButton3.NormalOutline = System.Drawing.Color.FromArgb(((int)(((byte)(76)))), ((int)(((byte)(148)))), ((int)(((byte)(96)))));
+            this.cuiButton3.OutlineThickness = 1F;
+            this.cuiButton3.PressedBackground = System.Drawing.Color.WhiteSmoke;
+            this.cuiButton3.PressedForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
+            this.cuiButton3.PressedImageTint = System.Drawing.Color.White;
+            this.cuiButton3.PressedOutline = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.cuiButton3.Rounding = new System.Windows.Forms.Padding(0);
+            this.cuiButton3.Size = new System.Drawing.Size(273, 74);
+            this.cuiButton3.TabIndex = 5;
+            this.cuiButton3.TextAlignment = System.Drawing.StringAlignment.Center;
+            this.cuiButton3.TextOffset = new System.Drawing.Point(0, 0);
+            // 
+            // label5
+            // 
+            this.label5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(74)))), ((int)(((byte)(96)))));
+            this.label5.Location = new System.Drawing.Point(12, 290);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(324, 28);
+            this.label5.TabIndex = 6;
+            this.label5.Text = "Email: trustwell@gmail.com\n\r\n\r\n";
+            // 
+            // label6
+            // 
+            this.label6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(74)))), ((int)(((byte)(96)))));
+            this.label6.Location = new System.Drawing.Point(13, 318);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(235, 28);
+            this.label6.TabIndex = 7;
+            this.label6.Text = "Tel: 011 456 7890";
+            // 
+            // button1
+            // 
+            this.button1.CheckButton = false;
+            this.button1.Checked = false;
+            this.button1.CheckedBackground = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(106)))), ((int)(((byte)(0)))));
+            this.button1.CheckedForeColor = System.Drawing.Color.White;
+            this.button1.CheckedImageTint = System.Drawing.Color.White;
+            this.button1.CheckedOutline = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(106)))), ((int)(((byte)(0)))));
+            this.button1.Content = "Dashboard";
+            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button1.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.White;
+            this.button1.HoverBackground = System.Drawing.Color.CornflowerBlue;
+            this.button1.HoveredImageTint = System.Drawing.Color.White;
+            this.button1.HoverForeColor = System.Drawing.Color.White;
+            this.button1.HoverOutline = System.Drawing.Color.CornflowerBlue;
+            this.button1.Image = null;
+            this.button1.ImageAutoCenter = true;
+            this.button1.ImageExpand = new System.Drawing.Point(0, 0);
+            this.button1.ImageOffset = new System.Drawing.Point(0, 0);
+            this.button1.Location = new System.Drawing.Point(0, 482);
+            this.button1.Name = "button1";
+            this.button1.NormalBackground = System.Drawing.Color.FromArgb(((int)(((byte)(79)))), ((int)(((byte)(129)))), ((int)(((byte)(219)))));
+            this.button1.NormalForeColor = System.Drawing.Color.White;
+            this.button1.NormalImageTint = System.Drawing.Color.White;
+            this.button1.NormalOutline = System.Drawing.Color.FromArgb(((int)(((byte)(79)))), ((int)(((byte)(129)))), ((int)(((byte)(219)))));
+            this.button1.OutlineThickness = 1F;
+            this.button1.PressedBackground = System.Drawing.Color.WhiteSmoke;
+            this.button1.PressedForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
+            this.button1.PressedImageTint = System.Drawing.Color.White;
+            this.button1.PressedOutline = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.button1.Rounding = new System.Windows.Forms.Padding(20, 0, 0, 20);
+            this.button1.Size = new System.Drawing.Size(257, 85);
+            this.button1.TabIndex = 0;
+            this.button1.TextAlignment = System.Drawing.StringAlignment.Center;
+            this.button1.TextOffset = new System.Drawing.Point(0, 0);
             // 
             // pictureBox1
             // 
-            this.pictureBox1.BackColor = System.Drawing.SystemColors.Control;
             this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Image = global::TrustWell_Hospital_Doctor.Properties.Resources.logo2;
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(243, 243);
+            this.pictureBox1.Size = new System.Drawing.Size(273, 274);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 3;
             this.pictureBox1.TabStop = false;
             // 
-            // button3
-            // 
-            this.button3.BackColor = System.Drawing.Color.IndianRed;
-            this.button3.Cursor = System.Windows.Forms.Cursors.Default;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Microsoft YaHei", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(12, 380);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(225, 54);
-            this.button3.TabIndex = 2;
-            this.button3.Text = "Lab Reports";
-            this.button3.UseVisualStyleBackColor = false;
-            // 
-            // button2
-            // 
-            this.button2.BackColor = System.Drawing.SystemColors.MenuHighlight;
-            this.button2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(0, 984);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(243, 49);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "Log Out";
-            this.button2.UseVisualStyleBackColor = false;
-            // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.IndianRed;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Microsoft YaHei", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(12, 279);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(225, 60);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Dashbord";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
             // panel2
             // 
-            this.panel2.BackColor = System.Drawing.Color.DarkOrchid;
-            this.panel2.Controls.Add(this.label6);
-            this.panel2.Controls.Add(this.label5);
-            this.panel2.Controls.Add(this.label4);
-            this.panel2.Controls.Add(this.label1);
+            this.panel2.BackColor = System.Drawing.SystemColors.Control;
             this.panel2.Controls.Add(this.tableLayoutPanel1);
+            this.panel2.Controls.Add(this.cuiPanel3);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel2.Location = new System.Drawing.Point(243, 0);
+            this.panel2.Location = new System.Drawing.Point(273, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1659, 139);
+            this.panel2.Size = new System.Drawing.Size(1625, 167);
             this.panel2.TabIndex = 1;
-            // 
-            // label6
-            // 
-            this.label6.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.label6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(3, 67);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(455, 22);
-            this.label6.TabIndex = 7;
-            this.label6.Text = "Welcome Dr. \r\n\r\n\r\n";
-            // 
-            // label5
-            // 
-            this.label5.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.label5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(3, 45);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(455, 22);
-            this.label5.TabIndex = 6;
-            this.label5.Text = "email\n\r\n\r\n";
-            // 
-            // label4
-            // 
-            this.label4.BackColor = System.Drawing.Color.DarkOrchid;
-            this.label4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(1, 103);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(817, 36);
-            this.label4.TabIndex = 5;
-            this.label4.Text = "Welcome Dr. Doctor name 10000000000000000000000\r\n\r\n";
-            // 
-            // label1
-            // 
-            this.label1.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.label1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(3, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(299, 45);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "TrustWell Hospital \r\n";
             // 
             // tableLayoutPanel1
             // 
-            this.tableLayoutPanel1.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.tableLayoutPanel1.AutoSize = true;
             this.tableLayoutPanel1.ColumnCount = 1;
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel1.Controls.Add(this.label3, 0, 0);
-            this.tableLayoutPanel1.Controls.Add(this.label2, 0, 1);
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(1608, 12);
+            this.tableLayoutPanel1.Controls.Add(this.label1, 0, 0);
+            this.tableLayoutPanel1.Controls.Add(this.label9, 0, 1);
+            this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Right;
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(1585, 0);
+            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 2;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 29.4964F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 70.50359F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(51, 153);
-            this.tableLayoutPanel1.TabIndex = 4;
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(40, 167);
+            this.tableLayoutPanel1.TabIndex = 15;
             // 
-            // label3
+            // label1
             // 
-            this.label3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft YaHei UI", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(19, 0);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(29, 44);
-            this.label3.TabIndex = 3;
-            this.label3.Text = "l";
-            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.label3.Click += new System.EventHandler(this.label3_Click);
+            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Microsoft YaHei UI", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(61)))), ((int)(((byte)(62)))));
+            this.label1.Location = new System.Drawing.Point(3, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(34, 49);
+            this.label1.TabIndex = 3;
+            this.label1.Text = "l";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.BackColor = System.Drawing.Color.Transparent;
+            this.label9.Dock = System.Windows.Forms.DockStyle.Right;
+            this.label9.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(61)))), ((int)(((byte)(62)))));
+            this.label9.Location = new System.Drawing.Point(8, 49);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(29, 118);
+            this.label9.TabIndex = 1;
+            this.label9.Text = "d";
+            this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // cuiPanel3
+            // 
+            this.cuiPanel3.Controls.Add(this.label2);
+            this.cuiPanel3.Location = new System.Drawing.Point(40, 31);
+            this.cuiPanel3.Name = "cuiPanel3";
+            this.cuiPanel3.OutlineThickness = 1F;
+            this.cuiPanel3.PanelColor = System.Drawing.SystemColors.ControlLight;
+            this.cuiPanel3.PanelOutlineColor = System.Drawing.SystemColors.ControlLight;
+            this.cuiPanel3.Rounding = new System.Windows.Forms.Padding(20);
+            this.cuiPanel3.Size = new System.Drawing.Size(1384, 117);
+            this.cuiPanel3.TabIndex = 14;
             // 
             // label2
             // 
-            this.label2.AutoSize = true;
-            this.label2.Dock = System.Windows.Forms.DockStyle.Right;
-            this.label2.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(23, 45);
+            this.label2.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.label2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold);
+            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(61)))), ((int)(((byte)(62)))));
+            this.label2.Location = new System.Drawing.Point(39, 41);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(25, 108);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "d";
+            this.label2.Size = new System.Drawing.Size(919, 33);
+            this.label2.TabIndex = 16;
+            this.label2.Text = "WELCOME DR. Doc Name";
+            this.label2.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
             // 
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.SystemColors.Control;
             this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel3.Location = new System.Drawing.Point(243, 139);
+            this.panel3.Location = new System.Drawing.Point(273, 167);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(1659, 894);
+            this.panel3.Size = new System.Drawing.Size(1625, 857);
             this.panel3.TabIndex = 2;
-            this.panel3.Paint += new System.Windows.Forms.PaintEventHandler(this.panel3_Paint);
+            // 
+            // cuiButton1
+            // 
+            this.cuiButton1.CheckButton = false;
+            this.cuiButton1.Checked = false;
+            this.cuiButton1.CheckedBackground = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(106)))), ((int)(((byte)(0)))));
+            this.cuiButton1.CheckedForeColor = System.Drawing.Color.White;
+            this.cuiButton1.CheckedImageTint = System.Drawing.Color.White;
+            this.cuiButton1.CheckedOutline = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(106)))), ((int)(((byte)(0)))));
+            this.cuiButton1.Content = "Lab Reports";
+            this.cuiButton1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.cuiButton1.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.cuiButton1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cuiButton1.ForeColor = System.Drawing.Color.White;
+            this.cuiButton1.HoverBackground = System.Drawing.Color.CornflowerBlue;
+            this.cuiButton1.HoveredImageTint = System.Drawing.Color.White;
+            this.cuiButton1.HoverForeColor = System.Drawing.Color.White;
+            this.cuiButton1.HoverOutline = System.Drawing.Color.CornflowerBlue;
+            this.cuiButton1.Image = null;
+            this.cuiButton1.ImageAutoCenter = true;
+            this.cuiButton1.ImageExpand = new System.Drawing.Point(0, 0);
+            this.cuiButton1.ImageOffset = new System.Drawing.Point(0, 0);
+            this.cuiButton1.Location = new System.Drawing.Point(0, 610);
+            this.cuiButton1.Name = "cuiButton1";
+            this.cuiButton1.NormalBackground = System.Drawing.Color.FromArgb(((int)(((byte)(79)))), ((int)(((byte)(129)))), ((int)(((byte)(219)))));
+            this.cuiButton1.NormalForeColor = System.Drawing.Color.White;
+            this.cuiButton1.NormalImageTint = System.Drawing.Color.White;
+            this.cuiButton1.NormalOutline = System.Drawing.Color.FromArgb(((int)(((byte)(79)))), ((int)(((byte)(129)))), ((int)(((byte)(219)))));
+            this.cuiButton1.OutlineThickness = 1F;
+            this.cuiButton1.PressedBackground = System.Drawing.Color.WhiteSmoke;
+            this.cuiButton1.PressedForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
+            this.cuiButton1.PressedImageTint = System.Drawing.Color.White;
+            this.cuiButton1.PressedOutline = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.cuiButton1.Rounding = new System.Windows.Forms.Padding(20, 0, 0, 20);
+            this.cuiButton1.Size = new System.Drawing.Size(257, 85);
+            this.cuiButton1.TabIndex = 17;
+            this.cuiButton1.TextAlignment = System.Drawing.StringAlignment.Center;
+            this.cuiButton1.TextOffset = new System.Drawing.Point(0, 0);
             // 
             // Dashbord
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.AppWorkspace;
-            this.ClientSize = new System.Drawing.Size(1902, 1033);
+            this.ClientSize = new System.Drawing.Size(1898, 1024);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "Dashbord";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Dashbord";
@@ -240,6 +338,7 @@
             this.panel2.PerformLayout();
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel1.PerformLayout();
+            this.cuiPanel3.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -247,18 +346,19 @@
         #endregion
 
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
+        private CuoreUI.Controls.cuiButton cuiButton3;
+        private CuoreUI.Controls.cuiButton button1;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label9;
+        private CuoreUI.Controls.cuiPanel cuiPanel3;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
+        private CuoreUI.Controls.cuiButton cuiButton1;
     }
 }
