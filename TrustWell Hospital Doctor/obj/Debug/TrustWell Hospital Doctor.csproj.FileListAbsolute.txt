@@ -141,3 +141,12 @@ C:\Group AE\Doctor\TrustWell Hospital Doctor\obj\Debug\TrustWel.0456F6C1.Up2Date
 C:\Group AE\Doctor\TrustWell Hospital Doctor\obj\Debug\TrustWell Hospital Doctor.exe
 C:\Group AE\Doctor\TrustWell Hospital Doctor\obj\Debug\TrustWell Hospital Doctor.pdb
 >>>>>>> Stashed changes
+C:\Group AE\Doctor\TrustWell Hospital Doctor\bin\Debug\runtimes\win-x86\native\WebView2Loader.dll
+C:\Group AE\Doctor\TrustWell Hospital Doctor\bin\Debug\runtimes\win-x64\native\WebView2Loader.dll
+C:\Group AE\Doctor\TrustWell Hospital Doctor\bin\Debug\runtimes\win-arm64\native\WebView2Loader.dll
+C:\Group AE\Doctor\TrustWell Hospital Doctor\bin\Debug\Microsoft.Web.WebView2.Core.dll
+C:\Group AE\Doctor\TrustWell Hospital Doctor\bin\Debug\Microsoft.Web.WebView2.WinForms.dll
+C:\Group AE\Doctor\TrustWell Hospital Doctor\bin\Debug\Microsoft.Web.WebView2.Wpf.dll
+C:\Group AE\Doctor\TrustWell Hospital Doctor\bin\Debug\Microsoft.Web.WebView2.Core.xml
+C:\Group AE\Doctor\TrustWell Hospital Doctor\bin\Debug\Microsoft.Web.WebView2.WinForms.xml
+C:\Group AE\Doctor\TrustWell Hospital Doctor\bin\Debug\Microsoft.Web.WebView2.Wpf.xml
