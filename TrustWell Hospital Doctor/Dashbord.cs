@@ -23,7 +23,7 @@ namespace TrustWell_Hospital_Doctor
             this.button1.Click += new System.EventHandler(this.button1_Click);
 
 
-            dateTimeDisplay = new DateTimeDisplay(label9, label1);
+            dateTimeDisplay = new DateTimeDisplay(label2, label3);
 
         }
 
@@ -43,6 +43,14 @@ namespace TrustWell_Hospital_Doctor
             LoadUserControl(new Dashbord1());
         }
 
-       
+        private void panel3_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -1,9 +1,1 @@
 packages
-
-.vs/
-bin/
-obj/
-*.exe
-*.pdb
-*.cache
-*.suo
