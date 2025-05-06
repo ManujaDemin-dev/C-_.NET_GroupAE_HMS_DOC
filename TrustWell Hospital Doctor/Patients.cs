@@ -12,9 +12,11 @@ namespace TrustWell_Hospital_Doctor
 {
     public partial class Patients: Form
     {
-        public Patients()
+        private int patientId;
+        public Patients(int patientId)
         {
             InitializeComponent();
+            this.patientId = patientId;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             this.button3.Click += new System.EventHandler(this.button3_Click);
             this.button4.Click += new System.EventHandler(this.button4_Click);
@@ -29,7 +31,7 @@ namespace TrustWell_Hospital_Doctor
         }
         private void Patients_Load(object sender, EventArgs e)
         {
-
+            this.label2.Text = patientId.ToString();
         }
 
         private void panel1_Paint(object sender, PaintEventArgs e)
