@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+
 namespace TrustWell_Hospital_Doctor
 {
 
@@ -36,11 +37,12 @@ namespace TrustWell_Hospital_Doctor
 
         private void Dashbord_Load(object sender, EventArgs e)
         {
-            LoadUserControl(new Dashbord1());
+           //LoadUserControl(new Dashbord1());
+            this.label2.Text = $"WELCOME DR.{UserSession.Username}";
         }
         private void button1_Click(object sender, EventArgs e)
         {
-            LoadUserControl(new Dashbord1());
+            LoadUserControl(new Dashbord1(UserSession.DocId));
         }
 
        
