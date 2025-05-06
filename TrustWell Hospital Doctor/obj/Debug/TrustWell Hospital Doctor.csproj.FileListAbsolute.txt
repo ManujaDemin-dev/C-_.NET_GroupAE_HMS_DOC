@@ -157,3 +157,5 @@ C:\Users\User\Desktop\TrustWell\TrustWell Hospital Doctor\TrustWell Hospital Doc
 C:\Users\User\Desktop\TrustWell\TrustWell Hospital Doctor\TrustWell Hospital Doctor\bin\Debug\Microsoft.Web.WebView2.Core.xml
 C:\Users\User\Desktop\TrustWell\TrustWell Hospital Doctor\TrustWell Hospital Doctor\bin\Debug\Microsoft.Web.WebView2.WinForms.xml
 C:\Users\User\Desktop\TrustWell\TrustWell Hospital Doctor\TrustWell Hospital Doctor\bin\Debug\Microsoft.Web.WebView2.Wpf.xml
+C:\Users\User\Desktop\TrustWell\TrustWell Hospital Doctor\TrustWell Hospital Doctor\bin\Debug\MySql.Data.dll
+C:\Users\User\Desktop\TrustWell\TrustWell Hospital Doctor\TrustWell Hospital Doctor\bin\Debug\MySql.Data.xml
