@@ -54,7 +54,7 @@ namespace TrustWell_Hospital_Doctor
 
         private void button4_Click(object sender, EventArgs e)
         {
-            LoadUserControl(new Oldprescription1());
+            LoadUserControl(new Oldprescription1(patientId));
         }
 
         private void button5_Click(object sender, EventArgs e)
