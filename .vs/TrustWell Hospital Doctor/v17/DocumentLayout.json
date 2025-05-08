@@ -27,7 +27,7 @@
       "RelativeMoniker": "D:0:0:{35A7DB93-0B5C-434C-A53F-118F19FB869B}|TrustWell Hospital Doctor\\TrustWell Hospital Doctor.csproj|solutionrelative:trustwell hospital doctor\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{35A7DB93-0B5C-434C-A53F-118F19FB869B}|TrustWell Hospital Doctor\\TrustWell Hospital Doctor.csproj|c:\\users\\hesar\\onedrive - nsbm\\c# 2025\\project\\doc\\trustwell hospital doctor\\newprescription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{35A7DB93-0B5C-434C-A53F-118F19FB869B}|TrustWell Hospital Doctor\\TrustWell Hospital Doctor.csproj|C:\\Users\\hesar\\OneDrive - NSBM\\C# 2025\\PROJECT\\doc\\trustwell hospital doctor\\newprescription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{35A7DB93-0B5C-434C-A53F-118F19FB869B}|TrustWell Hospital Doctor\\TrustWell Hospital Doctor.csproj|solutionrelative:trustwell hospital doctor\\newprescription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -124,8 +124,7 @@
               "ToolTip": "C:\\Users\\hesar\\OneDrive - NSBM\\C# 2025\\PROJECT\\doc\\TrustWell Hospital Doctor\\Newprescription.cs [Design]",
               "RelativeToolTip": "TrustWell Hospital Doctor\\Newprescription.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-08T05:36:44.975Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-05-08T05:36:44.975Z"
             },
             {
               "$type": "Document",
@@ -137,8 +136,7 @@
               "RelativeToolTip": "TrustWell Hospital Doctor\\Dashbord.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAACwAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T13:51:02.608Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-04T13:51:02.608Z"
             },
             {
               "$type": "Document",
@@ -162,8 +160,7 @@
               "RelativeToolTip": "TrustWell Hospital Doctor\\Database.cs",
               "ViewState": "AgIAACwAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T04:51:26.283Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-06T04:51:26.283Z"
             },
             {
               "$type": "Document",
@@ -175,8 +172,7 @@
               "RelativeToolTip": "TrustWell Hospital Doctor\\Patients.cs",
               "ViewState": "AgIAAEMAAAAAAAAAAAAcwFEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T13:51:02.611Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-04T13:51:02.611Z"
             },
             {
               "$type": "Document",
@@ -188,8 +184,7 @@
               "RelativeToolTip": "TrustWell Hospital Doctor\\Dashbord1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAFgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T13:51:02.598Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-04T13:51:02.598Z"
             },
             {
               "$type": "Document",
@@ -212,8 +207,7 @@
               "ToolTip": "C:\\Users\\hesar\\OneDrive - NSBM\\C# 2025\\PROJECT\\doc\\TrustWell Hospital Doctor\\login.cs [Design]",
               "RelativeToolTip": "TrustWell Hospital Doctor\\login.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T13:51:02.59Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-05-04T13:51:02.59Z"
             },
             {
               "$type": "Document",
@@ -224,8 +218,7 @@
               "ToolTip": "C:\\Users\\hesar\\OneDrive - NSBM\\C# 2025\\PROJECT\\doc\\TrustWell Hospital Doctor\\Dashbord.cs [Design]",
               "RelativeToolTip": "TrustWell Hospital Doctor\\Dashbord.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T10:23:19.2Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-05-06T10:23:19.2Z"
             },
             {
               "$type": "Document",
@@ -236,8 +229,7 @@
               "ToolTip": "C:\\Users\\hesar\\OneDrive - NSBM\\C# 2025\\PROJECT\\doc\\TrustWell Hospital Doctor\\Dashbord1.cs [Design]",
               "RelativeToolTip": "TrustWell Hospital Doctor\\Dashbord1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T10:07:52.445Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-05-06T10:07:52.445Z"
             },
             {
               "$type": "Document",
@@ -261,8 +253,7 @@
               "RelativeToolTip": "TrustWell Hospital Doctor\\login.cs",
               "ViewState": "AgIAAFEAAAAAAAAAAAAgwDwAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T13:51:02.612Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-04T13:51:02.612Z"
             },
             {
               "$type": "Document",
@@ -317,8 +308,7 @@
               "ToolTip": "C:\\Users\\hesar\\OneDrive - NSBM\\C# 2025\\PROJECT\\doc\\TrustWell Hospital Doctor\\Properties\\Resources.resx",
               "RelativeToolTip": "TrustWell Hospital Doctor\\Properties\\Resources.resx",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2025-05-04T13:51:02.61Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-04T13:51:02.61Z"
             },
             {
               "$type": "Document",
@@ -342,7 +332,8 @@
               "RelativeToolTip": "TrustWell Hospital Doctor\\Patients.Designer.cs",
               "ViewState": "AgIAAB4AAAAAAAAAAAAYwCgAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T13:51:02.611Z"
+              "WhenOpened": "2025-05-04T13:51:02.611Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -378,8 +369,7 @@
               "RelativeToolTip": "TrustWell Hospital Doctor\\App.config",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2025-05-04T13:51:02.613Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-04T13:51:02.613Z"
             },
             {
               "$type": "Document",
@@ -402,8 +392,7 @@
               "ToolTip": "C:\\Users\\hesar\\OneDrive - NSBM\\C# 2025\\PROJECT\\doc\\TrustWell Hospital Doctor\\Properties\\Settings.settings",
               "RelativeToolTip": "TrustWell Hospital Doctor\\Properties\\Settings.settings",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002767|",
-              "WhenOpened": "2025-05-04T13:51:02.614Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-04T13:51:02.614Z"
             },
             {
               "$type": "Document",
