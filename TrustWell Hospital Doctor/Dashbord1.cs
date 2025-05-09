@@ -99,5 +99,10 @@ namespace TrustWell_Hospital_Doctor
                 }
             }
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
