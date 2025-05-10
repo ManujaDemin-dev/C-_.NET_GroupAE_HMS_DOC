@@ -17,11 +17,11 @@ namespace TrustWell_Hospital_Doctor
         {
             InitializeComponent();
             this.patientId = patientId;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
-            this.button3.Click += new System.EventHandler(this.button3_Click);
-            this.button4.Click += new System.EventHandler(this.button4_Click);
-            this.button5.Click += new System.EventHandler(this.button5_Click);
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.cuiButton2.Click += new System.EventHandler(this.button2_Click);
+            this.cuiButton3.Click += new System.EventHandler(this.button3_Click);
+            this.cuiButton4.Click += new System.EventHandler(this.button4_Click);
+            this.cuiButton5.Click += new System.EventHandler(this.button5_Click);
+            this.cuiButton1.Click += new System.EventHandler(this.button1_Click);
         }
         private void LoadUserControl(UserControl uc)
         {
@@ -65,6 +65,31 @@ namespace TrustWell_Hospital_Doctor
         private void button1_Click(object sender, EventArgs e)
         {
             ////////////
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cuiLabel1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label10_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel3_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void label8_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
