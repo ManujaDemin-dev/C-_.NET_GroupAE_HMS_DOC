@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.cuiButton1 = new CuoreUI.Controls.cuiButton();
             this.label3 = new System.Windows.Forms.Label();
             this.cuiButton3 = new CuoreUI.Controls.cuiButton();
             this.label5 = new System.Windows.Forms.Label();
@@ -42,7 +43,6 @@
             this.cuiPanel3 = new CuoreUI.Controls.cuiPanel();
             this.label2 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.cuiButton1 = new CuoreUI.Controls.cuiButton();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel2.SuspendLayout();
@@ -52,7 +52,7 @@
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(224)))), ((int)(((byte)(235)))));
+            this.panel1.BackColor = System.Drawing.SystemColors.Control;
             this.panel1.Controls.Add(this.cuiButton1);
             this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.cuiButton3);
@@ -65,8 +65,46 @@
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(273, 1024);
+            this.panel1.Size = new System.Drawing.Size(256, 1024);
             this.panel1.TabIndex = 0;
+            // 
+            // cuiButton1
+            // 
+            this.cuiButton1.CheckButton = false;
+            this.cuiButton1.Checked = false;
+            this.cuiButton1.CheckedBackground = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(106)))), ((int)(((byte)(0)))));
+            this.cuiButton1.CheckedForeColor = System.Drawing.Color.White;
+            this.cuiButton1.CheckedImageTint = System.Drawing.Color.White;
+            this.cuiButton1.CheckedOutline = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(106)))), ((int)(((byte)(0)))));
+            this.cuiButton1.Content = "Lab Reports";
+            this.cuiButton1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.cuiButton1.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.cuiButton1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cuiButton1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(61)))), ((int)(((byte)(62)))));
+            this.cuiButton1.HoverBackground = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            this.cuiButton1.HoveredImageTint = System.Drawing.Color.White;
+            this.cuiButton1.HoverForeColor = System.Drawing.Color.White;
+            this.cuiButton1.HoverOutline = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            this.cuiButton1.Image = null;
+            this.cuiButton1.ImageAutoCenter = true;
+            this.cuiButton1.ImageExpand = new System.Drawing.Point(0, 0);
+            this.cuiButton1.ImageOffset = new System.Drawing.Point(0, 0);
+            this.cuiButton1.Location = new System.Drawing.Point(1, 587);
+            this.cuiButton1.Name = "cuiButton1";
+            this.cuiButton1.NormalBackground = System.Drawing.SystemColors.Control;
+            this.cuiButton1.NormalForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(61)))), ((int)(((byte)(62)))));
+            this.cuiButton1.NormalImageTint = System.Drawing.Color.White;
+            this.cuiButton1.NormalOutline = System.Drawing.SystemColors.Control;
+            this.cuiButton1.OutlineThickness = 1F;
+            this.cuiButton1.PressedBackground = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            this.cuiButton1.PressedForeColor = System.Drawing.Color.White;
+            this.cuiButton1.PressedImageTint = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            this.cuiButton1.PressedOutline = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            this.cuiButton1.Rounding = new System.Windows.Forms.Padding(0);
+            this.cuiButton1.Size = new System.Drawing.Size(258, 99);
+            this.cuiButton1.TabIndex = 17;
+            this.cuiButton1.TextAlignment = System.Drawing.StringAlignment.Center;
+            this.cuiButton1.TextOffset = new System.Drawing.Point(0, 0);
             // 
             // label3
             // 
@@ -93,27 +131,27 @@
             this.cuiButton3.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.cuiButton3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cuiButton3.ForeColor = System.Drawing.Color.White;
-            this.cuiButton3.HoverBackground = System.Drawing.Color.FromArgb(((int)(((byte)(88)))), ((int)(((byte)(149)))), ((int)(((byte)(167)))));
+            this.cuiButton3.HoverBackground = System.Drawing.Color.LimeGreen;
             this.cuiButton3.HoveredImageTint = System.Drawing.Color.White;
             this.cuiButton3.HoverForeColor = System.Drawing.Color.White;
-            this.cuiButton3.HoverOutline = System.Drawing.Color.FromArgb(((int)(((byte)(88)))), ((int)(((byte)(149)))), ((int)(((byte)(167)))));
+            this.cuiButton3.HoverOutline = System.Drawing.Color.LimeGreen;
             this.cuiButton3.Image = null;
             this.cuiButton3.ImageAutoCenter = true;
             this.cuiButton3.ImageExpand = new System.Drawing.Point(0, 0);
             this.cuiButton3.ImageOffset = new System.Drawing.Point(0, 0);
             this.cuiButton3.Location = new System.Drawing.Point(0, 950);
             this.cuiButton3.Name = "cuiButton3";
-            this.cuiButton3.NormalBackground = System.Drawing.Color.FromArgb(((int)(((byte)(76)))), ((int)(((byte)(148)))), ((int)(((byte)(96)))));
+            this.cuiButton3.NormalBackground = System.Drawing.Color.ForestGreen;
             this.cuiButton3.NormalForeColor = System.Drawing.Color.White;
             this.cuiButton3.NormalImageTint = System.Drawing.Color.White;
-            this.cuiButton3.NormalOutline = System.Drawing.Color.FromArgb(((int)(((byte)(76)))), ((int)(((byte)(148)))), ((int)(((byte)(96)))));
+            this.cuiButton3.NormalOutline = System.Drawing.Color.ForestGreen;
             this.cuiButton3.OutlineThickness = 1F;
-            this.cuiButton3.PressedBackground = System.Drawing.Color.WhiteSmoke;
-            this.cuiButton3.PressedForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
+            this.cuiButton3.PressedBackground = System.Drawing.Color.LimeGreen;
+            this.cuiButton3.PressedForeColor = System.Drawing.Color.White;
             this.cuiButton3.PressedImageTint = System.Drawing.Color.White;
             this.cuiButton3.PressedOutline = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.cuiButton3.Rounding = new System.Windows.Forms.Padding(0);
-            this.cuiButton3.Size = new System.Drawing.Size(273, 74);
+            this.cuiButton3.Size = new System.Drawing.Size(256, 74);
             this.cuiButton3.TabIndex = 5;
             this.cuiButton3.TextAlignment = System.Drawing.StringAlignment.Center;
             this.cuiButton3.TextOffset = new System.Drawing.Point(0, 0);
@@ -151,29 +189,29 @@
             this.button1.Content = "Dashboard";
             this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button1.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.HoverBackground = System.Drawing.Color.CornflowerBlue;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(61)))), ((int)(((byte)(62)))));
+            this.button1.HoverBackground = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
             this.button1.HoveredImageTint = System.Drawing.Color.White;
             this.button1.HoverForeColor = System.Drawing.Color.White;
-            this.button1.HoverOutline = System.Drawing.Color.CornflowerBlue;
+            this.button1.HoverOutline = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
             this.button1.Image = null;
             this.button1.ImageAutoCenter = true;
             this.button1.ImageExpand = new System.Drawing.Point(0, 0);
             this.button1.ImageOffset = new System.Drawing.Point(0, 0);
             this.button1.Location = new System.Drawing.Point(0, 482);
             this.button1.Name = "button1";
-            this.button1.NormalBackground = System.Drawing.Color.FromArgb(((int)(((byte)(79)))), ((int)(((byte)(129)))), ((int)(((byte)(219)))));
-            this.button1.NormalForeColor = System.Drawing.Color.White;
+            this.button1.NormalBackground = System.Drawing.SystemColors.Control;
+            this.button1.NormalForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(61)))), ((int)(((byte)(62)))));
             this.button1.NormalImageTint = System.Drawing.Color.White;
-            this.button1.NormalOutline = System.Drawing.Color.FromArgb(((int)(((byte)(79)))), ((int)(((byte)(129)))), ((int)(((byte)(219)))));
+            this.button1.NormalOutline = System.Drawing.SystemColors.Control;
             this.button1.OutlineThickness = 1F;
-            this.button1.PressedBackground = System.Drawing.Color.WhiteSmoke;
-            this.button1.PressedForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
-            this.button1.PressedImageTint = System.Drawing.Color.White;
-            this.button1.PressedOutline = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            this.button1.Rounding = new System.Windows.Forms.Padding(20, 0, 0, 20);
-            this.button1.Size = new System.Drawing.Size(257, 85);
+            this.button1.PressedBackground = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            this.button1.PressedForeColor = System.Drawing.Color.White;
+            this.button1.PressedImageTint = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            this.button1.PressedOutline = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            this.button1.Rounding = new System.Windows.Forms.Padding(0);
+            this.button1.Size = new System.Drawing.Size(258, 99);
             this.button1.TabIndex = 0;
             this.button1.TextAlignment = System.Drawing.StringAlignment.Center;
             this.button1.TextOffset = new System.Drawing.Point(0, 0);
@@ -185,7 +223,7 @@
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(273, 274);
+            this.pictureBox1.Size = new System.Drawing.Size(256, 274);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 3;
             this.pictureBox1.TabStop = false;
@@ -196,9 +234,9 @@
             this.panel2.Controls.Add(this.tableLayoutPanel1);
             this.panel2.Controls.Add(this.cuiPanel3);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel2.Location = new System.Drawing.Point(273, 0);
+            this.panel2.Location = new System.Drawing.Point(256, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1625, 167);
+            this.panel2.Size = new System.Drawing.Size(1642, 167);
             this.panel2.TabIndex = 1;
             // 
             // tableLayoutPanel1
@@ -209,7 +247,7 @@
             this.tableLayoutPanel1.Controls.Add(this.label1, 0, 0);
             this.tableLayoutPanel1.Controls.Add(this.label9, 0, 1);
             this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Right;
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(1585, 0);
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(1602, 0);
             this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 2;
@@ -248,23 +286,24 @@
             // 
             // cuiPanel3
             // 
+            this.cuiPanel3.BackColor = System.Drawing.SystemColors.Control;
             this.cuiPanel3.Controls.Add(this.label2);
-            this.cuiPanel3.Location = new System.Drawing.Point(40, 31);
+            this.cuiPanel3.Location = new System.Drawing.Point(3, 28);
             this.cuiPanel3.Name = "cuiPanel3";
             this.cuiPanel3.OutlineThickness = 1F;
-            this.cuiPanel3.PanelColor = System.Drawing.SystemColors.ControlLight;
-            this.cuiPanel3.PanelOutlineColor = System.Drawing.SystemColors.ControlLight;
-            this.cuiPanel3.Rounding = new System.Windows.Forms.Padding(20);
-            this.cuiPanel3.Size = new System.Drawing.Size(1384, 117);
+            this.cuiPanel3.PanelColor = System.Drawing.Color.White;
+            this.cuiPanel3.PanelOutlineColor = System.Drawing.Color.White;
+            this.cuiPanel3.Rounding = new System.Windows.Forms.Padding(10);
+            this.cuiPanel3.Size = new System.Drawing.Size(1283, 133);
             this.cuiPanel3.TabIndex = 14;
             // 
             // label2
             // 
-            this.label2.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold);
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(61)))), ((int)(((byte)(62)))));
-            this.label2.Location = new System.Drawing.Point(39, 41);
+            this.label2.Location = new System.Drawing.Point(35, 41);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(919, 33);
             this.label2.TabIndex = 16;
@@ -275,48 +314,10 @@
             // 
             this.panel3.BackColor = System.Drawing.SystemColors.Control;
             this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel3.Location = new System.Drawing.Point(273, 167);
+            this.panel3.Location = new System.Drawing.Point(256, 167);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(1625, 857);
+            this.panel3.Size = new System.Drawing.Size(1642, 857);
             this.panel3.TabIndex = 2;
-            // 
-            // cuiButton1
-            // 
-            this.cuiButton1.CheckButton = false;
-            this.cuiButton1.Checked = false;
-            this.cuiButton1.CheckedBackground = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(106)))), ((int)(((byte)(0)))));
-            this.cuiButton1.CheckedForeColor = System.Drawing.Color.White;
-            this.cuiButton1.CheckedImageTint = System.Drawing.Color.White;
-            this.cuiButton1.CheckedOutline = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(106)))), ((int)(((byte)(0)))));
-            this.cuiButton1.Content = "Lab Reports";
-            this.cuiButton1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.cuiButton1.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.cuiButton1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cuiButton1.ForeColor = System.Drawing.Color.White;
-            this.cuiButton1.HoverBackground = System.Drawing.Color.CornflowerBlue;
-            this.cuiButton1.HoveredImageTint = System.Drawing.Color.White;
-            this.cuiButton1.HoverForeColor = System.Drawing.Color.White;
-            this.cuiButton1.HoverOutline = System.Drawing.Color.CornflowerBlue;
-            this.cuiButton1.Image = null;
-            this.cuiButton1.ImageAutoCenter = true;
-            this.cuiButton1.ImageExpand = new System.Drawing.Point(0, 0);
-            this.cuiButton1.ImageOffset = new System.Drawing.Point(0, 0);
-            this.cuiButton1.Location = new System.Drawing.Point(0, 610);
-            this.cuiButton1.Name = "cuiButton1";
-            this.cuiButton1.NormalBackground = System.Drawing.Color.FromArgb(((int)(((byte)(79)))), ((int)(((byte)(129)))), ((int)(((byte)(219)))));
-            this.cuiButton1.NormalForeColor = System.Drawing.Color.White;
-            this.cuiButton1.NormalImageTint = System.Drawing.Color.White;
-            this.cuiButton1.NormalOutline = System.Drawing.Color.FromArgb(((int)(((byte)(79)))), ((int)(((byte)(129)))), ((int)(((byte)(219)))));
-            this.cuiButton1.OutlineThickness = 1F;
-            this.cuiButton1.PressedBackground = System.Drawing.Color.WhiteSmoke;
-            this.cuiButton1.PressedForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
-            this.cuiButton1.PressedImageTint = System.Drawing.Color.White;
-            this.cuiButton1.PressedOutline = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            this.cuiButton1.Rounding = new System.Windows.Forms.Padding(20, 0, 0, 20);
-            this.cuiButton1.Size = new System.Drawing.Size(257, 85);
-            this.cuiButton1.TabIndex = 17;
-            this.cuiButton1.TextAlignment = System.Drawing.StringAlignment.Center;
-            this.cuiButton1.TextOffset = new System.Drawing.Point(0, 0);
             // 
             // Dashbord
             // 
