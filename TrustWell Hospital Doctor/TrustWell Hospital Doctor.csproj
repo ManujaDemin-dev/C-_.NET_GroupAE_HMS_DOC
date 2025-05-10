@@ -153,6 +153,12 @@
     <Compile Include="Medicalrecords1.Designer.cs">
       <DependentUpon>Medicalrecords1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Newprescription.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Newprescription.Designer.cs">
+      <DependentUpon>Newprescription.cs</DependentUpon>
+    </Compile>
     <Compile Include="Oldprescription1.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -188,6 +194,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="login.resx">
       <DependentUpon>login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Newprescription.resx">
+      <DependentUpon>Newprescription.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Oldprescription1.resx">
       <DependentUpon>Oldprescription1.cs</DependentUpon>
