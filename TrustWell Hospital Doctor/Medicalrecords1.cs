@@ -12,9 +12,11 @@ namespace TrustWell_Hospital_Doctor
 {
     public partial class Medicalrecords1: UserControl
     {
-        public Medicalrecords1()
+        private int patientId;
+        public Medicalrecords1(int patientId)
         {
             InitializeComponent();
+            this.patientId = patientId;
         }
     }
 }
