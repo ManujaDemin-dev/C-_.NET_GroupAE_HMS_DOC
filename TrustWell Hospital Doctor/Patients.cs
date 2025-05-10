@@ -17,11 +17,11 @@ namespace TrustWell_Hospital_Doctor
         {
             InitializeComponent();
             this.patientId = patientId;
-            this.cuiButton2.Click += new System.EventHandler(this.button2_Click);
-            this.cuiButton3.Click += new System.EventHandler(this.button3_Click);
-            this.cuiButton4.Click += new System.EventHandler(this.button4_Click);
-            this.cuiButton5.Click += new System.EventHandler(this.button5_Click);
-            this.cuiButton1.Click += new System.EventHandler(this.button1_Click);
+            this.cuiButton2.Click += new System.EventHandler(this.cuiButton2_Click);
+            this.cuiButton3.Click += new System.EventHandler(this.cuiButton3_Click);
+            this.cuiButton4.Click += new System.EventHandler(this.cuiButton4_Click);
+            this.cuiButton5.Click += new System.EventHandler(this.cuiButton5_Click);
+            //this.cuiButton1.Click += new System.EventHandler(this.cuiButton1_Click);
         }
         private void LoadUserControl(UserControl uc)
         {
@@ -41,31 +41,28 @@ namespace TrustWell_Hospital_Doctor
 
         
 
-        private void button2_Click(object sender, EventArgs e)
+        private void cuiButton4_Click(object sender, EventArgs e)
         {
             
-            LoadUserControl(new labreports1());
+            LoadUserControl(new labreports1(patientId));
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void cuiButton2_Click(object sender, EventArgs e)
         {
-            LoadUserControl(new Medicalrecords1());
+            LoadUserControl(new Medicalrecords1(patientId));
         }
 
-        private void button4_Click(object sender, EventArgs e)
+        private void cuiButton3_Click(object sender, EventArgs e)
         {
             LoadUserControl(new Oldprescription1(patientId));
         }
 
-        private void button5_Click(object sender, EventArgs e)
+        private void cuiButton5_Click(object sender, EventArgs e)
         {
-            LoadUserControl(new Test1());
+            LoadUserControl(new Test1(patientId));
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            ////////////
-        }
+        
 
         private void label5_Click(object sender, EventArgs e)
         {
