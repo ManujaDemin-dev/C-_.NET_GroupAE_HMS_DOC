@@ -12,8 +12,9 @@ namespace TrustWell_Hospital_Doctor
 {
     public partial class Patients: Form
     {
+        private int DocId;
         private int patientId;
-        public Patients(int patientId)
+        public Patients(int patientId, int docId)
         {
             InitializeComponent();
             this.patientId = patientId;
@@ -21,6 +22,7 @@ namespace TrustWell_Hospital_Doctor
             this.cuiButton3.Click += new System.EventHandler(this.cuiButton3_Click);
             this.cuiButton4.Click += new System.EventHandler(this.cuiButton4_Click);
             this.cuiButton5.Click += new System.EventHandler(this.cuiButton5_Click);
+            DocId = docId;
             //this.cuiButton1.Click += new System.EventHandler(this.cuiButton1_Click);
         }
         private void LoadUserControl(UserControl uc)
@@ -49,7 +51,7 @@ namespace TrustWell_Hospital_Doctor
 
         private void cuiButton2_Click(object sender, EventArgs e)
         {
-            LoadUserControl(new Medicalrecords1(patientId));
+            LoadUserControl(new Medicalrecords1(patientId, DocId));
         }
 
         private void cuiButton3_Click(object sender, EventArgs e)
