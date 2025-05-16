@@ -18,7 +18,7 @@ namespace TrustWell_Hospital_Doctor
 
             label1.Text = "Date: " + date;
             label2.Text = "Doctor Name: " + docName;
-            textBox1.Text =  prescription;
+            gunaTextBox2.Text =  prescription;
         }
 
         private void popUp_Load(object sender, EventArgs e)
