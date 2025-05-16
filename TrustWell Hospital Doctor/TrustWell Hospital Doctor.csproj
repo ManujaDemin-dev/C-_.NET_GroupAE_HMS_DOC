@@ -121,6 +121,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="addRecord.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="addRecord.Designer.cs">
+      <DependentUpon>addRecord.cs</DependentUpon>
+    </Compile>
     <Compile Include="Class1.cs" />
     <Compile Include="Dashbord.cs">
       <SubType>Form</SubType>
@@ -146,6 +152,12 @@
     </Compile>
     <Compile Include="login.Designer.cs">
       <DependentUpon>login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MedicalRecordPopUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MedicalRecordPopUp.Designer.cs">
+      <DependentUpon>MedicalRecordPopUp.cs</DependentUpon>
     </Compile>
     <Compile Include="Medicalrecords1.cs">
       <SubType>UserControl</SubType>
@@ -186,6 +198,9 @@
       <DependentUpon>Test1.cs</DependentUpon>
     </Compile>
     <Compile Include="UserSession.cs" />
+    <EmbeddedResource Include="addRecord.resx">
+      <DependentUpon>addRecord.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Dashbord.resx">
       <DependentUpon>Dashbord.cs</DependentUpon>
     </EmbeddedResource>
@@ -194,6 +209,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="login.resx">
       <DependentUpon>login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MedicalRecordPopUp.resx">
+      <DependentUpon>MedicalRecordPopUp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Medicalrecords1.resx">
+      <DependentUpon>Medicalrecords1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Newprescription.resx">
       <DependentUpon>Newprescription.cs</DependentUpon>
