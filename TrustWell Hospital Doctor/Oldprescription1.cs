@@ -10,7 +10,6 @@ using System.Windows.Forms;
 using WindowsFormsApp1;
 using MySql.Data.MySqlClient;
 using System.Linq.Expressions;
-using Mysqlx;
 
 
 namespace TrustWell_Hospital_Doctor
@@ -23,11 +22,9 @@ namespace TrustWell_Hospital_Doctor
             this.patientId = patientId;
             InitializeComponent();
             gunaDataGridView1.CellContentClick += gunaDataGridView1_CellContentClick;
-            gunaDateTimePicker1.ValueChanged += gunaDateTimePicker1_ValueChanged;
-            gunaButton1.Click += gunaButton1_Click;
-            gunaButton2.Click += gunaButton2_Click;
 
             fillDoctorCombo();
+            LoadPrescriptionData();
             
         }
 
@@ -60,8 +57,8 @@ namespace TrustWell_Hospital_Doctor
 
             if (gunaDateTimePicker1.CustomFormat != " ")
             {
-                query += " AND medicalprescription.CreatedAt LIKE @date";
-                parameters.Add(new MySqlParameter("@date", gunaDateTimePicker1.Value.ToString("yyyy-MM-dd") + "%"));
+                query += " AND medicalprescription.CreatedAt LIKE @startDate";
+                parameters.Add(new MySqlParameter("@startDate", gunaDateTimePicker1.Value.ToString("yyyy-MM-dd") + "%"));
             }
 
             if (gunaComboBox1.SelectedItem != null && gunaComboBox1.SelectedItem.ToString() != "All")
@@ -81,36 +78,32 @@ namespace TrustWell_Hospital_Doctor
                 if (dt.Rows.Count == 0)
                 {
                     label4.ForeColor = Color.DarkRed;
-                    label4.Text = "No prescriptions for this selection.";
+                    label4.Text="No prescriptions found for the selected criteria.";
                 }
+               
+                gunaDataGridView1.AutoSizeRowsMode = DataGridViewAutoSizeRowsMode.AllCells;
+                gunaDataGridView1.MaximumSize = new Size(gunaDataGridView1.Width, 300); // Max height
+                gunaDataGridView1.ScrollBars = ScrollBars.Vertical;
 
-                else
+                gunaDataGridView1.Columns.Add("CreatedAt", "Date");
+                
+                gunaDataGridView1.Columns.Add("DoctorName", "Doctor Name");
+                
+                gunaDataGridView1.Columns.Add("MediList", "Prescription");
+                
+
+                DataGridViewButtonColumn btn = new DataGridViewButtonColumn()
                 {
+                    Text = "View",
+                    UseColumnTextForButtonValue = true,
+                    HeaderText = "View",
+                };
+                gunaDataGridView1.Columns.Add(btn);
 
-                    gunaDataGridView1.AutoSizeRowsMode = DataGridViewAutoSizeRowsMode.AllCells;
-                    gunaDataGridView1.MaximumSize = new Size(gunaDataGridView1.Width, 300); // Max height
-                    gunaDataGridView1.ScrollBars = ScrollBars.Vertical;
-
-                    gunaDataGridView1.Columns.Add("CreatedAt", "Date");
-
-                    gunaDataGridView1.Columns.Add("DoctorName", "Doctor Name");
-
-                    gunaDataGridView1.Columns.Add("MediList", "Prescription");
-
-
-                    DataGridViewButtonColumn btn = new DataGridViewButtonColumn()
-                    {
-                        Text = "View",
-                        UseColumnTextForButtonValue = true,
-                        HeaderText = "View",
-                    };
-                    gunaDataGridView1.Columns.Add(btn);
-
-                    foreach (DataRow row in dt.Rows)
-                    {
-                        gunaDataGridView1.Rows.Add(row["CreatedAt"], row["DoctorName"], row["mediList"]);
-                        //gunaDataGridView1.Rows[gunaDataGridView1.Rows.Count - 1].Tag = row["PatientID"].ToString();
-                    }
+                foreach (DataRow row in dt.Rows)
+                {
+                    gunaDataGridView1.Rows.Add(row["CreatedAt"], row["DoctorName"], row["mediList"]);
+                    //gunaDataGridView1.Rows[gunaDataGridView1.Rows.Count - 1].Tag = row["PatientID"].ToString();
                 }
 
             }
@@ -135,8 +128,6 @@ namespace TrustWell_Hospital_Doctor
 
         private void gunaButton2_Click(object sender, EventArgs e)
         {
-            label4.ForeColor = Color.DarkSlateGray;
-            label4.Text = "Prescriptions for your selection.";
             LoadPrescriptionData();
         }
 
@@ -144,9 +135,7 @@ namespace TrustWell_Hospital_Doctor
         {
             gunaDateTimePicker1.Format = DateTimePickerFormat.Custom;
             gunaDateTimePicker1.CustomFormat = " "; 
-            gunaDateTimePicker1.Checked = false;
-
-            LoadPrescriptionData();
+            gunaDateTimePicker1.Checked = false;    
 
         }
 
@@ -163,8 +152,6 @@ namespace TrustWell_Hospital_Doctor
             gunaDateTimePicker1.Checked = false;
             gunaComboBox1.SelectedIndex = 0;
 
-            label4.ForeColor = Color.DarkSlateGray;
-            label4.Text = "All prescriptions";
             LoadPrescriptionData();
         }
     }

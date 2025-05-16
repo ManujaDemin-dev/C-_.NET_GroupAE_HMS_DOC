@@ -84,7 +84,7 @@ namespace TrustWell_Hospital_Doctor
                 try
                 {
                     int patientId = Convert.ToInt32(gunaDataGridView1.Rows[e.RowIndex].Cells["PatientID"].Value);
-                    Patients startForm = new Patients(patientId, docId);
+                    Patients startForm = new Patients(patientId);
                     startForm.Show();
 
                     Form parentForm = this.FindForm();
