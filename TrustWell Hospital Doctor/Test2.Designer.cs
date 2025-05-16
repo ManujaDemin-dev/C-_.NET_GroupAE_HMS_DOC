@@ -1,13 +1,13 @@
 ﻿namespace TrustWell_Hospital_Doctor
 {
-    partial class labreports1
+    partial class Test2
     {
-        /// <summary> 
+        /// <summary>
         /// Required designer variable.
         /// </summary>
         private System.ComponentModel.IContainer components = null;
 
-        /// <summary> 
+        /// <summary>
         /// Clean up any resources being used.
         /// </summary>
         /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
@@ -20,38 +20,19 @@
             base.Dispose(disposing);
         }
 
-        #region Component Designer generated code
+        #region Windows Form Designer generated code
 
-        /// <summary> 
-        /// Required method for Designer support - do not modify 
+        /// <summary>
+        /// Required method for Designer support - do not modify
         /// the contents of this method with the code editor.
         /// </summary>
         private void InitializeComponent()
         {
-            this.gunaComboBox1 = new Guna.UI.WinForms.GunaComboBox();
             this.cuiButton1 = new CuoreUI.Controls.cuiButton();
-            this.textBox1 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
-            // 
-            // gunaComboBox1
-            // 
-            this.gunaComboBox1.BackColor = System.Drawing.Color.Transparent;
-            this.gunaComboBox1.BaseColor = System.Drawing.Color.White;
-            this.gunaComboBox1.BorderColor = System.Drawing.Color.Silver;
-            this.gunaComboBox1.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.gunaComboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.gunaComboBox1.FocusedColor = System.Drawing.Color.Empty;
-            this.gunaComboBox1.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.gunaComboBox1.ForeColor = System.Drawing.Color.Black;
-            this.gunaComboBox1.FormattingEnabled = true;
-            this.gunaComboBox1.Location = new System.Drawing.Point(509, 16);
-            this.gunaComboBox1.Name = "gunaComboBox1";
-            this.gunaComboBox1.OnHoverItemBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            this.gunaComboBox1.OnHoverItemForeColor = System.Drawing.Color.White;
-            this.gunaComboBox1.Size = new System.Drawing.Size(375, 31);
-            this.gunaComboBox1.TabIndex = 0;
             // 
             // cuiButton1
             // 
@@ -61,7 +42,7 @@
             this.cuiButton1.CheckedForeColor = System.Drawing.Color.White;
             this.cuiButton1.CheckedImageTint = System.Drawing.Color.White;
             this.cuiButton1.CheckedOutline = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(106)))), ((int)(((byte)(0)))));
-            this.cuiButton1.Content = "Search";
+            this.cuiButton1.Content = "Submit";
             this.cuiButton1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.cuiButton1.DialogResult = System.Windows.Forms.DialogResult.None;
             this.cuiButton1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
@@ -74,7 +55,7 @@
             this.cuiButton1.ImageAutoCenter = true;
             this.cuiButton1.ImageExpand = new System.Drawing.Point(0, 0);
             this.cuiButton1.ImageOffset = new System.Drawing.Point(0, 0);
-            this.cuiButton1.Location = new System.Drawing.Point(985, 63);
+            this.cuiButton1.Location = new System.Drawing.Point(476, 257);
             this.cuiButton1.Name = "cuiButton1";
             this.cuiButton1.NormalBackground = System.Drawing.Color.White;
             this.cuiButton1.NormalForeColor = System.Drawing.Color.Black;
@@ -86,49 +67,53 @@
             this.cuiButton1.PressedImageTint = System.Drawing.Color.White;
             this.cuiButton1.PressedOutline = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.cuiButton1.Rounding = new System.Windows.Forms.Padding(8);
-            this.cuiButton1.Size = new System.Drawing.Size(131, 24);
-            this.cuiButton1.TabIndex = 1;
+            this.cuiButton1.Size = new System.Drawing.Size(114, 35);
+            this.cuiButton1.TabIndex = 0;
             this.cuiButton1.TextAlignment = System.Drawing.StringAlignment.Center;
             this.cuiButton1.TextOffset = new System.Drawing.Point(0, 0);
             this.cuiButton1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.cuiButton1_MouseClick);
             // 
-            // textBox1
-            // 
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(509, 63);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(256, 24);
-            this.textBox1.TabIndex = 2;
-            // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(43, 27);
+            this.label1.Location = new System.Drawing.Point(81, 49);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(53, 20);
-            this.label1.TabIndex = 3;
-            this.label1.Text = "label1";
+            this.label1.Size = new System.Drawing.Size(0, 16);
+            this.label1.TabIndex = 1;
             // 
-            // flowLayoutPanel1
+            // textBox1
             // 
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(98, 120);
-            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(1192, 428);
-            this.flowLayoutPanel1.TabIndex = 4;
+            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.Location = new System.Drawing.Point(256, 152);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(109, 27);
+            this.textBox1.TabIndex = 2;
             // 
-            // labreports1
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(47, 76);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(326, 20);
+            this.label2.TabIndex = 3;
+            this.label2.Text = "Enter the Patient\'s current Blood Pressure";
+            // 
+            // Test2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.flowLayoutPanel1);
-            this.Controls.Add(this.label1);
+            this.ClientSize = new System.Drawing.Size(615, 315);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.cuiButton1);
-            this.Controls.Add(this.gunaComboBox1);
-            this.Name = "labreports1";
-            this.Size = new System.Drawing.Size(1318, 586);
-            this.Load += new System.EventHandler(this.labreports1_Load);
+            this.MaximizeBox = false;
+            this.Name = "Test2";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Test2";
+            this.TopMost = true;
+            this.Load += new System.EventHandler(this.Test2_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -136,10 +121,9 @@
 
         #endregion
 
-        private Guna.UI.WinForms.GunaComboBox gunaComboBox1;
         private CuoreUI.Controls.cuiButton cuiButton1;
-        private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Label label2;
     }
 }
