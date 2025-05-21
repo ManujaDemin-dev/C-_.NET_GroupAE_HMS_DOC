@@ -38,13 +38,20 @@ namespace TrustWell_Hospital_Doctor
         private void Dashbord_Load(object sender, EventArgs e)
         {
            //LoadUserControl(new Dashbord1());
-            this.label2.Text = $"WELCOME DR.{UserSession.Username}";
+            this.label2.Text = $"Welcome, Dr.{UserSession.Username}";
         }
         private void button1_Click(object sender, EventArgs e)
         {
             LoadUserControl(new Dashbord1(UserSession.DocId));
         }
 
-       
+        private void cuiButton3_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            login loginForm = new login();
+            loginForm.Show();
+            //this.Close();
+
+        }
     }
 }

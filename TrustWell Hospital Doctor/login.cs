@@ -24,12 +24,12 @@ namespace TrustWell_Hospital_Doctor
             
         }
 
-        private void button1_MouseClick(object sender, MouseEventArgs e)
+        private void gunaButton1_MouseClick(object sender, MouseEventArgs e)
         {
 
 
-            string email = textBox1.Text.Trim();
-            string password = textBox2.Text.Trim();
+            string email = gunaTextBox1.Text.Trim();
+            string password = gunaTextBox2.Text.Trim();
 
             if (string.IsNullOrEmpty(email) || string.IsNullOrEmpty(password))
             {
@@ -98,6 +98,11 @@ namespace TrustWell_Hospital_Doctor
             };
 
             Database.ExecuteNonQuery(activityQuery, parameters);
+
+        }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
 
         }
     }
