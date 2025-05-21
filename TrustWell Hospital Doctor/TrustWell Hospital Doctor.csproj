@@ -128,6 +128,12 @@
     <Compile Include="addRecord.Designer.cs">
       <DependentUpon>addRecord.cs</DependentUpon>
     </Compile>
+    <Compile Include="allergies.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="allergies.Designer.cs">
+      <DependentUpon>allergies.cs</DependentUpon>
+    </Compile>
     <Compile Include="Class1.cs" />
     <Compile Include="Dashbord.cs">
       <SubType>Form</SubType>
@@ -282,6 +288,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\filter2.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\health-still-life-with-copy-space.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\Microsoft.Web.WebView2.1.0.3179.45\build\Microsoft.Web.WebView2.targets" Condition="Exists('..\packages\Microsoft.Web.WebView2.1.0.3179.45\build\Microsoft.Web.WebView2.targets')" />

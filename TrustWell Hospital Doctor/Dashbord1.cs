@@ -23,6 +23,7 @@ namespace TrustWell_Hospital_Doctor
             LoadAppointments();
             this.gunaDataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
 
+
         }
 
         private void Dashbord1_Load(object sender, EventArgs e)
@@ -56,8 +57,30 @@ namespace TrustWell_Hospital_Doctor
                 new MySqlParameter("@Today", todayFormatted)
             };
 
+                string countQuery = @"
+                SELECT COUNT(*) 
+                FROM Appointments 
+                WHERE DoctorID = @DoctorID AND AppointmentDate = @Today AND Status = 'Completed'";
+                DataTable count = Database.ExecuteQuery(countQuery, parameters);
+
+                label4.Text = count.Rows.Count.ToString();
+
+
                 DataTable dt = Database.ExecuteQuery(query, parameters);
-                gunaDataGridView1.DataSource = dt;
+                label2.Text = dt.Rows.Count.ToString();
+
+                if (dt.Rows.Count == 0)
+                {
+                    label7.Text = "No appointments today yet";
+                    label7.Font = new Font("Segoe UI", 12, FontStyle.Regular);
+                    label7.ForeColor = Color.DarkRed;
+
+                    return;
+                }
+                else
+                {
+                    gunaDataGridView1.DataSource = dt;
+                }
 
                 if (!gunaDataGridView1.Columns.Contains("StartButton"))
                 {
@@ -75,7 +98,11 @@ namespace TrustWell_Hospital_Doctor
             {
                 MessageBox.Show("Error loading appointments: " + ex.Message);
             }
+
+
+            
         }
+
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
