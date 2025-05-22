@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace TrustWell_Hospital_Doctor
 {
@@ -16,14 +17,15 @@ namespace TrustWell_Hospital_Doctor
         {
             InitializeComponent();
 
-            label1.Text = "Date: " + date;
-            label2.Text = "Doctor Name: " + docName;
-            gunaTextBox2.Text =  prescription;
+            label1.Text = "Date                : " + date;
+            label2.Text = "Doctor Name : " + docName;
+            gunaTextBox2.Text = prescription;
         }
 
         private void popUp_Load(object sender, EventArgs e)
         {
-
+            gunaTextBox2.SelectionStart = gunaTextBox2.Text.Length;
+            gunaTextBox2.SelectionLength = 0;
         }
     }
 }
