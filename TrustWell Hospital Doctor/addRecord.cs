@@ -46,7 +46,7 @@ namespace TrustWell_Hospital_Doctor
 
             if(String.IsNullOrEmpty(this.observations.Text))
             {
-                MessageBox.Show("Please enter the observations/notes");
+                MessageBox.Show("Please enter the observations");
                 this.observations.Focus();
                 return;
             }
@@ -57,20 +57,20 @@ namespace TrustWell_Hospital_Doctor
                 return;
             }
 
-            if (this.observations.Text.Length > 200)
+            if (this.observations.Text.Length > 500)
             {
-                MessageBox.Show("Diagnosis is too long. Max 200 characters allowed.");
+                MessageBox.Show("Diagnosis is too long. Max 500 characters allowed.");
                 return;
             }
 
-            if (this.diagnosis.Text.Length > 100)
-            {
-                MessageBox.Show("Diagnosis is too long. Max 100 characters allowed.");
-                return;
-            }
-            if (this.treatments.Text.Length > 200)
+            if (this.diagnosis.Text.Length > 200)
             {
                 MessageBox.Show("Diagnosis is too long. Max 200 characters allowed.");
+                return;
+            }
+            if (this.treatments.Text.Length > 500)
+            {
+                MessageBox.Show("Diagnosis is too long. Max 500 characters allowed.");
                 return;
             }
 
@@ -100,12 +100,19 @@ namespace TrustWell_Hospital_Doctor
                     new MySqlParameter("@date", date)
                 };
                 Database.ExecuteNonQuery(query, parameters);
-                MessageBox.Show("Record added successfully.");
+
+                this.DialogResult = DialogResult.OK;
+                this.Close();
+
             }
             catch (Exception ex)
             {
                 MessageBox.Show("Error: " + ex.Message);
             }
+
+            
+
+            
 
         }
     }
