@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Guna.UI.WinForms;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -26,7 +27,10 @@ namespace TrustWell_Hospital_Doctor
 
         private void MedicalRecordPopUp_Load(object sender, EventArgs e)
         {
+            observations.SelectionStart = observations.Text.Length;
+            observations.SelectionLength = 0;
 
+           
         }
     }
 }

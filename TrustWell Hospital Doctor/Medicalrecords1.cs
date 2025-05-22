@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using WindowsFormsApp1;
 using MySql.Data.MySqlClient;
+using MySqlX.XDevAPI.Common;
 
 namespace TrustWell_Hospital_Doctor
 {
@@ -22,7 +23,6 @@ namespace TrustWell_Hospital_Doctor
             gunaDataGridView1.CellContentClick += gunaDataGridView1_CellContentClick;
             gunaButton1.Click += gunaButton1_Click;
             gunaButton2.Click += gunaButton2_Click;
-            gunaButton3.Click += gunaButton3_Click;
             gunaDateTimePicker1.ValueChanged += gunaDateTimePicker1_ValueChanged;   
 
             this.patientId = patientId;
@@ -113,7 +113,7 @@ namespace TrustWell_Hospital_Doctor
                     gunaDataGridView1.Columns.Add("CreatedAt", "Date");
                     gunaDataGridView1.Columns.Add("DoctorName", "Doctor Name");
                     gunaDataGridView1.Columns.Add("Diagnosis", "Diagnosis");
-                    gunaDataGridView1.Columns.Add("Observations", "Observations/Notes");
+                    gunaDataGridView1.Columns.Add("Observations", "Observations");
                     gunaDataGridView1.Columns.Add("Treatment", "Treatment");
 
                     DataGridViewButtonColumn btn = new DataGridViewButtonColumn()
@@ -160,7 +160,14 @@ namespace TrustWell_Hospital_Doctor
         {
             addRecord popup = new addRecord(patientId, DocId);
             popup.StartPosition = FormStartPosition.CenterParent;
-            popup.ShowDialog();
+
+            DialogResult result = popup.ShowDialog();
+
+            if (result == DialogResult.OK)
+            {
+                LoadMedicalData();
+                MessageBox.Show("Record added successfully.", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
         }
 
         private void gunaDataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
@@ -176,6 +183,10 @@ namespace TrustWell_Hospital_Doctor
                 MedicalRecordPopUp popup = new MedicalRecordPopUp(date, doctorName, diagnosis, observations, treatments);
                 popup.StartPosition = FormStartPosition.CenterParent;
                 popup.ShowDialog();
+
+                
+
+                
             }
         }
     }
