@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.cuiButton1 = new CuoreUI.Controls.cuiButton();
             this.label3 = new System.Windows.Forms.Label();
             this.cuiButton3 = new CuoreUI.Controls.cuiButton();
             this.label5 = new System.Windows.Forms.Label();
@@ -41,6 +40,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.cuiPanel3 = new CuoreUI.Controls.cuiPanel();
+            this.label4 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
@@ -53,7 +53,6 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.SystemColors.Control;
-            this.panel1.Controls.Add(this.cuiButton1);
             this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.cuiButton3);
             this.panel1.Controls.Add(this.label5);
@@ -63,57 +62,18 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(295, 1024);
+            this.panel1.Size = new System.Drawing.Size(262, 819);
             this.panel1.TabIndex = 0;
-            // 
-            // cuiButton1
-            // 
-            this.cuiButton1.CheckButton = false;
-            this.cuiButton1.Checked = false;
-            this.cuiButton1.CheckedBackground = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(63)))), ((int)(((byte)(183)))));
-            this.cuiButton1.CheckedForeColor = System.Drawing.Color.White;
-            this.cuiButton1.CheckedImageTint = System.Drawing.Color.White;
-            this.cuiButton1.CheckedOutline = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(63)))), ((int)(((byte)(183)))));
-            this.cuiButton1.Content = "Lab Reports";
-            this.cuiButton1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.cuiButton1.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.cuiButton1.Font = new System.Drawing.Font("Segoe UI Semibold", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cuiButton1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
-            this.cuiButton1.HoverBackground = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(63)))), ((int)(((byte)(183)))));
-            this.cuiButton1.HoveredImageTint = System.Drawing.Color.White;
-            this.cuiButton1.HoverForeColor = System.Drawing.Color.White;
-            this.cuiButton1.HoverOutline = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(63)))), ((int)(((byte)(183)))));
-            this.cuiButton1.Image = null;
-            this.cuiButton1.ImageAutoCenter = true;
-            this.cuiButton1.ImageExpand = new System.Drawing.Point(0, 0);
-            this.cuiButton1.ImageOffset = new System.Drawing.Point(0, 0);
-            this.cuiButton1.Location = new System.Drawing.Point(1, 587);
-            this.cuiButton1.Name = "cuiButton1";
-            this.cuiButton1.NormalBackground = System.Drawing.SystemColors.Control;
-            this.cuiButton1.NormalForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
-            this.cuiButton1.NormalImageTint = System.Drawing.Color.White;
-            this.cuiButton1.NormalOutline = System.Drawing.SystemColors.Control;
-            this.cuiButton1.OutlineThickness = 1F;
-            this.cuiButton1.PressedBackground = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(63)))), ((int)(((byte)(183)))));
-            this.cuiButton1.PressedForeColor = System.Drawing.Color.White;
-            this.cuiButton1.PressedImageTint = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(63)))), ((int)(((byte)(183)))));
-            this.cuiButton1.PressedOutline = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(63)))), ((int)(((byte)(183)))));
-            this.cuiButton1.Rounding = new System.Windows.Forms.Padding(0);
-            this.cuiButton1.Size = new System.Drawing.Size(292, 99);
-            this.cuiButton1.TabIndex = 17;
-            this.cuiButton1.TextAlignment = System.Drawing.StringAlignment.Center;
-            this.cuiButton1.TextOffset = new System.Drawing.Point(0, 0);
             // 
             // label3
             // 
             this.label3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label3.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
-            this.label3.Location = new System.Drawing.Point(12, 262);
+            this.label3.Location = new System.Drawing.Point(11, 210);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(324, 28);
+            this.label3.Size = new System.Drawing.Size(288, 22);
             this.label3.TabIndex = 16;
             this.label3.Text = "No.55, Pitipana, Homagama.";
             // 
@@ -139,7 +99,8 @@
             this.cuiButton3.ImageAutoCenter = true;
             this.cuiButton3.ImageExpand = new System.Drawing.Point(0, 0);
             this.cuiButton3.ImageOffset = new System.Drawing.Point(0, 0);
-            this.cuiButton3.Location = new System.Drawing.Point(0, 950);
+            this.cuiButton3.Location = new System.Drawing.Point(0, 760);
+            this.cuiButton3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.cuiButton3.Name = "cuiButton3";
             this.cuiButton3.NormalBackground = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(120)))), ((int)(((byte)(215)))));
             this.cuiButton3.NormalForeColor = System.Drawing.Color.White;
@@ -151,7 +112,7 @@
             this.cuiButton3.PressedImageTint = System.Drawing.Color.White;
             this.cuiButton3.PressedOutline = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(200)))), ((int)(((byte)(246)))));
             this.cuiButton3.Rounding = new System.Windows.Forms.Padding(0);
-            this.cuiButton3.Size = new System.Drawing.Size(295, 74);
+            this.cuiButton3.Size = new System.Drawing.Size(262, 59);
             this.cuiButton3.TabIndex = 5;
             this.cuiButton3.TextAlignment = System.Drawing.StringAlignment.Center;
             this.cuiButton3.TextOffset = new System.Drawing.Point(0, 0);
@@ -162,9 +123,9 @@
             this.label5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label5.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
-            this.label5.Location = new System.Drawing.Point(12, 290);
+            this.label5.Location = new System.Drawing.Point(11, 232);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(324, 28);
+            this.label5.Size = new System.Drawing.Size(288, 22);
             this.label5.TabIndex = 6;
             this.label5.Text = "Email: trustwell@gmail.com\n\r\n\r\n";
             // 
@@ -173,9 +134,9 @@
             this.label6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label6.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
-            this.label6.Location = new System.Drawing.Point(13, 318);
+            this.label6.Location = new System.Drawing.Point(12, 254);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(235, 28);
+            this.label6.Size = new System.Drawing.Size(209, 22);
             this.label6.TabIndex = 7;
             this.label6.Text = "Tel: 011 456 7890";
             // 
@@ -200,7 +161,8 @@
             this.button1.ImageAutoCenter = true;
             this.button1.ImageExpand = new System.Drawing.Point(0, 0);
             this.button1.ImageOffset = new System.Drawing.Point(0, 0);
-            this.button1.Location = new System.Drawing.Point(0, 482);
+            this.button1.Location = new System.Drawing.Point(0, 386);
+            this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button1.Name = "button1";
             this.button1.NormalBackground = System.Drawing.SystemColors.Control;
             this.button1.NormalForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
@@ -212,7 +174,7 @@
             this.button1.PressedImageTint = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(63)))), ((int)(((byte)(183)))));
             this.button1.PressedOutline = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(63)))), ((int)(((byte)(183)))));
             this.button1.Rounding = new System.Windows.Forms.Padding(0);
-            this.button1.Size = new System.Drawing.Size(292, 99);
+            this.button1.Size = new System.Drawing.Size(260, 79);
             this.button1.TabIndex = 0;
             this.button1.TextAlignment = System.Drawing.StringAlignment.Center;
             this.button1.TextOffset = new System.Drawing.Point(0, 0);
@@ -222,9 +184,8 @@
             this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Top;
             this.pictureBox1.Image = global::TrustWell_Hospital_Doctor.Properties.Resources.logo2;
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(295, 274);
+            this.pictureBox1.Size = new System.Drawing.Size(262, 219);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 3;
             this.pictureBox1.TabStop = false;
@@ -235,9 +196,10 @@
             this.panel2.Controls.Add(this.tableLayoutPanel1);
             this.panel2.Controls.Add(this.cuiPanel3);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel2.Location = new System.Drawing.Point(295, 0);
+            this.panel2.Location = new System.Drawing.Point(262, 0);
+            this.panel2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1603, 167);
+            this.panel2.Size = new System.Drawing.Size(1425, 173);
             this.panel2.TabIndex = 1;
             // 
             // tableLayoutPanel1
@@ -248,13 +210,12 @@
             this.tableLayoutPanel1.Controls.Add(this.label1, 0, 0);
             this.tableLayoutPanel1.Controls.Add(this.label9, 0, 1);
             this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Right;
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(1563, 0);
-            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(1390, 0);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 2;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 29.4964F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 70.50359F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(40, 167);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(35, 173);
             this.tableLayoutPanel1.TabIndex = 15;
             // 
             // label1
@@ -266,7 +227,7 @@
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(61)))), ((int)(((byte)(62)))));
             this.label1.Location = new System.Drawing.Point(3, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(34, 49);
+            this.label1.Size = new System.Drawing.Size(29, 44);
             this.label1.TabIndex = 3;
             this.label1.Text = "l";
             this.label1.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -278,9 +239,9 @@
             this.label9.Dock = System.Windows.Forms.DockStyle.Right;
             this.label9.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(61)))), ((int)(((byte)(62)))));
-            this.label9.Location = new System.Drawing.Point(8, 49);
+            this.label9.Location = new System.Drawing.Point(7, 51);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(29, 118);
+            this.label9.Size = new System.Drawing.Size(25, 122);
             this.label9.TabIndex = 1;
             this.label9.Text = "d";
             this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -288,15 +249,30 @@
             // cuiPanel3
             // 
             this.cuiPanel3.BackColor = System.Drawing.SystemColors.Control;
+            this.cuiPanel3.Controls.Add(this.label4);
             this.cuiPanel3.Controls.Add(this.label2);
-            this.cuiPanel3.Location = new System.Drawing.Point(3, 28);
+            this.cuiPanel3.Location = new System.Drawing.Point(3, 22);
+            this.cuiPanel3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.cuiPanel3.Name = "cuiPanel3";
             this.cuiPanel3.OutlineThickness = 1F;
             this.cuiPanel3.PanelColor = System.Drawing.Color.White;
             this.cuiPanel3.PanelOutlineColor = System.Drawing.Color.White;
             this.cuiPanel3.Rounding = new System.Windows.Forms.Padding(10);
-            this.cuiPanel3.Size = new System.Drawing.Size(1283, 133);
+            this.cuiPanel3.Size = new System.Drawing.Size(1140, 131);
             this.cuiPanel3.TabIndex = 14;
+            // 
+            // label4
+            // 
+            this.label4.BackColor = System.Drawing.Color.Transparent;
+            this.label4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.label4.Font = new System.Drawing.Font("Microsoft YaHei UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(61)))), ((int)(((byte)(62)))));
+            this.label4.Location = new System.Drawing.Point(29, 73);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(817, 39);
+            this.label4.TabIndex = 17;
+            this.label4.Text = "specialization";
+            this.label4.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
             // 
             // label2
             // 
@@ -304,9 +280,9 @@
             this.label2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label2.Font = new System.Drawing.Font("Segoe UI Black", 19F, System.Drawing.FontStyle.Bold);
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(61)))), ((int)(((byte)(62)))));
-            this.label2.Location = new System.Drawing.Point(35, 41);
+            this.label2.Location = new System.Drawing.Point(29, 23);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(919, 49);
+            this.label2.Size = new System.Drawing.Size(1072, 39);
             this.label2.TabIndex = 16;
             this.label2.Text = "Welcome Dr. Doc Name";
             this.label2.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
@@ -315,25 +291,26 @@
             // 
             this.panel3.BackColor = System.Drawing.SystemColors.Control;
             this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel3.Location = new System.Drawing.Point(295, 167);
+            this.panel3.Location = new System.Drawing.Point(262, 173);
+            this.panel3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(1603, 857);
+            this.panel3.Size = new System.Drawing.Size(1425, 646);
             this.panel3.TabIndex = 2;
             // 
             // Dashbord
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.AppWorkspace;
-            this.ClientSize = new System.Drawing.Size(1898, 1024);
+            this.ClientSize = new System.Drawing.Size(1687, 819);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
-            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "Dashbord";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Dashbord";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.Load += new System.EventHandler(this.Dashbord_Load);
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel2.ResumeLayout(false);
@@ -361,6 +338,6 @@
         private CuoreUI.Controls.cuiPanel cuiPanel3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
-        private CuoreUI.Controls.cuiButton cuiButton1;
+        private System.Windows.Forms.Label label4;
     }
 }

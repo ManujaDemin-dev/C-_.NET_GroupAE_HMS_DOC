@@ -16,6 +16,7 @@ namespace TrustWell_Hospital_Doctor
     public partial class Test1: UserControl
     {
         private int patientId;
+        private DataTable allTestData;
         public Test1(int patientId)
         {
             InitializeComponent();
@@ -24,7 +25,13 @@ namespace TrustWell_Hospital_Doctor
 
 
         private void Test1_Load(object sender, EventArgs e)
+
         {
+
+            gunaNumeric1.Value = DateTime.Now.Year;
+            gunaNumeric1.Minimum = 2022;
+            gunaNumeric1.Maximum = 2200;
+
             string query = "SELECT DISTINCT * FROM Testtypes WHERE Type = '1value'";
             DataTable dt = Database.ExecuteQuery(query, null);
 
@@ -44,55 +51,50 @@ namespace TrustWell_Hospital_Doctor
             }
 
             string selectedTestType = gunaComboBox1.SelectedValue.ToString();
-          
-
             string query = "SELECT value, Date FROM TestReports WHERE PatientID = @patientId AND TestType = @testType";
-            MySqlParameter[] parameters = {
-        new MySqlParameter("@patientId", patientId),
-        new MySqlParameter("@testType", selectedTestType)
-    };
+            MySqlParameter[] parameters = { new MySqlParameter("@patientId", patientId),
+                    new MySqlParameter("@testType", selectedTestType) };
 
-            DataTable dt = Database.ExecuteQuery(query, parameters);
+            allTestData = Database.ExecuteQuery(query, parameters);
+            DrawChart(allTestData, selectedTestType);
+            gunaDataGridView1.DataSource = allTestData;
+            gunaDataGridView1.DefaultCellStyle.Font = new Font("Segoe UI", 11);
+            gunaDataGridView1.ColumnHeadersDefaultCellStyle.Font = new Font("Segoe UI", 11);
+        }
 
+        private void DrawChart(DataTable dt, string testType)
+        {
             chart1.Series.Clear();
             chart1.ChartAreas[0].AxisX.Title = "Date";
             chart1.ChartAreas[0].AxisY.Title = "Value";
             chart1.ChartAreas[0].AxisX.LabelStyle.Angle = -75;
             chart1.ChartAreas[0].AxisX.Interval = 1;
-            
             chart1.ChartAreas[0].AxisX.TitleFont = new Font("Segoe UI", 12, FontStyle.Bold);
             chart1.ChartAreas[0].AxisY.TitleFont = new Font("Segoe UI", 12, FontStyle.Bold);
-
-
-
-            Series lineSeries = new Series(selectedTestType);
-            lineSeries.ChartType = SeriesChartType.Line;
-            lineSeries.BorderWidth = 2;
-            lineSeries.Color = Color.Blue;
-            lineSeries.MarkerStyle = MarkerStyle.Circle;
-            lineSeries.MarkerColor = Color.Red;
-            lineSeries.MarkerSize = 6;
             chart1.ChartAreas[0].Area3DStyle.Enable3D = false;
 
-
+            Series series = new Series(testType)
+            {
+                ChartType = SeriesChartType.Line,
+                BorderWidth = 2,
+                Color = Color.Blue,
+                MarkerStyle = MarkerStyle.Circle,
+                MarkerColor = Color.Red,
+                MarkerSize = 7
+            };
 
             foreach (DataRow row in dt.Rows)
             {
-                string dateStr = Convert.ToDateTime(row["Date"]).ToString("yyyy-MM-dd");
                 if (float.TryParse(row["value"].ToString(), out float val))
                 {
-                    lineSeries.Points.AddXY(dateStr, val);
+                    string dateStr = Convert.ToDateTime(row["Date"]).ToString("yyyy-MM-dd");
+                    series.Points.AddXY(dateStr, val);
                 }
             }
 
-            chart1.Series.Add(lineSeries);
-
-            gunaDataGridView1.DataSource = dt;
-           
-
-            gunaDataGridView1.DefaultCellStyle.Font = new Font("Segoe UI", 11);
-            gunaDataGridView1.ColumnHeadersDefaultCellStyle.Font = new Font("Segoe UI", 11);
+            chart1.Series.Add(series);
         }
+
 
         private void cuiButton2_MouseClick(object sender, MouseEventArgs e)
         {
@@ -117,6 +119,51 @@ namespace TrustWell_Hospital_Doctor
         private void chart1_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void cuiButton4_MouseClick(object sender, MouseEventArgs e)
+        {
+            if (allTestData == null)
+            {
+                MessageBox.Show("Load chart data first.");
+                return;
+            }
+           
+
+            int selectedYear = (int)gunaNumeric1.Value;
+
+            DataTable filteredData = allTestData.Clone();
+
+            // Filter rows by year using DateTime parsing
+            foreach (DataRow row in allTestData.Rows)
+            {
+                if (DateTime.TryParse(row["Date"].ToString(), out DateTime date))
+                {
+                    if (date.Year == selectedYear)
+                    {
+                        filteredData.ImportRow(row);
+                    }
+                }
+            }
+
+
+
+            string selectedTestType = gunaComboBox1.SelectedValue?.ToString() ?? "Filtered";
+            DrawChart(filteredData, selectedTestType);
+            gunaDataGridView1.DataSource = filteredData;
+        }
+
+        private void cuiButton5_MouseClick(object sender, MouseEventArgs e)
+        {
+            if (allTestData == null || allTestData.Rows.Count == 0)
+            {
+                MessageBox.Show("No data to reset. Load chart data first.");
+                return;
+            }
+
+            string selectedTestType = gunaComboBox1.SelectedValue?.ToString() ?? "All Data";
+            DrawChart(allTestData, selectedTestType);
+            gunaDataGridView1.DataSource = allTestData;
         }
     }
 }

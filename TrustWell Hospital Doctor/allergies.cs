@@ -12,7 +12,7 @@ namespace TrustWell_Hospital_Doctor
 {
     public partial class allergies: UserControl
     {
-        public allergies()
+        public allergies(int patientId)
         {
             InitializeComponent();
         }

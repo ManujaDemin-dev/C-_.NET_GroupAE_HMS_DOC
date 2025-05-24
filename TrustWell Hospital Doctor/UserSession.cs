@@ -9,7 +9,7 @@ using System.Threading.Tasks;
     {
         public static int DocId { get; set; }
         public static string Username { get; set; }
-        //public static string Role { get; set; }
-        //public static string StaffId { get; set; }
+       
+        public static string specialization { get; set; }
     }
 

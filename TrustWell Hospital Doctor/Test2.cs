@@ -33,8 +33,13 @@ namespace TrustWell_Hospital_Doctor
             int value;
             if (!int.TryParse(textBox1.Text, out value))
             {
-                MessageBox.Show("Please enter a valid number in the textbox.", "Invalid Input", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Enter a valid  blood pressure value in the textbox.", "Invalid Input", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return; 
+            }
+            if (value < 40 || value > 400)
+            {
+                MessageBox.Show("Please enter the real blood pressure value.", "Out of Range", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
             }
             int typeid = 29;
             try
@@ -57,8 +62,7 @@ namespace TrustWell_Hospital_Doctor
             {
                 MessageBox.Show($"Error saving data: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-
-
+           
             this.Hide();
         }
     }
