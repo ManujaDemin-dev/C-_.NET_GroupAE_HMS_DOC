@@ -14,9 +14,17 @@ namespace TrustWell_Hospital_Doctor
     public partial class Newprescription: Form
     {
         private bool lastKeyWasEnter = false;
-        public Newprescription()
+        private string name;
+        private int patientid;
+        private string age;
+        private string contact;
+        public Newprescription(int patientid, string name, string age, string contact)
         {
             InitializeComponent();
+            this.name = name;
+            this.age = age;
+            this.patientid = patientid;
+            this.contact = contact;
         }
 
         private void Newprescription_Load(object sender, EventArgs e)
@@ -25,9 +33,11 @@ namespace TrustWell_Hospital_Doctor
            
            label11.Text = DateTime.Now.ToString("yyyy-MM-dd  HH:mm"); 
 
-            this.label2.Text = $"Dr.{UserSession.Username}";
-
-            //textBox1.Text = "\u2022 ";
+            this.label2.Text = $"Dr. {UserSession.Username}";
+            this.label3.Text = $"{UserSession.specialization}";
+            this.label4.Text = $"Name :  {name}";
+            this.label5.Text = $"Age :  {age} Years";
+            this.label6.Text = $"Contact No : {contact}";
             textBox1.SelectionStart = textBox1.Text.Length;
             textBox1.Focus();
 
@@ -85,7 +95,7 @@ namespace TrustWell_Hospital_Doctor
             {
                 if (lastKeyWasEnter)
                 {
-                    // Double Enter pressed: insert bullet on new line
+                    // Double Enter pressed insert bullet on new line
                     textBox1.SelectedText = "\n\u2022 ";
                     lastKeyWasEnter = false;
                     e.SuppressKeyPress = true; // Stop default Enter behavior
@@ -102,6 +112,9 @@ namespace TrustWell_Hospital_Doctor
 
         }
 
+        private void label9_Click(object sender, EventArgs e)
+        {
 
+        }
     }
 }
