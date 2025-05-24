@@ -46,8 +46,8 @@
             this.cuiButton1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.cuiButton1.DialogResult = System.Windows.Forms.DialogResult.None;
             this.cuiButton1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
-            this.cuiButton1.ForeColor = System.Drawing.Color.Black;
-            this.cuiButton1.HoverBackground = System.Drawing.Color.White;
+            this.cuiButton1.ForeColor = System.Drawing.Color.White;
+            this.cuiButton1.HoverBackground = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(200)))), ((int)(((byte)(246)))));
             this.cuiButton1.HoveredImageTint = System.Drawing.Color.White;
             this.cuiButton1.HoverForeColor = System.Drawing.Color.Black;
             this.cuiButton1.HoverOutline = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
@@ -55,14 +55,14 @@
             this.cuiButton1.ImageAutoCenter = true;
             this.cuiButton1.ImageExpand = new System.Drawing.Point(0, 0);
             this.cuiButton1.ImageOffset = new System.Drawing.Point(0, 0);
-            this.cuiButton1.Location = new System.Drawing.Point(476, 257);
+            this.cuiButton1.Location = new System.Drawing.Point(423, 203);
             this.cuiButton1.Name = "cuiButton1";
-            this.cuiButton1.NormalBackground = System.Drawing.Color.White;
-            this.cuiButton1.NormalForeColor = System.Drawing.Color.Black;
+            this.cuiButton1.NormalBackground = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(63)))), ((int)(((byte)(183)))));
+            this.cuiButton1.NormalForeColor = System.Drawing.Color.White;
             this.cuiButton1.NormalImageTint = System.Drawing.Color.White;
             this.cuiButton1.NormalOutline = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.cuiButton1.OutlineThickness = 1F;
-            this.cuiButton1.PressedBackground = System.Drawing.Color.WhiteSmoke;
+            this.cuiButton1.PressedBackground = System.Drawing.SystemColors.Window;
             this.cuiButton1.PressedForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
             this.cuiButton1.PressedImageTint = System.Drawing.Color.White;
             this.cuiButton1.PressedOutline = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
@@ -83,19 +83,20 @@
             // 
             // textBox1
             // 
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(256, 152);
+            this.textBox1.Font = new System.Drawing.Font("Microsoft YaHei", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.Location = new System.Drawing.Point(203, 112);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(109, 27);
+            this.textBox1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.textBox1.Size = new System.Drawing.Size(129, 30);
             this.textBox1.TabIndex = 2;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(47, 76);
+            this.label2.Font = new System.Drawing.Font("Microsoft YaHei", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(104, 24);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(326, 20);
+            this.label2.Size = new System.Drawing.Size(344, 23);
             this.label2.TabIndex = 3;
             this.label2.Text = "Enter the Patient\'s current Blood Pressure";
             // 
@@ -103,13 +104,16 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(615, 315);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(194)))), ((int)(((byte)(225)))), ((int)(((byte)(255)))));
+            this.ClientSize = new System.Drawing.Size(560, 250);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.cuiButton1);
             this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "Test2";
+            this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Test2";
             this.TopMost = true;

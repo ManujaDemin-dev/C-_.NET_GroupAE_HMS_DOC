@@ -20,6 +20,9 @@ namespace TrustWell_Hospital_Doctor
         {
             this.patientId = patientId;
             InitializeComponent();
+            gunaDataGridView1.CellContentClick += gunaDataGridView1_CellContentClick;
+
+
         }
 
         private void labreports1_Load(object sender, EventArgs e)
@@ -32,84 +35,69 @@ namespace TrustWell_Hospital_Doctor
             gunaComboBox1.DataSource = dt;
         }
 
-        private void cuiButton1_MouseClick(object sender, MouseEventArgs e)
+        private void LoadHere()
         {
+           
             string inputTestId = textBox1.Text.Trim();
             int selectedTestType = Convert.ToInt32(gunaComboBox1.SelectedValue);
 
             string query = @"
-        SELECT LabTests.TestID, Testtypes.TestName, LabTests.Report, LabTests.TestDate 
-        FROM LabTests 
-        JOIN Testtypes ON LabTests.TestType = Testtypes.TestID 
-        WHERE LabTests.Status = 'Done' AND PatientID =@patentid
-        AND (LabTests.TestID = @testId OR LabTests.TestType = @testType)";
+            SELECT LabTests.TestID, Testtypes.TestName, LabTests.Report, LabTests.TestDate FROM LabTests 
+            JOIN Testtypes ON LabTests.TestType = Testtypes.TestID 
+            WHERE LabTests.Status = 'Done' AND PatientID =@patentid
+            AND (@testId = '' OR LabTests.TestID = @testId) AND (LabTests.TestType = @testType)";
 
-            MySqlParameter[] param = {
+            MySqlParameter[] parameters = {
                  new MySqlParameter("@patentid", patientId),
-        new MySqlParameter("@testId", inputTestId),
-        new MySqlParameter("@testType", selectedTestType)
-         };
+                 new MySqlParameter("@testId", inputTestId),
+                 new MySqlParameter("@testType", selectedTestType)  };
 
-            DataTable dt = Database.ExecuteQuery(query, param);
+            DataTable dt = Database.ExecuteQuery(query, parameters);
+            gunaDataGridView1.Columns.Clear(); 
 
-            flowLayoutPanel1.Controls.Clear(); 
+            gunaDataGridView1.DataSource = dt;
 
-            foreach (DataRow row in dt.Rows)
+            
+            if (gunaDataGridView1.Columns.Contains("Report"))
+                gunaDataGridView1.Columns["Report"].Visible = false;
+
+            if (!gunaDataGridView1.Columns.Contains("ViewReport"))
             {
-                Panel card = new Panel
-                {
-                    Width = 250,
-                    Height = 150,
-                    BackColor = Color.LightGray,
-                    Margin = new Padding(10),
-                    Tag = row["Report"].ToString()
-                };
+                DataGridViewButtonColumn viewButton = new DataGridViewButtonColumn();
+                viewButton.Name = "ViewReport";
+                viewButton.HeaderText = "Open Lab Report";
+                viewButton.Text = "View Report";
+                viewButton.UseColumnTextForButtonValue = true;
+                gunaDataGridView1.Columns.Add(viewButton);
+            }
 
-                Label lblName = new Label
-                {
-                    Text = "Test Name: " + row["TestName"].ToString(),
-                    AutoSize = true,
-                    Top = 10,
-                    Left = 10
-                };
 
-                Label lblID = new Label
-                {
-                    Text = "Test ID: " + row["TestID"].ToString(),
-                    AutoSize = true,
-                    Top = 40,
-                    Left = 10
-                };
+        }
 
-                Label lblDate = new Label
-                {
-                    Text = "Test Date: " + Convert.ToDateTime(row["TestDate"]).ToShortDateString(),
-                    AutoSize = true,
-                    Top = 70,
-                    Left = 10
-                };
 
-                Button btnOpen = new Button
-                {
-                    Text = "View Report",
-                    Width = 100,
-                    Top = 100,
-                    Left = 10
-                };
+        private void gunaDataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            if (gunaDataGridView1.Columns[e.ColumnIndex].Name == "ViewReport" && e.RowIndex >= 0)
+            {
+                string report = gunaDataGridView1.Rows[e.RowIndex].Cells["Report"].Value?.ToString();
 
-                btnOpen.Click += (s, args) =>
+                if (!string.IsNullOrEmpty(report))
                 {
-                    string report = card.Tag.ToString();
                     Report1 reportForm = new Report1(report);
                     reportForm.Show();
-                };
-
-                card.Controls.Add(lblName);
-                card.Controls.Add(lblID);
-                card.Controls.Add(lblDate);
-                card.Controls.Add(btnOpen);
-                flowLayoutPanel1.Controls.Add(card);
+                }
+                else
+                {
+                   label3.Text = "No report data available for this test.";
+                }
             }
         }
+
+        private void cuiButton1_MouseClick(object sender, MouseEventArgs e)
+        {
+            LoadHere();
+        }
+
+        
     }
 }
