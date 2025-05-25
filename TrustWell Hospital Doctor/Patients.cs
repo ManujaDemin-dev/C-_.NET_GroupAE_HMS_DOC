@@ -22,7 +22,7 @@ namespace TrustWell_Hospital_Doctor
         private string name;
         private string p_age;
         private string contact;
-        private DateTime dob;
+        //private DateTime dob;
 
         private DateTimeDisplay dateTimeDisplay;
 
