@@ -45,7 +45,7 @@
             this.cuiButton1.Content = "Submit";
             this.cuiButton1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.cuiButton1.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.cuiButton1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
+            this.cuiButton1.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold);
             this.cuiButton1.ForeColor = System.Drawing.Color.White;
             this.cuiButton1.HoverBackground = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(200)))), ((int)(((byte)(246)))));
             this.cuiButton1.HoveredImageTint = System.Drawing.Color.White;
@@ -93,10 +93,10 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft YaHei", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(104, 24);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(344, 23);
+            this.label2.Size = new System.Drawing.Size(335, 25);
             this.label2.TabIndex = 3;
             this.label2.Text = "Enter the Patient\'s current Blood Pressure";
             // 

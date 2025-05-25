@@ -29,9 +29,9 @@ namespace TrustWell_Hospital_Doctor
 
         private void addRecord_Load(object sender, EventArgs e)
         {
-            label8.Text = DateTime.Now.ToString("yyyy-MM-dd");
-            label9.Text = patientId.ToString();
-            label10.Text = docId.ToString();
+            //label8.Text = DateTime.Now.ToString("yyyy-MM-dd");
+            //label9.Text = patientId.ToString();
+            //label10.Text = docId.ToString();
 
         }
 

@@ -220,6 +220,9 @@
     <EmbeddedResource Include="addRecord.resx">
       <DependentUpon>addRecord.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="allergies.resx">
+      <DependentUpon>allergies.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Dashbord.resx">
       <DependentUpon>Dashbord.cs</DependentUpon>
     </EmbeddedResource>
