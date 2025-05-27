@@ -23,18 +23,18 @@ namespace TrustWell_Hospital_Doctor
         private string p_age;
         private string contact;
         //private DateTime dob;
+        private int appoinmentId;
 
         private DateTimeDisplay dateTimeDisplay;
 
-        public Patients(int patientId, int docId)
+        public Patients(int patientId, int docId, int appoinmentID)
         {
             InitializeComponent();
             this.patientId = patientId;
-            this.cuiButton2.Click += new System.EventHandler(this.cuiButton2_Click);
-            this.cuiButton3.Click += new System.EventHandler(this.cuiButton3_Click);
-            this.cuiButton4.Click += new System.EventHandler(this.cuiButton4_Click);
-            this.cuiButton5.Click += new System.EventHandler(this.cuiButton5_Click);
+
+            
             DocId = docId;
+            appoinmentId = appoinmentID;
 
 
             dateTimeDisplay = new DateTimeDisplay(label16, label17);
@@ -88,25 +88,6 @@ namespace TrustWell_Hospital_Doctor
             LoadUserControl(new allergies(patientId));
         }
 
-        private void cuiButton4_Click(object sender, EventArgs e)
-        {
-            LoadUserControl(new labreports1(patientId));
-        }
-
-        private void cuiButton2_Click(object sender, EventArgs e)
-        {
-            LoadUserControl(new Medicalrecords1(patientId, DocId));
-        }
-
-        private void cuiButton3_Click(object sender, EventArgs e)
-        {
-            LoadUserControl(new Oldprescription1(patientId));
-        }
-
-        private void cuiButton5_Click(object sender, EventArgs e)
-        {
-            LoadUserControl(new Test1(patientId));
-        }
         private void cuiButton7_Click(object sender, EventArgs e)
         {
             LoadUserControl(new allergies(patientId));
@@ -118,10 +99,27 @@ namespace TrustWell_Hospital_Doctor
 
         private void cuiButton6_Click(object sender, EventArgs e)
         {
+           
+            string query = "UPDATE Appointments SET Status = 'Completed', CreatedAt = NOW() WHERE AppointmentID = @AppointmentID";
+                    MySqlParameter[] parameters = new MySqlParameter[] {
+                new MySqlParameter("@AppointmentID", appoinmentId) };
+            Database.ExecuteNonQuery(query, parameters);
+
+            Dashbord form1 = new Dashbord();
+            form1.Show();
+
+            foreach (Form openForm in Application.OpenForms.Cast<Form>().ToList())
+            {
+                if (!(openForm is Dashbord))
+                {
+                    openForm.Hide();
+                }
+            }
+            MessageBox.Show("Appointment is Completed.", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
         }
 
-        private void cuiButton1_Click(object sender, EventArgs e)
+        private void cuiButton1_MouseClick(object sender, MouseEventArgs e)
         {
             Newprescription newprescription = new Newprescription(patientId, name, p_age, contact);
             newprescription.StartPosition = FormStartPosition.CenterScreen;
@@ -129,6 +127,24 @@ namespace TrustWell_Hospital_Doctor
             newprescription.Show();
         }
 
-       
+        private void cuiButton3_MouseClick(object sender, MouseEventArgs e)
+        {
+            LoadUserControl(new Oldprescription1(patientId));
+        }
+
+        private void cuiButton2_MouseClick(object sender, MouseEventArgs e)
+        {
+            LoadUserControl(new Medicalrecords1(patientId, DocId));
+        }
+
+        private void cuiButton5_MouseClick(object sender, MouseEventArgs e)
+        {
+            LoadUserControl(new Test1(patientId));
+        }
+
+        private void cuiButton4_MouseClick(object sender, MouseEventArgs e)
+        {
+            LoadUserControl(new labreports1(patientId));
+        }
     }
 }
