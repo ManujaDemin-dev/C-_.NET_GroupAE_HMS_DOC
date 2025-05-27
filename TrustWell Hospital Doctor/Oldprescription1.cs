@@ -87,8 +87,8 @@ namespace TrustWell_Hospital_Doctor
                 else
                 {
 
-                    gunaDataGridView1.AutoSizeRowsMode = DataGridViewAutoSizeRowsMode.AllCells;
-                    gunaDataGridView1.MaximumSize = new Size(gunaDataGridView1.Width, 300); // Max height
+                   // gunaDataGridView1.AutoSizeRowsMode = DataGridViewAutoSizeRowsMode.AllCells;
+                   // gunaDataGridView1.MaximumSize = new Size(gunaDataGridView1.Width, 300); // Max height
                     gunaDataGridView1.ScrollBars = ScrollBars.Vertical;
 
                     gunaDataGridView1.Columns.Add("CreatedAt", "Date");

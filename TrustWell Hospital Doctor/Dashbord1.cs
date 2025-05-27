@@ -37,7 +37,7 @@ namespace TrustWell_Hospital_Doctor
             {
                 string todayFormatted = DateTime.Now.ToString("dddd, MMMM d, yyyy");
                 string query = @"
-                 SELECT 
+                 SELECT Appointments.AppointmentID,
                         Appointments.PatientID, 
                         Patients.PatientName, 
                         Patients.ContactNumber, 
@@ -65,7 +65,7 @@ namespace TrustWell_Hospital_Doctor
 
                 label4.Text = count.Rows.Count.ToString();
 
-
+  
                 DataTable dt = Database.ExecuteQuery(query, parameters);
                 label2.Text = dt.Rows.Count.ToString();
 
@@ -81,6 +81,9 @@ namespace TrustWell_Hospital_Doctor
                 {
                     gunaDataGridView1.DataSource = dt;
                 }
+
+                if (gunaDataGridView1.Columns.Contains("AppointmentID"))
+                    gunaDataGridView1.Columns["AppointmentID"].Visible = false;
 
                 if (!gunaDataGridView1.Columns.Contains("StartButton"))
                 {
@@ -111,7 +114,8 @@ namespace TrustWell_Hospital_Doctor
                 try
                 {
                     int patientId = Convert.ToInt32(gunaDataGridView1.Rows[e.RowIndex].Cells["PatientID"].Value);
-                    Patients startForm = new Patients(patientId, docId);
+                    int appoinmentID = Convert.ToInt32(gunaDataGridView1.Rows[e.RowIndex].Cells["AppointmentID"].Value);
+                    Patients startForm = new Patients(patientId, docId, appoinmentID);
                     startForm.Show();
 
                     Form parentForm = this.FindForm();
