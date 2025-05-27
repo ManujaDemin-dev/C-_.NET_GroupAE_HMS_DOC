@@ -216,6 +216,7 @@
             this.cuiButton5.Tag = "jjj";
             this.cuiButton5.TextAlignment = System.Drawing.StringAlignment.Center;
             this.cuiButton5.TextOffset = new System.Drawing.Point(0, 0);
+            this.cuiButton5.MouseClick += new System.Windows.Forms.MouseEventHandler(this.cuiButton5_MouseClick);
             // 
             // cuiButton2
             // 
@@ -256,6 +257,7 @@
             this.cuiButton2.Tag = "jjj";
             this.cuiButton2.TextAlignment = System.Drawing.StringAlignment.Center;
             this.cuiButton2.TextOffset = new System.Drawing.Point(0, 0);
+            this.cuiButton2.MouseClick += new System.Windows.Forms.MouseEventHandler(this.cuiButton2_MouseClick);
             // 
             // cuiButton4
             // 
@@ -296,6 +298,7 @@
             this.cuiButton4.Tag = "jjj";
             this.cuiButton4.TextAlignment = System.Drawing.StringAlignment.Center;
             this.cuiButton4.TextOffset = new System.Drawing.Point(0, 0);
+            this.cuiButton4.MouseClick += new System.Windows.Forms.MouseEventHandler(this.cuiButton4_MouseClick);
             // 
             // cuiButton3
             // 
@@ -336,6 +339,7 @@
             this.cuiButton3.Tag = "jjj";
             this.cuiButton3.TextAlignment = System.Drawing.StringAlignment.Center;
             this.cuiButton3.TextOffset = new System.Drawing.Point(0, 0);
+            this.cuiButton3.MouseClick += new System.Windows.Forms.MouseEventHandler(this.cuiButton3_MouseClick);
             // 
             // cuiButton1
             // 
@@ -376,7 +380,7 @@
             this.cuiButton1.Tag = "jjj";
             this.cuiButton1.TextAlignment = System.Drawing.StringAlignment.Center;
             this.cuiButton1.TextOffset = new System.Drawing.Point(0, 0);
-            this.cuiButton1.Click += new System.EventHandler(this.cuiButton1_Click);
+            this.cuiButton1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.cuiButton1_MouseClick);
             // 
             // panel1
             // 

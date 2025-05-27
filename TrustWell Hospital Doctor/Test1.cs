@@ -165,5 +165,10 @@ namespace TrustWell_Hospital_Doctor
             DrawChart(allTestData, selectedTestType);
             gunaDataGridView1.DataSource = allTestData;
         }
+
+        private void cuiButton3_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
