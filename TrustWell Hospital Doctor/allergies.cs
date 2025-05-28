@@ -7,14 +7,95 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using MySql.Data.MySqlClient; // Add this for MySQL support
+using WindowsFormsApp1;
 
 namespace TrustWell_Hospital_Doctor
 {
-    public partial class allergies: UserControl
+    public partial class allergies : UserControl
     {
+        private int PatientID;
+
         public allergies(int patientId)
         {
             InitializeComponent();
+            this.PatientID = patientId;
+
+            LoadAllAllergyData();
+            LoadnoteData();
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+        }
+
+        private void allergytextbox_TextChanged(object sender, EventArgs e)
+        {
+        }
+
+        private void richTextBox2_TextChanged(object sender, EventArgs e)
+        {
+        }
+
+        private void LoadAllAllergyData()
+        {
+            string query = "SELECT Allergies FROM Patients WHERE PatientID = @patientId";
+
+            MySqlParameter[] parameters = new MySqlParameter[]
+            {
+                new MySqlParameter("@patientId", PatientID)
+            };
+
+            DataTable dt = Database.ExecuteQuery(query, parameters);
+
+            StringBuilder sb = new StringBuilder();
+
+            foreach (DataRow row in dt.Rows)
+            {
+                string allergy = row["Allergies"]?.ToString();
+                if (!string.IsNullOrWhiteSpace(allergy))
+                    sb.AppendLine(allergy);
+            }
+
+            allergytextbox.Text = sb.ToString();
+        }
+
+        private void LoadnoteData()
+        {
+            string query = "SELECT Notes FROM Patients WHERE PatientID = @patientId";
+
+            MySqlParameter[] parameters = new MySqlParameter[]
+            {
+                new MySqlParameter("@patientId", PatientID)
+            };
+
+            DataTable dt = Database.ExecuteQuery(query, parameters);
+
+            StringBuilder sb = new StringBuilder();
+
+            foreach (DataRow row in dt.Rows)
+            {
+                string note = row["Notes"]?.ToString();
+                if (!string.IsNullOrWhiteSpace(note))
+                    sb.AppendLine(note);
+            }
+
+            allergytextbox.Text = sb.ToString();
+        }
+        private void LoadUserControl(UserControl uc)
+        {
+            panel1.Controls.Clear();
+            uc.Dock = DockStyle.Fill;
+            panel1.Controls.Add(uc);
+        }
+        private void gunaButton1_Click(object sender, EventArgs e)
+        {
+            LoadUserControl(new Allergies2(PatientID));
+        }
+
+        private void notestxtbox_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
