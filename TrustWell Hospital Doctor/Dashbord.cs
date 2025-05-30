@@ -53,7 +53,7 @@ namespace TrustWell_Hospital_Doctor
 
         private void Dashbord_Load(object sender, EventArgs e)
         {
-            this.label2.Text = $"Welcome, Dr.{UserSession.Username}";
+            this.label2.Text = $"Welcome, Dr. {UserSession.Username}";
             LoadUserControl(new Dashbord1(UserSession.DocId));
 
             string query = @"SELECT Doc_specialization.Specialization AS SpecializationName 

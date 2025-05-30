@@ -99,23 +99,33 @@ namespace TrustWell_Hospital_Doctor
 
         private void cuiButton6_Click(object sender, EventArgs e)
         {
-           
-            string query = "UPDATE Appointments SET Status = 'Completed', CreatedAt = NOW() WHERE AppointmentID = @AppointmentID";
-                    MySqlParameter[] parameters = new MySqlParameter[] {
-                new MySqlParameter("@AppointmentID", appoinmentId) };
-            Database.ExecuteNonQuery(query, parameters);
 
-            Dashbord form1 = new Dashbord();
-            form1.Show();
+            DialogResult result = MessageBox.Show($"Are you going to Complete the {name}'s Appoinment", "Confirm Exit",MessageBoxButtons.YesNo, MessageBoxIcon.Question);
 
-            foreach (Form openForm in Application.OpenForms.Cast<Form>().ToList())
+            if (result == DialogResult.Yes)
             {
-                if (!(openForm is Dashbord))
+
+                string query = "UPDATE Appointments SET Status = 'Completed', CreatedAt = NOW() WHERE AppointmentID = @AppointmentID";
+                MySqlParameter[] parameters = new MySqlParameter[] {
+                new MySqlParameter("@AppointmentID", appoinmentId) };
+                Database.ExecuteNonQuery(query, parameters);
+
+                Dashbord form1 = new Dashbord();
+                form1.Show();
+
+                foreach (Form openForm in Application.OpenForms.Cast<Form>().ToList())
                 {
-                    openForm.Hide();
+                    if (!(openForm is Dashbord))
+                    {
+                        openForm.Hide();
+                    }
                 }
+                MessageBox.Show("Appointment is Completed.", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
-            MessageBox.Show("Appointment is Completed.", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            else
+            {
+
+            }
 
         }
 

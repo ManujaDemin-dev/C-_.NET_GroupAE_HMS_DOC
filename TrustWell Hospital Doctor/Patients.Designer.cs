@@ -46,7 +46,6 @@
             this.label14 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
@@ -58,6 +57,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
             this.label6 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
@@ -395,12 +395,12 @@
             // gunaGradient2Panel1
             // 
             this.gunaGradient2Panel1.BackColor = System.Drawing.Color.Transparent;
+            this.gunaGradient2Panel1.Controls.Add(this.label11);
             this.gunaGradient2Panel1.Controls.Add(this.tableLayoutPanel1);
             this.gunaGradient2Panel1.Controls.Add(this.label15);
             this.gunaGradient2Panel1.Controls.Add(this.label14);
             this.gunaGradient2Panel1.Controls.Add(this.label13);
             this.gunaGradient2Panel1.Controls.Add(this.label12);
-            this.gunaGradient2Panel1.Controls.Add(this.label11);
             this.gunaGradient2Panel1.Controls.Add(this.label8);
             this.gunaGradient2Panel1.Controls.Add(this.label2);
             this.gunaGradient2Panel1.Controls.Add(this.label9);
@@ -502,17 +502,6 @@
             this.label12.Size = new System.Drawing.Size(122, 28);
             this.label12.TabIndex = 22;
             this.label12.Text = "0773456789";
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label11.Location = new System.Drawing.Point(716, 105);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(197, 28);
-            this.label11.TabIndex = 21;
-            this.label11.Text = "sampath@gmail.com";
             // 
             // label8
             // 
@@ -633,6 +622,17 @@
             this.label6.Size = new System.Drawing.Size(168, 25);
             this.label6.TabIndex = 7;
             // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label11.Location = new System.Drawing.Point(716, 105);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(59, 28);
+            this.label11.TabIndex = 29;
+            this.label11.Text = "email";
+            // 
             // Patients
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -680,7 +680,6 @@
         private System.Windows.Forms.Label label2;
         private CuoreUI.Controls.cuiButton cuiButton6;
         private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label label14;
@@ -689,5 +688,6 @@
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
+        private System.Windows.Forms.Label label11;
     }
 }
