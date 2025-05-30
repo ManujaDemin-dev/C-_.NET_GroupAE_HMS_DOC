@@ -10,6 +10,7 @@ using System.Windows.Forms;
 using WindowsFormsApp1;
 using MySql.Data.MySqlClient;
 using System.Windows.Forms.DataVisualization.Charting;
+using System.Diagnostics.Eventing.Reader;
 
 namespace TrustWell_Hospital_Doctor
 {
@@ -38,18 +39,17 @@ namespace TrustWell_Hospital_Doctor
         private void LoadHere()
         {
            
-            string inputTestId = textBox1.Text.Trim();
+          
             int selectedTestType = Convert.ToInt32(gunaComboBox1.SelectedValue);
 
-            string query = @"
-            SELECT LabTests.TestID, Testtypes.TestName, LabTests.Report, LabTests.TestDate FROM LabTests 
-            JOIN Testtypes ON LabTests.TestType = Testtypes.TestID 
-            WHERE LabTests.Status = 'Done' AND PatientID =@patentid
-            AND (@testId = '' OR LabTests.TestID = @testId) AND (LabTests.TestType = @testType)";
+            string query = @"SELECT LabTests.TestId, Testtypes.TestName, LabTests.Report, LabTests.TestDate 
+                            FROM LabTests JOIN Testtypes ON LabTests.TestType = Testtypes.TestID WHERE LabTests.Status = 'Done' 
+                              AND PatientID = @patentid AND LabTests.TestType = @testType ORDER BY LabTests.TestDate DESC";
+
+
 
             MySqlParameter[] parameters = {
                  new MySqlParameter("@patentid", patientId),
-                 new MySqlParameter("@testId", inputTestId),
                  new MySqlParameter("@testType", selectedTestType)  };
 
             DataTable dt = Database.ExecuteQuery(query, parameters);

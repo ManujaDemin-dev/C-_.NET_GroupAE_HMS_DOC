@@ -10,13 +10,15 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using WindowsFormsApp1;
+using TrustWell_Hospital_Doctor;
+
 
 
 namespace TrustWell_Hospital_Doctor
 {
     public partial class Newprescription: Form
     {
-        private bool lastKeyWasEnter = false;
+       
         private string name;
         private int patientid;
         private string age;
@@ -108,24 +110,8 @@ namespace TrustWell_Hospital_Doctor
       
         private void textBox1_KeyDown(object sender, KeyEventArgs e)
         {
-            if (e.KeyCode == Keys.Enter)
-            {
-                if (lastKeyWasEnter)
-                {
-                    // Double Enter pressed insert bullet on new line
-                    textBox1.SelectedText = "\n\u2022 ";
-                    lastKeyWasEnter = false;
-                    e.SuppressKeyPress = true; // Stop default Enter behavior
-                }
-                else
-                {
-                    lastKeyWasEnter = true;
-                }
-            }
-            else
-            {
-                lastKeyWasEnter = false; // Reset if other key pressed
-            }
+            
+            Textboxfunc.HandleEnterBullets(textBox1, e);
 
         }
 

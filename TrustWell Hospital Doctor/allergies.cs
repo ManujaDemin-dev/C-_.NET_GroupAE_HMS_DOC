@@ -7,14 +7,19 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using MySql.Data.MySqlClient; // Add this for MySQL support
+using MySql.Data.MySqlClient; 
 using WindowsFormsApp1;
+using Guna.UI.WinForms;
+
 
 namespace TrustWell_Hospital_Doctor
 {
     public partial class allergies : UserControl
     {
         private int PatientID;
+        private string Notes;
+        private string Allergy;
+        private string Conicc;
 
         public allergies(int patientId)
         {
@@ -23,6 +28,7 @@ namespace TrustWell_Hospital_Doctor
 
             LoadAllAllergyData();
             LoadnoteData();
+            LoadChronic();
         }
 
         private void panel1_Paint(object sender, PaintEventArgs e)
@@ -48,16 +54,17 @@ namespace TrustWell_Hospital_Doctor
 
             DataTable dt = Database.ExecuteQuery(query, parameters);
 
-            StringBuilder sb = new StringBuilder();
+            StringBuilder allerg = new StringBuilder();
 
             foreach (DataRow row in dt.Rows)
             {
                 string allergy = row["Allergies"]?.ToString();
                 if (!string.IsNullOrWhiteSpace(allergy))
-                    sb.AppendLine(allergy);
+                    allerg.AppendLine(allergy);
             }
+            textbox3.Text = allerg.ToString();
+            Allergy = allerg.ToString();
 
-            allergytextbox.Text = sb.ToString();
         }
 
         private void LoadnoteData()
@@ -71,17 +78,42 @@ namespace TrustWell_Hospital_Doctor
 
             DataTable dt = Database.ExecuteQuery(query, parameters);
 
-            StringBuilder sb = new StringBuilder();
+            StringBuilder noted = new StringBuilder();
 
             foreach (DataRow row in dt.Rows)
             {
                 string note = row["Notes"]?.ToString();
                 if (!string.IsNullOrWhiteSpace(note))
-                    sb.AppendLine(note);
+                    noted.AppendLine(note);
             }
 
-            allergytextbox.Text = sb.ToString();
+           textBox1.Text = noted.ToString();
+             Notes = noted.ToString();
         }
+        private void LoadChronic()
+        {
+            string query = "SELECT chronic FROM Patients WHERE PatientID = @patientId";
+
+            MySqlParameter[] parameters = new MySqlParameter[]
+            {
+                new MySqlParameter("@patientId", PatientID)
+            };
+
+            DataTable dt = Database.ExecuteQuery(query, parameters);
+
+            StringBuilder allerg = new StringBuilder();
+
+            foreach (DataRow row in dt.Rows)
+            {
+                string chronic = row["chronic"]?.ToString();
+                if (!string.IsNullOrWhiteSpace(chronic))
+                    allerg.AppendLine(chronic);
+            }
+            textBox2.Text = allerg.ToString();
+            Conicc = allerg.ToString();
+
+        }
+
         private void LoadUserControl(UserControl uc)
         {
             panel1.Controls.Clear();
@@ -90,12 +122,19 @@ namespace TrustWell_Hospital_Doctor
         }
         private void gunaButton1_Click(object sender, EventArgs e)
         {
-            LoadUserControl(new Allergies2(PatientID));
+            LoadUserControl(new Allergies2(PatientID, Allergy, Notes, Conicc));
         }
 
         private void notestxtbox_Click(object sender, EventArgs e)
         {
 
         }
+
+        private void gunaTextBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        
     }
 }

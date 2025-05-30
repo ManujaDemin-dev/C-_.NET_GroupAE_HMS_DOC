@@ -30,29 +30,101 @@
         {
             this.components = new System.ComponentModel.Container();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.gunaButton1 = new Guna.UI.WinForms.GunaButton();
-            this.notestxtbox = new System.Windows.Forms.Label();
+            this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.gunaButton1 = new Guna.UI.WinForms.GunaButton();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.Notetxtbox = new System.Windows.Forms.TextBox();
-            this.allergytextbox = new System.Windows.Forms.TextBox();
+            this.textbox3 = new System.Windows.Forms.TextBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
+            this.tableLayoutPanel1.SuspendLayout();
+            this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.panel1.Controls.Add(this.Notetxtbox);
-            this.panel1.Controls.Add(this.allergytextbox);
-            this.panel1.Controls.Add(this.gunaButton1);
-            this.panel1.Controls.Add(this.notestxtbox);
-            this.panel1.Controls.Add(this.label1);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.panel1.BackColor = System.Drawing.SystemColors.Control;
+            this.panel1.Controls.Add(this.tableLayoutPanel1);
+            this.panel1.Controls.Add(this.panel2);
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1350, 592);
+            this.panel1.Size = new System.Drawing.Size(1350, 608);
             this.panel1.TabIndex = 0;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
+            // 
+            // tableLayoutPanel1
+            // 
+            this.tableLayoutPanel1.AutoSize = true;
+            this.tableLayoutPanel1.ColumnCount = 3;
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25.67293F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 35.41094F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 38.91613F));
+            this.tableLayoutPanel1.Controls.Add(this.textBox2, 0, 1);
+            this.tableLayoutPanel1.Controls.Add(this.textBox1, 2, 1);
+            this.tableLayoutPanel1.Controls.Add(this.textbox3, 1, 1);
+            this.tableLayoutPanel1.Controls.Add(this.label2, 2, 0);
+            this.tableLayoutPanel1.Controls.Add(this.label3, 1, 0);
+            this.tableLayoutPanel1.Controls.Add(this.label1, 0, 0);
+            this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 48);
+            this.tableLayoutPanel1.Name = "tableLayoutPanel1";
+            this.tableLayoutPanel1.RowCount = 2;
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 35F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(1350, 560);
+            this.tableLayoutPanel1.TabIndex = 95;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
+            this.label2.Location = new System.Drawing.Point(832, 8);
+            this.label2.Margin = new System.Windows.Forms.Padding(8, 8, 0, 0);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(77, 27);
+            this.label2.TabIndex = 96;
+            this.label2.Text = "Notes";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
+            this.label3.Location = new System.Drawing.Point(354, 8);
+            this.label3.Margin = new System.Windows.Forms.Padding(8, 8, 0, 0);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(108, 27);
+            this.label3.TabIndex = 95;
+            this.label3.Text = "Allergies";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
+            this.label1.Location = new System.Drawing.Point(8, 8);
+            this.label1.Margin = new System.Windows.Forms.Padding(8, 8, 0, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(207, 27);
+            this.label1.TabIndex = 2;
+            this.label1.Text = "Chronic condition";
+            // 
+            // panel2
+            // 
+            this.panel2.Controls.Add(this.gunaButton1);
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel2.Location = new System.Drawing.Point(0, 0);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(1350, 48);
+            this.panel2.TabIndex = 96;
             // 
             // gunaButton1
             // 
@@ -63,11 +135,11 @@
             this.gunaButton1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
             this.gunaButton1.DialogResult = System.Windows.Forms.DialogResult.None;
             this.gunaButton1.FocusedColor = System.Drawing.Color.Empty;
-            this.gunaButton1.Font = new System.Drawing.Font("Segoe UI Semibold", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gunaButton1.Font = new System.Drawing.Font("Segoe UI Semibold", 13F, System.Drawing.FontStyle.Bold);
             this.gunaButton1.ForeColor = System.Drawing.Color.White;
             this.gunaButton1.Image = null;
             this.gunaButton1.ImageSize = new System.Drawing.Size(20, 20);
-            this.gunaButton1.Location = new System.Drawing.Point(1166, 17);
+            this.gunaButton1.Location = new System.Drawing.Point(1149, 3);
             this.gunaButton1.Name = "gunaButton1";
             this.gunaButton1.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
             this.gunaButton1.OnHoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
@@ -81,64 +153,59 @@
             this.gunaButton1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.gunaButton1.Click += new System.EventHandler(this.gunaButton1_Click);
             // 
-            // notestxtbox
-            // 
-            this.notestxtbox.AutoSize = true;
-            this.notestxtbox.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.notestxtbox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
-            this.notestxtbox.Location = new System.Drawing.Point(721, 41);
-            this.notestxtbox.Name = "notestxtbox";
-            this.notestxtbox.Size = new System.Drawing.Size(77, 31);
-            this.notestxtbox.TabIndex = 3;
-            this.notestxtbox.Text = "Notes";
-            this.notestxtbox.Click += new System.EventHandler(this.notestxtbox_Click);
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
-            this.label1.Location = new System.Drawing.Point(52, 41);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(108, 31);
-            this.label1.TabIndex = 2;
-            this.label1.Text = "Allergies";
-            // 
             // contextMenuStrip1
             // 
             this.contextMenuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.contextMenuStrip1.Name = "contextMenuStrip1";
             this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
             // 
-            // Notetxtbox
+            // textbox3
             // 
-            this.Notetxtbox.BackColor = System.Drawing.Color.White;
-            this.Notetxtbox.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.Notetxtbox.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Notetxtbox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
-            this.Notetxtbox.Location = new System.Drawing.Point(726, 93);
-            this.Notetxtbox.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.Notetxtbox.Multiline = true;
-            this.Notetxtbox.Name = "Notetxtbox";
-            this.Notetxtbox.ReadOnly = true;
-            this.Notetxtbox.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.Notetxtbox.Size = new System.Drawing.Size(600, 481);
-            this.Notetxtbox.TabIndex = 88;
+            this.textbox3.BackColor = System.Drawing.Color.White;
+            this.textbox3.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.textbox3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.textbox3.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textbox3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
+            this.textbox3.Location = new System.Drawing.Point(366, 55);
+            this.textbox3.Margin = new System.Windows.Forms.Padding(20);
+            this.textbox3.Multiline = true;
+            this.textbox3.Name = "textbox3";
+            this.textbox3.ReadOnly = true;
+            this.textbox3.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.textbox3.Size = new System.Drawing.Size(438, 504);
+            this.textbox3.TabIndex = 97;
             // 
-            // allergytextbox
+            // textBox1
             // 
-            this.allergytextbox.BackColor = System.Drawing.Color.White;
-            this.allergytextbox.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.allergytextbox.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.allergytextbox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
-            this.allergytextbox.Location = new System.Drawing.Point(58, 93);
-            this.allergytextbox.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.allergytextbox.Multiline = true;
-            this.allergytextbox.Name = "allergytextbox";
-            this.allergytextbox.ReadOnly = true;
-            this.allergytextbox.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.allergytextbox.Size = new System.Drawing.Size(634, 481);
-            this.allergytextbox.TabIndex = 87;
+            this.textBox1.BackColor = System.Drawing.Color.White;
+            this.textBox1.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.textBox1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.textBox1.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
+            this.textBox1.Location = new System.Drawing.Point(844, 55);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(20);
+            this.textBox1.Multiline = true;
+            this.textBox1.Name = "textBox1";
+            this.textBox1.ReadOnly = true;
+            this.textBox1.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.textBox1.Size = new System.Drawing.Size(486, 504);
+            this.textBox1.TabIndex = 98;
+            // 
+            // textBox2
+            // 
+            this.textBox2.BackColor = System.Drawing.Color.White;
+            this.textBox2.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.textBox2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.textBox2.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
+            this.textBox2.Location = new System.Drawing.Point(20, 55);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(20);
+            this.textBox2.Multiline = true;
+            this.textBox2.Name = "textBox2";
+            this.textBox2.ReadOnly = true;
+            this.textBox2.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.textBox2.Size = new System.Drawing.Size(306, 504);
+            this.textBox2.TabIndex = 99;
             // 
             // allergies
             // 
@@ -148,9 +215,12 @@
             this.ImeMode = System.Windows.Forms.ImeMode.Disable;
             this.Margin = new System.Windows.Forms.Padding(0);
             this.Name = "allergies";
-            this.Size = new System.Drawing.Size(1350, 592);
+            this.Size = new System.Drawing.Size(1350, 608);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            this.tableLayoutPanel1.ResumeLayout(false);
+            this.tableLayoutPanel1.PerformLayout();
+            this.panel2.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -159,10 +229,14 @@
 
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
-        private System.Windows.Forms.Label notestxtbox;
         private System.Windows.Forms.Label label1;
         private Guna.UI.WinForms.GunaButton gunaButton1;
-        private System.Windows.Forms.TextBox Notetxtbox;
-        private System.Windows.Forms.TextBox allergytextbox;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox textbox3;
+        private System.Windows.Forms.TextBox textBox2;
     }
 }

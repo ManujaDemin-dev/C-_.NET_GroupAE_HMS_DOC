@@ -222,6 +222,7 @@
     <Compile Include="Test2.Designer.cs">
       <DependentUpon>Test2.cs</DependentUpon>
     </Compile>
+    <Compile Include="Textboxfunc.cs" />
     <Compile Include="UserSession.cs" />
     <EmbeddedResource Include="addRecord.resx">
       <DependentUpon>addRecord.cs</DependentUpon>

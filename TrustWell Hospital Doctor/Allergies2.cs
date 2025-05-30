@@ -2,31 +2,44 @@
 using System.Data;
 using System.Drawing;
 using System.Text;
+using System.Web;
 using System.Windows.Forms;
 using MySql.Data.MySqlClient;
 using WindowsFormsApp1;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
+using TrustWell_Hospital_Doctor;
+using Guna.UI.WinForms;
+
 
 namespace TrustWell_Hospital_Doctor
 {
     public partial class Allergies2 : UserControl
     {
         private int PatientID;
-
-        public Allergies2(int patientID)
+        private string Allergyies;
+        private string Notes;
+        private string Coniccon;
+        public Allergies2(int patientID, string allergy, string note, string Conicc)
         {
             InitializeComponent();
             PatientID = patientID;
+            Allergyies = allergy;
+            Notes = note;
+            Coniccon = Conicc;
         }
 
         private void Allergies2_Load(object sender, EventArgs e)
         {
-            // Optional: Load current data into the textboxes if needed
+            textBox1.Text = Allergyies;
+            textBox3.Text = Notes;
+            textBox2.Text = Coniccon;
         }
+       
 
         private void richTextBox1_TextChanged(object sender, EventArgs e)
         {
         }
-
+       
         private void btnaddblood_Click(object sender, EventArgs e)
         {
             string bloodGroup = txtblood.Text.Trim();
@@ -53,7 +66,7 @@ namespace TrustWell_Hospital_Doctor
 
         private void btnaddallergy_MouseClick(object sender, MouseEventArgs e)
         {
-            string allergies = txtallergy.Text.Trim();
+            string allergies = textBox1.Text.Trim();
 
             if (!string.IsNullOrWhiteSpace(allergies))
             {
@@ -77,7 +90,7 @@ namespace TrustWell_Hospital_Doctor
 
         private void btnaddnote_MouseClick(object sender, MouseEventArgs e)
         {
-            string Notes = txtnote.Text.Trim();
+            string Notes = textBox3.Text.Trim();
 
             if (!string.IsNullOrWhiteSpace(Notes))
             {
@@ -98,5 +111,52 @@ namespace TrustWell_Hospital_Doctor
                 MessageBox.Show("Please enter a valid note.", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
         }
+
+        private void gunaButton1_MouseClick(object sender, MouseEventArgs e)
+        {
+
+            string Coniccon = textBox2.Text.Trim();
+
+            if (!string.IsNullOrWhiteSpace(Coniccon))
+            {
+                string query = "UPDATE Patients SET chronic = @conic WHERE PatientID = @patientId";
+
+                MySqlParameter[] parameters = new MySqlParameter[]
+                {
+                    new MySqlParameter("@conic", Coniccon),
+                    new MySqlParameter("@patientId", PatientID)
+                };
+
+                Database.ExecuteQuery(query, parameters);
+
+                MessageBox.Show("chronic conditions are updated successfully.", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            else
+            {
+                MessageBox.Show("Please enter a valid chronic conditions.", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+        }
+
+        private void textBox2_KeyDown(object sender, KeyEventArgs e)
+        {
+            Textboxfunc.HandleEnterBullets(textBox2, e);
+        }
+
+        private void textBox1_KeyDown(object sender, KeyEventArgs e)
+        {
+            Textboxfunc.HandleEnterBullets(textBox1, e);
+        }
+
+        private void textBox3_KeyDown(object sender, KeyEventArgs e)
+        {
+            Textboxfunc.HandleEnterBullets(textBox3, e);
+        }
+
+        //private void txtnote_TextChanged(object sender, EventArgs e)
+        //{
+
+        //}
+
+
     }
 }
