@@ -120,11 +120,7 @@ namespace TrustWell_Hospital_Doctor
             uc.Dock = DockStyle.Fill;
             panel1.Controls.Add(uc);
         }
-        private void gunaButton1_Click(object sender, EventArgs e)
-        {
-            LoadUserControl(new Allergies2(PatientID, Allergy, Notes, Conicc));
-        }
-
+       
         private void notestxtbox_Click(object sender, EventArgs e)
         {
 
@@ -135,6 +131,9 @@ namespace TrustWell_Hospital_Doctor
 
         }
 
-        
+        private void gunaButton1_MouseClick(object sender, MouseEventArgs e)
+        {
+            LoadUserControl(new Allergies2(PatientID, Allergy, Notes, Conicc));
+        }
     }
 }

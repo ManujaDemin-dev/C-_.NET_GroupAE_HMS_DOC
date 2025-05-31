@@ -70,8 +70,8 @@ namespace TrustWell_Hospital_Doctor
                 label2.Text = $"{name}'s Appointment";
                 label14.Text = gender;
                 label12.Text = contact;
-                label11.Text = email;
-                label8.Text = address;
+                label6.Text = email;
+                label11.Text = address;
                 label15.Text = Bloodgroup;
             }
         }
@@ -155,6 +155,11 @@ namespace TrustWell_Hospital_Doctor
         private void cuiButton4_MouseClick(object sender, MouseEventArgs e)
         {
             LoadUserControl(new labreports1(patientId));
+        }
+
+        private void label11_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
