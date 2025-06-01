@@ -134,6 +134,12 @@
     <Compile Include="allergies.Designer.cs">
       <DependentUpon>allergies.cs</DependentUpon>
     </Compile>
+    <Compile Include="Allergies2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Allergies2.Designer.cs">
+      <DependentUpon>Allergies2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Class1.cs" />
     <Compile Include="Dashbord.cs">
       <SubType>Form</SubType>
@@ -216,12 +222,16 @@
     <Compile Include="Test2.Designer.cs">
       <DependentUpon>Test2.cs</DependentUpon>
     </Compile>
+    <Compile Include="Textboxfunc.cs" />
     <Compile Include="UserSession.cs" />
     <EmbeddedResource Include="addRecord.resx">
       <DependentUpon>addRecord.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="allergies.resx">
       <DependentUpon>allergies.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Allergies2.resx">
+      <DependentUpon>Allergies2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Dashbord.resx">
       <DependentUpon>Dashbord.cs</DependentUpon>

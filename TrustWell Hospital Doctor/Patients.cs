@@ -25,7 +25,7 @@ namespace TrustWell_Hospital_Doctor
         //private DateTime dob;
         private int appoinmentId;
 
-        private DateTimeDisplay dateTimeDisplay;
+        DateTimeUpdater dateTime1 = new DateTimeUpdater();
 
         public Patients(int patientId, int docId, int appoinmentID)
         {
@@ -36,8 +36,6 @@ namespace TrustWell_Hospital_Doctor
             DocId = docId;
             appoinmentId = appoinmentID;
 
-
-            dateTimeDisplay = new DateTimeDisplay(label16, label17);
             // Initialize query and parameters here to avoid referencing non-static fields in field initializers
             query = "SELECT PatientName, Gender, DateOfBirth, patientAge, ContactNumber, Email, Address, Bloodgroup FROM Patients WHERE PatientID = @pid";
             param = new MySqlParameter[]
@@ -70,8 +68,8 @@ namespace TrustWell_Hospital_Doctor
                 label2.Text = $"{name}'s Appointment";
                 label14.Text = gender;
                 label12.Text = contact;
-                label11.Text = email;
-                label8.Text = address;
+                label6.Text = email;
+                label11.Text = address;
                 label15.Text = Bloodgroup;
             }
         }
@@ -86,6 +84,7 @@ namespace TrustWell_Hospital_Doctor
         private void Patients_Load(object sender, EventArgs e)
         {
             LoadUserControl(new allergies(patientId));
+            dateTime1.StartDateTimeClock(label16, label17);
         }
 
         private void cuiButton7_Click(object sender, EventArgs e)
@@ -99,23 +98,33 @@ namespace TrustWell_Hospital_Doctor
 
         private void cuiButton6_Click(object sender, EventArgs e)
         {
-           
-            string query = "UPDATE Appointments SET Status = 'Completed', CreatedAt = NOW() WHERE AppointmentID = @AppointmentID";
-                    MySqlParameter[] parameters = new MySqlParameter[] {
-                new MySqlParameter("@AppointmentID", appoinmentId) };
-            Database.ExecuteNonQuery(query, parameters);
 
-            Dashbord form1 = new Dashbord();
-            form1.Show();
+            DialogResult result = MessageBox.Show($"Are you going to Complete the {name}'s Appoinment", "Confirm Exit",MessageBoxButtons.YesNo, MessageBoxIcon.Question);
 
-            foreach (Form openForm in Application.OpenForms.Cast<Form>().ToList())
+            if (result == DialogResult.Yes)
             {
-                if (!(openForm is Dashbord))
+
+                string query = "UPDATE Appointments SET Status = 'Completed', CreatedAt = NOW() WHERE AppointmentID = @AppointmentID";
+                MySqlParameter[] parameters = new MySqlParameter[] {
+                new MySqlParameter("@AppointmentID", appoinmentId) };
+                Database.ExecuteNonQuery(query, parameters);
+
+                Dashbord form1 = new Dashbord();
+                form1.Show();
+
+                foreach (Form openForm in Application.OpenForms.Cast<Form>().ToList())
                 {
-                    openForm.Hide();
+                    if (!(openForm is Dashbord))
+                    {
+                        openForm.Hide();
+                    }
                 }
+                MessageBox.Show("Appointment is Completed.", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
-            MessageBox.Show("Appointment is Completed.", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            else
+            {
+
+            }
 
         }
 
@@ -145,6 +154,11 @@ namespace TrustWell_Hospital_Doctor
         private void cuiButton4_MouseClick(object sender, MouseEventArgs e)
         {
             LoadUserControl(new labreports1(patientId));
+        }
+
+        private void label11_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

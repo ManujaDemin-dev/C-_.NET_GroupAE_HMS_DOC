@@ -46,8 +46,6 @@
             this.label14 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
@@ -58,12 +56,12 @@
             this.label1 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
             this.label6 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
             this.gunaGradient2Panel1.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
-            this.panel3.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel2
@@ -395,13 +393,13 @@
             // gunaGradient2Panel1
             // 
             this.gunaGradient2Panel1.BackColor = System.Drawing.Color.Transparent;
+            this.gunaGradient2Panel1.Controls.Add(this.label11);
+            this.gunaGradient2Panel1.Controls.Add(this.label6);
             this.gunaGradient2Panel1.Controls.Add(this.tableLayoutPanel1);
             this.gunaGradient2Panel1.Controls.Add(this.label15);
             this.gunaGradient2Panel1.Controls.Add(this.label14);
             this.gunaGradient2Panel1.Controls.Add(this.label13);
             this.gunaGradient2Panel1.Controls.Add(this.label12);
-            this.gunaGradient2Panel1.Controls.Add(this.label11);
-            this.gunaGradient2Panel1.Controls.Add(this.label8);
             this.gunaGradient2Panel1.Controls.Add(this.label2);
             this.gunaGradient2Panel1.Controls.Add(this.label9);
             this.gunaGradient2Panel1.Controls.Add(this.label7);
@@ -464,7 +462,7 @@
             this.label15.AutoSize = true;
             this.label15.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label15.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label15.Location = new System.Drawing.Point(182, 141);
+            this.label15.Location = new System.Drawing.Point(182, 152);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(25, 28);
             this.label15.TabIndex = 25;
@@ -475,7 +473,7 @@
             this.label14.AutoSize = true;
             this.label14.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label14.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label14.Location = new System.Drawing.Point(182, 105);
+            this.label14.Location = new System.Drawing.Point(182, 114);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(55, 28);
             this.label14.TabIndex = 24;
@@ -503,28 +501,6 @@
             this.label12.TabIndex = 22;
             this.label12.Text = "0773456789";
             // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label11.Location = new System.Drawing.Point(716, 105);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(197, 28);
-            this.label11.TabIndex = 21;
-            this.label11.Text = "sampath@gmail.com";
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label8.Location = new System.Drawing.Point(716, 143);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(273, 28);
-            this.label8.TabIndex = 20;
-            this.label8.Text = "High level road, Maharagama.";
-            // 
             // label2
             // 
             this.label2.AutoSize = true;
@@ -541,7 +517,7 @@
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label9.Location = new System.Drawing.Point(558, 105);
+            this.label9.Location = new System.Drawing.Point(558, 114);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(123, 28);
             this.label9.TabIndex = 8;
@@ -552,7 +528,7 @@
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label7.Location = new System.Drawing.Point(559, 143);
+            this.label7.Location = new System.Drawing.Point(558, 152);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(126, 28);
             this.label7.TabIndex = 8;
@@ -563,7 +539,7 @@
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label10.Location = new System.Drawing.Point(21, 141);
+            this.label10.Location = new System.Drawing.Point(21, 152);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(132, 28);
             this.label10.TabIndex = 8;
@@ -574,7 +550,7 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label4.Location = new System.Drawing.Point(21, 105);
+            this.label4.Location = new System.Drawing.Point(21, 114);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(135, 28);
             this.label4.TabIndex = 7;
@@ -616,7 +592,6 @@
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.SystemColors.Control;
-            this.panel3.Controls.Add(this.label6);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel3.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.panel3.Location = new System.Drawing.Point(251, 195);
@@ -626,12 +601,25 @@
             // 
             // label6
             // 
-            this.label6.Font = new System.Drawing.Font("Microsoft Tai Le", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label6.Location = new System.Drawing.Point(605, 382);
+            this.label6.Location = new System.Drawing.Point(716, 114);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(168, 25);
-            this.label6.TabIndex = 7;
+            this.label6.Size = new System.Drawing.Size(183, 28);
+            this.label6.TabIndex = 31;
+            this.label6.Text = "email fgmail.com89";
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label11.Location = new System.Drawing.Point(716, 152);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(34, 28);
+            this.label11.TabIndex = 32;
+            this.label11.Text = "18";
             // 
             // Patients
             // 
@@ -653,7 +641,6 @@
             this.gunaGradient2Panel1.PerformLayout();
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel1.PerformLayout();
-            this.panel3.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -670,7 +657,6 @@
         private CuoreUI.Controls.cuiButton cuiButton4;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label7;
@@ -680,8 +666,6 @@
         private System.Windows.Forms.Label label2;
         private CuoreUI.Controls.cuiButton cuiButton6;
         private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label13;
@@ -689,5 +673,7 @@
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label11;
     }
 }

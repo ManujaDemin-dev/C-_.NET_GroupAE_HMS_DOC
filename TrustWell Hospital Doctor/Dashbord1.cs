@@ -63,9 +63,9 @@ namespace TrustWell_Hospital_Doctor
                 WHERE DoctorID = @DoctorID AND AppointmentDate = @Today AND Status = 'Completed'";
                 DataTable count = Database.ExecuteQuery(countQuery, parameters);
 
-                label4.Text = count.Rows.Count.ToString();
+                label4.Text = count.Rows[0][0].ToString();
 
-  
+
                 DataTable dt = Database.ExecuteQuery(query, parameters);
                 label2.Text = dt.Rows.Count.ToString();
 
@@ -84,6 +84,9 @@ namespace TrustWell_Hospital_Doctor
 
                 if (gunaDataGridView1.Columns.Contains("AppointmentID"))
                     gunaDataGridView1.Columns["AppointmentID"].Visible = false;
+
+                if (gunaDataGridView1.Columns.Contains("PatientID"))
+                    gunaDataGridView1.Columns["PatientID"].Visible = false;
 
                 if (!gunaDataGridView1.Columns.Contains("StartButton"))
                 {
