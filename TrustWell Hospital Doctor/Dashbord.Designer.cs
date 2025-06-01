@@ -178,6 +178,7 @@
             this.button1.TabIndex = 0;
             this.button1.TextAlignment = System.Drawing.StringAlignment.Center;
             this.button1.TextOffset = new System.Drawing.Point(0, 0);
+            this.button1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.button1_MouseClick);
             // 
             // pictureBox1
             // 
@@ -225,9 +226,10 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft YaHei UI", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(61)))), ((int)(((byte)(62)))));
-            this.label1.Location = new System.Drawing.Point(3, 0);
+            this.label1.Location = new System.Drawing.Point(3, 15);
+            this.label1.Margin = new System.Windows.Forms.Padding(3, 15, 3, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(29, 44);
+            this.label1.Size = new System.Drawing.Size(29, 36);
             this.label1.TabIndex = 3;
             this.label1.Text = "l";
             this.label1.TextAlign = System.Drawing.ContentAlignment.BottomCenter;

@@ -17,15 +17,11 @@ namespace TrustWell_Hospital_Doctor
 
     public partial class Dashbord: Form
     {
-        private DateTimeDisplay dateTimeDisplay;
+        DateTimeUpdater dateTime1 = new DateTimeUpdater();
         public Dashbord()
         {
             InitializeComponent();
-            //this.Load += Dashbord_Load;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-
-
-            dateTimeDisplay = new DateTimeDisplay(label9, label1);
+         
 
         }
 
@@ -36,8 +32,8 @@ namespace TrustWell_Hospital_Doctor
             panel3.Controls.Add(uc);
         }
 
-       
-        private void button1_Click(object sender, EventArgs e)
+
+        private void button1_MouseClick(object sender, MouseEventArgs e)
         {
             LoadUserControl(new Dashbord1(UserSession.DocId));
         }
@@ -53,6 +49,8 @@ namespace TrustWell_Hospital_Doctor
 
         private void Dashbord_Load(object sender, EventArgs e)
         {
+
+            dateTime1.StartDateTimeClock(label9, label1);
             this.label2.Text = $"Welcome, Dr. {UserSession.Username}";
             LoadUserControl(new Dashbord1(UserSession.DocId));
 
@@ -75,6 +73,6 @@ namespace TrustWell_Hospital_Doctor
             UserSession.specialization = label4.Text;
         }
 
-
+       
     }
 }

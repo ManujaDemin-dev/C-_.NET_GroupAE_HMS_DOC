@@ -36,6 +36,11 @@ namespace TrustWell_Hospital_Doctor
                 MessageBox.Show("Please enter both email and password.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
+            if (password.Length < 6 || password.Length > 9)
+            {
+                MessageBox.Show("Password must be between 6 and 9 characters long.", "Invalid Password Length", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
 
             try
             {
@@ -82,6 +87,14 @@ namespace TrustWell_Hospital_Doctor
                     MessageBox.Show("Invalid email or password.", "Login Failed", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
+            catch (NullReferenceException nullEx)
+            {
+                MessageBox.Show("Unexpected null value: " + nullEx.Message, "Application Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+            catch (FormatException formatEx)
+            {
+                MessageBox.Show("Data formats are failed: " + formatEx.Message, "Format Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
             catch (Exception ex)
             {
                 MessageBox.Show("Error: " + ex.Message, "Database Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
@@ -90,15 +103,21 @@ namespace TrustWell_Hospital_Doctor
 
         private void LogUserActivity(int DocId)
         {
-            string activityQuery = "INSERT INTO login_activity (application, login_time, DoctorID) VALUES ('Doctor', NOW(), @DoctorID)";
-            MySqlParameter[] parameters =
+            try
             {
-                //new MySqlParameter("@UserId", userId),
+                string activityQuery = "INSERT INTO login_activity (application, login_time, DoctorID) VALUES ('Doctor', NOW(), @DoctorID)";
+                MySqlParameter[] parameters =
+                {
                 new MySqlParameter("@DoctorID", DocId)
             };
 
-            Database.ExecuteNonQuery(activityQuery, parameters);
+                Database.ExecuteNonQuery(activityQuery, parameters);
 
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Failed to log: " + ex.Message, "Logging Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
         }
 
         private void label6_Click(object sender, EventArgs e)

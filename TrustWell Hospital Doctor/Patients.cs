@@ -25,7 +25,7 @@ namespace TrustWell_Hospital_Doctor
         //private DateTime dob;
         private int appoinmentId;
 
-        private DateTimeDisplay dateTimeDisplay;
+        DateTimeUpdater dateTime1 = new DateTimeUpdater();
 
         public Patients(int patientId, int docId, int appoinmentID)
         {
@@ -36,8 +36,6 @@ namespace TrustWell_Hospital_Doctor
             DocId = docId;
             appoinmentId = appoinmentID;
 
-
-            dateTimeDisplay = new DateTimeDisplay(label16, label17);
             // Initialize query and parameters here to avoid referencing non-static fields in field initializers
             query = "SELECT PatientName, Gender, DateOfBirth, patientAge, ContactNumber, Email, Address, Bloodgroup FROM Patients WHERE PatientID = @pid";
             param = new MySqlParameter[]
@@ -86,6 +84,7 @@ namespace TrustWell_Hospital_Doctor
         private void Patients_Load(object sender, EventArgs e)
         {
             LoadUserControl(new allergies(patientId));
+            dateTime1.StartDateTimeClock(label16, label17);
         }
 
         private void cuiButton7_Click(object sender, EventArgs e)
